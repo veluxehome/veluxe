@@ -35,7 +35,7 @@ export const products: Product[] = [
       material: '%100 Orijinal İthal Dana Derisinden Üretilmiştir.',
       legs: 'Ahşap Torna Ayaklar. Renk Seçeneği Vardır.',
       sponge: 'Konfor Tercihi İçin 35 DNS Soft Sünger Kullanılmıştır.',
-      frame: 'Fırınlanmış Gürgen Ağacı'
+      frame: 'Fırınlanmış Gürgen Ağacından'
     },
     colors: [
       { name: 'Taba', hex: '#b35d20', slug: 'ambra-italyan-deri-chester-koltuk' },
