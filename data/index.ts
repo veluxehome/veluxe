@@ -31,8 +31,9 @@ export const products: Product[] = [
     ],
     shortDescription: 'Hakiki deriden vazgeçemeyenlerin tercihi Ambra. Yaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.',
     features: {
+      dimensions: 'G: 230 cm / D: 100 cm / Y: 65 cm',
       material: '%100 Orijinal İthal Dana Derisinden Üretilmiştir.',
-      legs: 'Ahşap Tornado Ayaklar',
+      legs: 'Ahşap Torna Ayaklar. Renk Seçeneği Vardır.',
       sponge: 'Konfor Tercihi İçin 35 DNS Soft Sünger Kullanılmıştır.',
       frame: 'Fırınlanmış Gürgen Ağacı'
     },
