@@ -1,78 +1,58 @@
-// data/index.ts
-import { Category, Product, BlogPost } from '@/types';
+import { Category, BlogPost } from '@/types';
+import { products as exportedProducts } from './exported-products'; 
+import { blogs as exportedBlogs } from './exported-blogs';
 
-export const categories: Category[] = [
-  {
-    id: 'c1',
-    title: 'Chester Koltuk Takımları',
+export const products = exportedProducts;
+
+export const menuItems = [
+  { name: 'Anasayfa', slug: '' },
+  { name: 'Chester Koltuk', slug: 'chester-koltuk-takimlari' },
+  { name: 'Modern Koltuk', slug: 'modern-koltuk-takimlari' },
+  { name: 'Koltuk Takımları', slug: 'koltuk-takimlari' },
+  { name: 'Köşe Koltuk', slug: 'kose-koltuk-takimlari' },
+  { name: 'Berjer Modelleri', slug: 'berjer-modelleri' },
+  { name: 'Puf Modelleri', slug: 'puf-modelleri' },
+  { name: 'İletişim', slug: 'iletisim' },
+];
+
+// TİP HATASI ÇÖZÜMÜ EKLENDİ
+export const categories: (Category & { image?: string })[] = [
+  { 
+    id: 'c1', 
+    title: 'Chester Koltuk', 
     slug: 'chester-koltuk-takimlari',
+    image: products.find(p => p.categorySlug === 'chester-koltuk-takimlari')?.images[0] || ''
   },
-  {
-    id: 'c2',
-    title: 'Modern Koltuk',
-    slug: 'modern-koltuk',
-  }
-];
-
-// data/index.ts (ilgili kısım)
-
-export const products: Product[] = [
-  {
-    id: 'p1',
-    sku: 'VX-036',
-    title: 'Ambra İtalyan Deri Chester Koltuk',
-    slug: 'ambra-italyan-deri-chester-koltuk',
-    categorySlug: 'modern-koltuk', // Kategorisi Modern Koltuk
-    images: [
-      '/images/products/ambra/ambra-sahneli.webp', 
-      '/images/products/ambra/ambra-1.webp', 
-      '/images/products/ambra/ambra-2.webp',
-      '/images/products/ambra/ambra-3.webp'
-    ],
-    shortDescription: 'Hakiki deriden vazgeçemeyenlerin tercihi Ambra. Yaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.',
-    features: {
-      dimensions: 'G: 230 cm / D: 100 cm / Y: 65 cm',
-      material: '%100 Orijinal İthal Dana Derisinden Üretilmiştir.',
-      legs: 'Ahşap Torna Ayaklar. Renk Seçeneği Vardır.',
-      sponge: 'Konfor Tercihi İçin 35 DNS Soft Sünger Kullanılmıştır.',
-      frame: 'Fırınlanmış Gürgen Ağacından'
-    },
-    colors: [
-      { name: 'Taba', hex: '#b35d20', slug: 'ambra-italyan-deri-chester-koltuk' },
-      { name: 'Siyah', hex: '#000000', slug: 'ambra-italyan-deri-chester-koltuk-siyah' }
-    ]
+  { 
+    id: 'c2', 
+    title: 'Modern Koltuk', 
+    slug: 'modern-koltuk-takimlari',
+    image: products.find(p => p.categorySlug === 'modern-koltuk-takimlari')?.images[0] || ''
   },
-  {
-    id: 'p1-siyah',
-    sku: 'VX-036-B',
-    title: 'Ambra İtalyan Deri Chester Koltuk (Siyah)',
-    slug: 'ambra-italyan-deri-chester-koltuk-siyah',
-    canonicalSlug: 'ambra-italyan-deri-chester-koltuk', // SEO: Asıl ürüne işaret eder
-    categorySlug: 'modern-koltuk',
-    images: [
-      '/images/products/ambra/ambra-black-1.webp' // Tek resim
-    ],
-    shortDescription: 'Siyahın asaleti ile Ambra. Yaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.',
-    features: {
-      material: '%100 Orijinal İthal Dana Derisinden Üretilmiştir.',
-      legs: 'Siyah Mat Metal Ayaklar',
-      sponge: '35 DNS Soft Sünger.',
-    },
-    colors: [
-      { name: 'Taba', hex: '#b35d20', slug: 'ambra-italyan-deri-chester-koltuk' },
-      { name: 'Siyah', hex: '#000000', slug: 'ambra-italyan-deri-chester-koltuk-siyah' }
-    ]
-  }
+  { 
+    id: 'c3', 
+    title: 'Koltuk Takımları', 
+    slug: 'koltuk-takimlari',
+    image: products.find(p => p.categorySlug === 'koltuk-takimlari')?.images[0] || ''
+  },
+  { 
+    id: 'c4', 
+    title: 'Köşe Koltuk', 
+    slug: 'kose-koltuk-takimlari',
+    image: products.find(p => p.categorySlug === 'kose-koltuk-takimlari')?.images[0] || ''
+  },
+  { 
+    id: 'c5', 
+    title: 'Berjer Modelleri', 
+    slug: 'berjer-modelleri',
+    image: products.find(p => p.categorySlug === 'berjer-modelleri')?.images[0] || ''
+  },
+  { 
+    id: 'c6', 
+    title: 'Puf Modelleri', 
+    slug: 'puf-modelleri',
+    image: products.find(p => p.categorySlug === 'puf-modelleri')?.images[0] || ''
+  },
 ];
 
-export const blogs: BlogPost[] = [
-  {
-    id: 'b1',
-    title: 'Bahçeşehir Koltuk Döşeme ve Tamiri',
-    slug: 'bahcesehir-koltuk-doseme',
-    date: '2026-07-21',
-    excerpt: 'Bahçeşehir bölgesinde eski koltuklarınızı nasıl yenileyebileceğinize dair ipuçları.',
-    content: '<p>İçerik buraya gelecek...</p>',
-    coverImage: '/images/blog/bahcesehir-doseme.jpg'
-  }
-];
+export const blogs: BlogPost[] = exportedBlogs;
