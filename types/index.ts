@@ -8,8 +8,15 @@ export interface Category {
   coverImage?: string;
 }
 
+export interface ColorVariant {
+  name: string;
+  hex: string;
+  slug: string; // Renk değiştiğinde yönlendirilecek URL
+  image?: string;
+}
+
 export interface Product {
-  id: string;
+  id?: string; // Ürün listesinde eksik olabilme ihtimaline karşı isteğe bağlı yapıldı
   sku: string;
   title: string;
   slug: string; // Örn: ambra-italyan-deri-modern-koltuk-taba
@@ -24,12 +31,7 @@ export interface Product {
     frame?: string;
     sponge?: string;
   };
-  colors: {
-    name: string;
-    hex: string;
-    slug: string; // Renk değiştiğinde yönlendirilecek URL
-    image?: string;
-  }[];
+  colors: ColorVariant[];
 }
 
 export interface BlogPost {
