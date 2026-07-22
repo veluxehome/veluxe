@@ -28,6 +28,7 @@ export interface Product {
     name: string;
     hex: string;
     slug: string; // Renk değiştiğinde yönlendirilecek URL
+    image?: string;
   }[];
 }
 
