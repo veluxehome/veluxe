@@ -1,9 +1,65 @@
+'use client';
+
 import Link from 'next/link';
 import Image from 'next/image';
+import { useRef, useEffect } from 'react';
 import { products, categories } from '@/data';
 
 export default function HomePage() {
   const vitrinProducts = products.slice(0, 8);
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+  // Otomatik kaydırma ve sonsuz döngü mantığı
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (!container) return;
+
+    let intervalId: NodeJS.Timeout;
+
+    const startAutoScroll = () => {
+      intervalId = setInterval(() => {
+        if (!container) return;
+        const { scrollLeft, scrollWidth, clientWidth } = container;
+        
+        // Eğer sona geldiyse başa dön, gelmediyse bir sonraki karta kaydır
+        if (scrollLeft + clientWidth >= scrollWidth - 10) {
+          container.scrollTo({ left: 0, behavior: 'smooth' });
+        } else {
+          container.scrollBy({ left: 350, behavior: 'smooth' });
+        }
+      }, 3500); // 3.5 saniyede bir kaydırır
+    };
+
+    startAutoScroll();
+
+    // Kullanıcı fare ile üzerine gelince otomatik kaydırmayı durdur
+    const handleMouseEnter = () => clearInterval(intervalId);
+    const handleMouseLeave = () => startAutoScroll();
+
+    container.addEventListener('mouseenter', handleMouseEnter);
+    container.addEventListener('mouseleave', handleMouseLeave);
+
+    return () => {
+      clearInterval(intervalId);
+      if (container) {
+        container.removeEventListener('mouseenter', handleMouseEnter);
+        container.removeEventListener('mouseleave', handleMouseLeave);
+      }
+    };
+  }, []);
+
+  // Ok butonları için kaydırma fonksiyonları
+  const scrollLeftHandler = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollBy({ left: -350, behavior: 'smooth' });
+    }
+  };
+
+  const scrollRightHandler = () => {
+    if (scrollContainerRef.current) {
+      scrollContainerRef.current.scrollBy({ left: 350, behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
@@ -54,17 +110,44 @@ export default function HomePage() {
         </a>
       </section>
 
-      {/* 2. BÖLÜM: Yatay Kayan Koleksiyon Carousel'i */}
+      {/* 2. BÖLÜM: Otomatik Kayan ve Oklarla/Mouse ile Kontrol Edilebilen Koleksiyon Carousel'i */}
       <section className="py-24 md:py-32 bg-white overflow-hidden">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24">
           
-          <div className="text-center max-w-2xl mx-auto mb-16 md:mb-24">
-            <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">Tasarım Dünyası</span>
-            <h2 className="text-2xl md:text-4xl font-serif font-light text-gray-900 tracking-tight">Koleksiyonlarımızı Keşfedin</h2>
+          <div className="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
+            <div>
+              <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">Tasarım Dünyası</span>
+              <h2 className="text-2xl md:text-4xl font-serif font-light text-gray-900 tracking-tight">Koleksiyonlarımızı Keşfedin</h2>
+            </div>
+            
+            {/* Navigasyon Ok Butonları */}
+            <div className="flex items-center gap-3">
+              <button 
+                onClick={scrollLeftHandler}
+                aria-label="Önceki Koleksiyon"
+                className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-gray-800 hover:bg-black hover:text-white hover:border-black transition-all duration-300 cursor-pointer"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              <button 
+                onClick={scrollRightHandler}
+                aria-label="Sonraki Koleksiyon"
+                className="w-12 h-12 rounded-full border border-gray-200 flex items-center justify-center text-gray-800 hover:bg-black hover:text-white hover:border-black transition-all duration-300 cursor-pointer"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
+            </div>
           </div>
 
-          {/* DÜZELTME: Mobilde ve Masaüstünde Yan Yana Kayan Carousel Yapısı */}
-          <div className="flex overflow-x-auto gap-6 md:gap-10 pb-10 snap-x snap-mandatory scrollbar-hide">
+          {/* Kaydırılabilir Alan */}
+          <div 
+            ref={scrollContainerRef}
+            className="flex overflow-x-auto gap-6 md:gap-10 pb-6 snap-x snap-mandatory scrollbar-hide cursor-grab active:cursor-grabbing select-none"
+          >
             {categories.map((cat: any, idx) => (
               <Link 
                 key={cat.id} 
@@ -77,7 +160,7 @@ export default function HomePage() {
                     alt={cat.title} 
                     fill 
                     sizes="(max-width: 768px) 85vw, 33vw"
-                    className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-110" 
+                    className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-110 pointer-events-none" 
                   />
                 )}
                 <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent opacity-80 group-hover:opacity-95 transition-opacity duration-500 z-10"></div>
@@ -119,7 +202,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
-            {vitrinProducts.map((product, i) => (
+            {vitrin.map((product, i) => ( // Düzeltilmiş referans
               <Link 
                 key={`${product.slug}-${i}`} 
                 href={`/urun/${product.slug}`} 
