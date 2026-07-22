@@ -25,9 +25,9 @@ export default function HomePage() {
         if (scrollLeft + clientWidth >= scrollWidth - 10) {
           container.scrollTo({ left: 0, behavior: 'smooth' });
         } else {
-          container.scrollBy({ left: 350, behavior: 'smooth' });
+          container.scrollBy({ left: 380, behavior: 'smooth' });
         }
-      }, 3500); // 3.5 saniyede bir kaydırır
+      }, 4000); // Tam istediğiniz gibi 4 saniyede bir kaydırır
     };
 
     startAutoScroll();
@@ -51,13 +51,13 @@ export default function HomePage() {
   // Ok butonları için kaydırma fonksiyonları
   const scrollLeftHandler = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: -350, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: -380, behavior: 'smooth' });
     }
   };
 
   const scrollRightHandler = () => {
     if (scrollContainerRef.current) {
-      scrollContainerRef.current.scrollBy({ left: 350, behavior: 'smooth' });
+      scrollContainerRef.current.scrollBy({ left: 380, behavior: 'smooth' });
     }
   };
 
@@ -88,7 +88,6 @@ export default function HomePage() {
             Premium malzemeler ve kusursuz işçilik ile yaşam alanlarınıza değer katan modern tasarımları keşfedin.
           </p>
           
-          {/* YÖNLENDİRME 1: Koleksiyonlar sayfasına gider */}
           <Link 
             href="/koleksiyonlar"
             className="group relative overflow-hidden bg-transparent border border-white/70 hover:border-white text-white py-4 px-10 text-[11px] tracking-[0.2em] uppercase font-medium transition-all duration-500 cursor-pointer"
@@ -98,7 +97,6 @@ export default function HomePage() {
           </Link>
         </div>
 
-        {/* YÖNLENDİRME 2: Seçkin Modeller bölümüne (aşağıya) kaydırır */}
         <a 
           href="#seckin-modeller" 
           className="absolute bottom-10 left-1/2 -translate-x-1/2 z-30 flex flex-col items-center gap-2 animate-bounce cursor-pointer group pointer-events-auto"
@@ -110,7 +108,7 @@ export default function HomePage() {
         </a>
       </section>
 
-      {/* 2. BÖLÜM: Otomatik Kayan ve Oklarla/Mouse ile Kontrol Edilebilen Koleksiyon Carousel'i */}
+      {/* 2. BÖLÜM: Çubuksuz, 4 Saniyede Bir Otomatik Kayan Koleksiyon Carousel'i */}
       <section className="py-24 md:py-32 bg-white overflow-hidden">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24">
           
@@ -143,16 +141,17 @@ export default function HomePage() {
             </div>
           </div>
 
-          {/* Kaydırılabilir Alan */}
+          {/* Kaydırılabilir Alan (Scrollbar Tamamen Gizlendi) */}
           <div 
             ref={scrollContainerRef}
-            className="flex overflow-x-auto gap-6 md:gap-10 pb-6 snap-x snap-mandatory scrollbar-hide cursor-grab active:cursor-grabbing select-none"
+            className="flex overflow-x-auto gap-6 md:gap-10 pb-4 no-scrollbar scroll-smooth cursor-grab active:cursor-grabbing select-none"
+            style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}
           >
             {categories.map((cat: any, idx) => (
               <Link 
                 key={cat.id} 
                 href={`/${cat.slug}`}
-                className="w-[85vw] sm:w-[50vw] md:w-[400px] lg:w-[30vw] shrink-0 snap-center group relative aspect-[4/5] bg-[#f7f7f5] overflow-hidden flex flex-col justify-end p-8 md:p-12 border border-gray-100/60"
+                className="w-[85vw] sm:w-[50vw] md:w-[400px] lg:w-[30vw] shrink-0 group relative aspect-[4/5] bg-[#f7f7f5] overflow-hidden flex flex-col justify-end p-8 md:p-12 border border-gray-100/60"
               >
                 {cat.image && (
                   <Image 
@@ -192,7 +191,6 @@ export default function HomePage() {
               <h2 className="text-2xl md:text-4xl font-serif font-light text-gray-900 tracking-tight">Seçkin Modeller</h2>
             </div>
             
-            {/* YÖNLENDİRME 3: Tüm koleksiyonu gör butonu */}
             <Link 
               href="/koleksiyonlar" 
               className="text-[10px] uppercase tracking-[0.25em] font-medium text-gray-900 border-b border-gray-900 pb-1 hover:opacity-60 transition-opacity"
@@ -202,7 +200,7 @@ export default function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
-            {vitrin.map((product, i) => ( // Düzeltilmiş referans
+            {vitrinProducts.map((product, i) => (
               <Link 
                 key={`${product.slug}-${i}`} 
                 href={`/urun/${product.slug}`} 
