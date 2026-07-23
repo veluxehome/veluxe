@@ -17,9 +17,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/6.jpg",
       "/wp-content/uploads/2024/10/5.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Ambra </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Ambra </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -78,9 +78,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/13.jpg",
       "/wp-content/uploads/2024/10/14.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Amore </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Amore </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -118,9 +118,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/22.jpg",
       "/wp-content/uploads/2024/10/23.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Antes </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Antes </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -176,9 +176,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/argento-6.jpg",
       "/wp-content/uploads/2024/10/argento-5.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Argento </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Argento </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 320x240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -264,9 +264,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/45.jpg",
       "/wp-content/uploads/2024/10/47.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Aria</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Aria</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -295,9 +295,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/armen-1.jpg",
       "/wp-content/uploads/2024/10/armen-2.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Armen</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Armen</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "3'lü: G:240 D:100 Y:85 / Tekli: G:90 D:95 Y:90",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -344,9 +344,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/bello-5.jpg",
       "/wp-content/uploads/2024/10/bello-6.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Bello</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Bello</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -402,9 +402,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/76.jpg",
       "/wp-content/uploads/2024/10/77.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Celesta</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Celesta</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -445,9 +445,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/cozy-2.jpg",
       "/wp-content/uploads/2024/10/cozy-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Cozy </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Cozy </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -523,9 +523,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/134.jpg",
       "/wp-content/uploads/2024/10/132.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Dolce </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Dolce </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -620,9 +620,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/Eleganze-2.jpg",
       "/wp-content/uploads/2024/10/Eleganze-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Eleganze</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Eleganze</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -678,9 +678,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/167.jpg",
       "/wp-content/uploads/2024/10/169.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Fiore  </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Fiore  </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -721,9 +721,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/flux-2.jpg",
       "/wp-content/uploads/2024/10/flux-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Flux </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Flux </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -782,9 +782,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/fresco-5.jpg",
       "/wp-content/uploads/2024/10/fresco-6.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Fresco </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Fresco </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -830,9 +830,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/Gieda-2.jpg",
       "/wp-content/uploads/2024/10/Gieda-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Gieda </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<strong>Takım İçeriği :</strong> 3+1+1+Puf\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Gieda </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<strong>Takım İçeriği :</strong> 3+1+1+Puf\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "3'lü: G:240 D:100 Y:85 / Tekli: G:90 D:95 Y:90 / Puf: G:80 D:80 Y:45",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -885,9 +885,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/hera-5.jpg",
       "/wp-content/uploads/2024/10/hera-6.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Hera </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Hera </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -919,9 +919,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/letra-1.jpg",
       "/wp-content/uploads/2024/10/letra-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Letra </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<a href=\"https://wa.me/905424895826\">Whatsapp ile ulaşmak için tıklayın</a>\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Letra </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<a href=\"https://wa.me/905424895826\">Whatsapp ile ulaşmak için tıklayın</a>\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -947,9 +947,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/luce-2.jpg",
       "/wp-content/uploads/2024/10/luce-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Luce </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Luce </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -995,9 +995,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/lucenta-8.jpg",
       "/wp-content/uploads/2024/10/lucenta-7.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Lucente </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Lucente </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1099,9 +1099,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/luna-10.jpg",
       "/wp-content/uploads/2024/10/luna-9.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Luna </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Luna </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1190,9 +1190,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/monia-2.jpg",
       "/wp-content/uploads/2024/10/monia-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Monia </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Monia </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1248,9 +1248,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/290.jpg",
       "/wp-content/uploads/2024/10/291.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Nobi </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Nobi </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1276,9 +1276,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/notte-2.jpg",
       "/wp-content/uploads/2024/10/notte-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Notte </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Notte </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1319,9 +1319,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/nova-2.jpg",
       "/wp-content/uploads/2024/10/nova-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Nova </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Nova </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1389,9 +1389,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/pole-2.jpg",
       "/wp-content/uploads/2024/10/pole-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Pole </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Pole </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1450,9 +1450,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/punes-2.jpg",
       "/wp-content/uploads/2024/10/punes-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Punes </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Punes </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1521,9 +1521,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/qui-8.jpg",
       "/wp-content/uploads/2024/10/qui-7.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Qui </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Qui </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1597,9 +1597,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/372.jpg",
       "/wp-content/uploads/2024/10/373.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Senta </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Senta </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1628,9 +1628,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/serena-4.jpg",
       "/wp-content/uploads/2024/10/serena-6.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Serena </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Serena </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "3'lü: G:240 D:100 Y:85 / Tekli: G:90 D:95 Y:90",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1674,9 +1674,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/sole-5.jpg",
       "/wp-content/uploads/2024/10/sole-6.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Sole </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Sole </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1741,9 +1741,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/stella-2.jpg",
       "/wp-content/uploads/2024/10/stella-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Stella </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Stella </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1793,9 +1793,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/stilo-1.jpg",
       "/wp-content/uploads/2024/10/stilo-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Stilo </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Stilo </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1823,9 +1823,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/velos-4.jpg",
       "/wp-content/uploads/2024/10/velos-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Velos </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Velos </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1863,9 +1863,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/vexa-2.jpg",
       "/wp-content/uploads/2024/10/vexa-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Vexa</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Vexa</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -1918,9 +1918,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/vittoria-2.jpg",
       "/wp-content/uploads/2024/10/vittoria-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Vittoria </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Vittoria </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2003,9 +2003,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/cielo-10.jpg",
       "/wp-content/uploads/2024/10/cielo-9.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Cielo</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Cielo</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2079,9 +2079,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/seny-3.jpg",
       "/wp-content/uploads/2024/10/seny-1.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Seny </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Seny </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2107,9 +2107,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/velum-2.jpg",
       "/wp-content/uploads/2024/10/velum-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Velum </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Velum </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2135,9 +2135,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/aureo-2.jpg",
       "/wp-content/uploads/2024/10/aureo-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Aureo </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Aureo </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2163,9 +2163,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/denso-2.jpg",
       "/wp-content/uploads/2024/10/denso-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Denso</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Denso</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2191,9 +2191,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/Fiato-2.jpg",
       "/wp-content/uploads/2024/10/Fiato-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fiato</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fiato</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2219,9 +2219,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/Fiume-2.jpg",
       "/wp-content/uploads/2024/10/Fiume-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fiume</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fiume</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2247,9 +2247,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/fres-2.jpg",
       "/wp-content/uploads/2024/10/fres-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fres </strong>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fres </strong>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2275,9 +2275,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/miele-2.jpg",
       "/wp-content/uploads/2024/10/miele-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Miele </strong>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Miele </strong>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2303,9 +2303,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/peto-2.jpg",
       "/wp-content/uploads/2024/10/peto-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Peto </strong>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Peto </strong>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2333,9 +2333,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/primo-4.jpg",
       "/wp-content/uploads/2024/10/primo-5.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Flux </strong>Modern berjer.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Flux </strong>Modern berjer.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2361,9 +2361,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/salto-2.jpg",
       "/wp-content/uploads/2024/10/salto-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Salto</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Salto</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2389,9 +2389,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/slen-2.jpg",
       "/wp-content/uploads/2024/10/slen-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Slen</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Slen</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2417,9 +2417,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/zelo-2.jpg",
       "/wp-content/uploads/2024/10/zelo-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Zelo </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Zelo </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2445,9 +2445,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/zio-2.jpg",
       "/wp-content/uploads/2024/10/zio-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Zio </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Zio </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2473,9 +2473,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/11/marge-3.jpg",
       "/wp-content/uploads/2024/11/marge-4.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Marge Chester</b> koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Marge Chester</b> koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2501,9 +2501,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/11/celesta-3.jpg",
       "/wp-content/uploads/2024/11/celesta-4.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Celesta Chester</b> koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Üretim sürecinde, orijinal hakiki deri kataloğumuzdan tercih edeceğiniz renk doğrultusunda ürününüzü özenle hazırlıyoruz !</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Celesta Chester</b> koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2528,9 +2528,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/11/nova-2.jpg",
       "/wp-content/uploads/2024/11/nova-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Nova Chester</b> koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Nova Chester</b> koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2555,9 +2555,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/11/Oasis-2.jpg",
       "/wp-content/uploads/2024/11/Oasis-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Oasis Chester</b> koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Oasis Chester</b> koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2580,9 +2580,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/roni.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Roni Chester</b> koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Roni Chester</b> koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2607,9 +2607,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/11/cozy-2.jpg",
       "/wp-content/uploads/2024/11/cozy-4.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Cozy </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Cozy </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2640,9 +2640,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/11/velva-arka.jpg",
       "/wp-content/uploads/2024/11/velva-1.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Velva </b>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Velva </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2665,9 +2665,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/cerchio.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Cerchio</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Cerchio</strong> Modern puf.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 80 cm / D: 80 cm / Y: 45 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2690,9 +2690,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/forza.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Forza </strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Forza </strong> Modern puf.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 80 cm / D: 80 cm / Y: 45 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2715,9 +2715,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/fred.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fred</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fred</strong> Modern puf.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 80 cm / D: 80 cm / Y: 45 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2740,9 +2740,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/inzio.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi İnzio Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi İnzio Modern puf.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 80 cm / D: 80 cm / Y: 45 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2765,9 +2765,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/lento.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Lento</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Lento</strong> Modern puf.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 80 cm / D: 80 cm / Y: 45 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2790,9 +2790,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/rosa.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Rosa</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Rosa</strong> Modern puf.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 80 cm / D: 80 cm / Y: 45 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2815,9 +2815,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/11/viale.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Viale  </strong>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Viale  </strong>Modern puf.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 80 cm / D: 80 cm / Y: 45 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2843,9 +2843,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/12/nuovo-2.jpg",
       "/wp-content/uploads/2024/12/nuovo-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Nuova </strong>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Nuova </strong>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 90 cm / D: 95 cm / Y: 90 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2868,9 +2868,9 @@ export const products: Product[] = [
     "images": [
       "/wp-content/uploads/2024/12/37-1.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fels  </strong>Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Fels  </strong>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2895,9 +2895,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/12/37-1.jpg",
       "/wp-content/uploads/2024/12/4-1-1.png"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Bonte</strong> Modern koltuk.\r\\n\r\\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\\n\r\\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\\n\r\\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Bonte</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "3'lü: G:240 D:100 Y:85 / Tekli: G:90 D:95 Y:90",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
@@ -2922,9 +2922,9 @@ export const products: Product[] = [
       "/wp-content/uploads/2025/09/chester-torino-3.png",
       "/wp-content/uploads/2025/09/chester-torino-2.png"
     ],
-    "shortDescription": "\"<strong>Torino Chester Deri Koltuk\"</strong>, İtalyan zarafetinden ilham alınarak tasarlandı. El işçiliğiyle hazırlanmış kapitone detayları, yuvarlak kolları ve sağlam ahşap iskeleti ile klasik Chesterfield ruhunu günümüze taşıyor. Hakiki deri kaplaması uzun ömürlü kullanım sağlarken, geniş ve konforlu oturum minderi keyifli bir dinlenme deneyimi sunar.\r\\n\r\\nZümrüt yeşili rengiyle hem modern hem de klasik dekorasyonlarda uyum sağlayan Torino, salonunuza ya da ofisinize prestijli bir karakter kazandırır. Lüks, konfor ve estetiği bir arada arayanlar için kusursuz bir seçimdir.\"\r\\n\r\\n<span style=\"color: #800000;\"><strong>Lütfen sepete eklemeden önce renk seçimi yapınız!</strong></span>",
+    "shortDescription": "\"<strong>Torino Chester Deri Koltuk\"</strong>, İtalyan zarafetinden ilham alınarak tasarlandı. El işçiliğiyle hazırlanmış kapitone detayları, yuvarlak kolları ve sağlam ahşap iskeleti ile klasik Chesterfield ruhunu günümüze taşıyor. Hakiki deri kaplaması uzun ömürlü kullanım sağlarken, geniş ve konforlu oturum minderi keyifli bir dinlenme deneyimi sunar.\r\n\r\nZümrüt yeşili rengiyle hem modern hem de klasik dekorasyonlarda uyum sağlayan Torino, salonunuza ya da ofisinize prestijli bir karakter kazandırır. Lüks, konfor ve estetiği bir arada arayanlar için kusursuz bir seçimdir.\"\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
     "features": {
-      "dimensions": "G: 230 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
       "legs": "Ahşap / Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
