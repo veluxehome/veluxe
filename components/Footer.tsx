@@ -37,7 +37,7 @@ export default function Footer() {
           <div className="lg:col-span-3">
             <h4 className="text-white text-xs font-semibold uppercase tracking-[0.2em] mb-6">Veluxe.</h4>
             <ul className="flex flex-col gap-4">
-              <li><Link href="/kurumsal" className="text-sm font-light hover:text-white transition-colors">Kurumsal</Link></li>
+              <li><Link href="/hakkimizda" className="text-sm font-light hover:text-white transition-colors">Kurumsal</Link></li>
               <li><Link href="/iletisim" className="text-sm font-light hover:text-white transition-colors">İletişim</Link></li>
               <li><Link href="/blog" className="text-sm font-light hover:text-white transition-colors">Veluxe Akademi</Link></li>
               <li><Link href="/deri-koltuk-tamiri" className="text-sm font-light hover:text-white transition-colors">Deri Koltuk Tamiri</Link></li>
