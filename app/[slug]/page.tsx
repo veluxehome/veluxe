@@ -13,160 +13,195 @@ type PageProps = {
 // KATEGORİLERE ÖZEL SEO VE SSS İÇERİKLERİ
 // ============================================================================
 const seoData: Record<string, any> = {
+  'koltuk-takimlari': {
+    mainTitle: "Veluxe Hakiki Deri Koltuk Takımları: Yaşam Alanlarınızda Bütünsel Lüks",
+    intro: "Evinizin kalbini oluşturan salonlar, birbirini kusursuzca tamamlayan parçalarla gerçek kimliğine kavuşur. Veluxe hakiki deri koltuk takımları; üçlü, ikili ve tekli (berjer) modüllerin eşsiz harmonisiyle yaşam alanlarınızda prestijli, dengeli ve elit bir atmosfer yaratır. Zarafeti ve üstün konforu bir arada sunan bu takımlar, hem ailenizle geçireceğiniz huzurlu akşamların hem de misafirlerinizi krallar gibi ağırlayacağınız anların başrol oyuncusudur.",
+    articles: [
+      {
+        title: "Kusursuz Bir Salon İçin Neden Takım Tercih Etmelisiniz?",
+        content: "Mobilyaları tek tek seçmek eklektik bir hava yaratsa da, birbiriyle aynı tasarım dilini konuşan parçalar mekanda görsel bir dinginlik ve otorite sağlar. Hakiki deri koltuk takımlarımızın yaşam alanınıza kattığı başlıca değerler şunlardır:",
+        list: [
+          "Bütünsel Şıklık: Tüm modüllerde aynı kalitede hakiki derinin, aynı kusursuz dikiş tekniklerinin ve uyumlu ayak detaylarının kullanılması, salonunuzda kesintisiz bir lüks algısı yaratır.",
+          "Esnek Kombinasyonlar: Geniş aileler veya misafir ağırlamayı sevenler için kalıplara sığmıyoruz. İhtiyacınıza göre 3+3+1, 3+2+1 veya sadece 3+1 gibi esnek oturum senaryoları oluşturabilirsiniz.",
+          "Mimari Denge: Takım olarak tasarlanan ürünler, odanın geometrisini daha doğru kullanmanızı sağlar. Üçlü koltuğun ağırlığını, zarif bir berjerle dengeleyerek mekansal bütünlüğü yakalarsınız."
+        ]
+      },
+      {
+        title: "Hakiki İtalyan Derisi ve Ödünsüz Kalite Anlayışı",
+        content: "Bir koltuk takımını premium yapan şey sadece dış görünüşü değil, yıllar boyu sürecek dayanıklılığıdır. Veluxe koltuk takımlarının her bir parçası, zamanla güzelleşen ve nefes alan %100 hakiki İtalyan derisi ile kaplanır. İç mimarisinde ise asla esneme veya gıcırdama yapmayan fırınlanmış gürgen iskelet ve uzun saatler süren sohbetlerde bile formunu kaybetmeyen 35 DNS yüksek yoğunluklu soft sünger kullanılır."
+      },
+      {
+        title: "Size ve Mekanınıza Özel Üretim (Ücretsiz Keşif)",
+        content: "Her evin mimarisi ve her bireyin zevki parmak izi gibi benzersizdir. Bu nedenle standart ölçülere ve kalıplaşmış renklere mahkum değilsiniz. Beğendiğiniz koltuk takımını, salonunuzun fiziksel şartlarına en uygun ölçülerde yeniden boyutlandırıyoruz. İsterseniz takımın bir parçasını farklı bir renkte (örneğin üçlü koltuklar acı kahve, berjerler taba rengi) üreterek mekanınızda çok daha dinamik bir kontrast yaratabilirsiniz."
+      }
+    ],
+    care: {
+      title: "Deri Koltuk Takımınız İçin Bakım Rehberi",
+      content: "Takımınızdaki tüm parçaların aynı oranda canlı kalması ve renk tonlarının yıllarca eşit durması için bakım rutininizi eşzamanlı uygulamalısınız.",
+      deep: "Tüm parçalara aynı gün 3-6 aylık periyotlarla vazelin veya doğal badem yağı uygulayarak derinin kurumasını ve çatlamasını önleyin.",
+      routine: "Haftalık toz alma işlemini yumuşak bir bezle yapın, temizlik gerektiğinde ise sadece nemli beyaz bir bez ve doğal beyaz sabun kullanın.",
+      warning: "Takımınızın bir parçası pencere önünde (direkt güneş ışığında) duruyorsa, mevsim geçişlerinde parçaların yerlerini değiştirmek (örneğin iki adet üçlünün yerini kendi arasında değiştirmek) olası ton farklılıklarını kesin olarak önler."
+    },
+    faqs: [
+      { q: "Takım içeriğini kendi salonuma göre değiştirebilir miyim?", a: "Kesinlikle. Standart paketlere bağlı kalmak zorunda değilsiniz. Mekanınızın büyüklüğüne göre sadece iki adet üçlü alabilir veya tek bir üçlünün yanına iki farklı berjer ekleyerek kendi takımınızı yaratabilirsiniz." },
+      { q: "Takımdaki her koltuk için farklı renk deri seçebilir miyim?", a: "Evet, son yılların en popüler dekorasyon trendi olan 'kontrast' yaratmak adına berjerlerinizi veya ikili koltuğunuzu takımın ana renginden tamamen farklı bir tonda üretebiliriz." },
+      { q: "Ürettiğiniz hakiki deri koltuk takımları terletme yapar mı?", a: "Hayır. Hakiki deri, gözenekleri olan ve nefes alabilen doğal bir materyaldir. Suni derilerin aksine hava sirkülasyonu sağladığı için yazın terletmez, kışın ise vücut ısınızı koruyarak üşütmez." }
+    ]
+  },
   'modern-koltuk-takimlari': {
     mainTitle: "Veluxe Modern Deri Koltuklar: Yaşam Alanlarında Lüks, Konfor ve Kusursuz Tasarım",
-    intro: "Klasik deri koltukların zamana meydan okuyan dayanıklılığını ve asaletini, çağımızın dinamik tasarım anlayışıyla harmanlıyoruz. Veluxe modern deri koltuklar; minimalist çizgileri, göz alıcı detayları ve fonksiyonel yapılarıyla yaşam alanlarınıza yepyeni bir soluk getiriyor. Sıradanlığın ötesine geçmek ve mekanına imza niteliğinde bir dokunuş yapmak isteyenler için özenle tasarlanan bu koleksiyon, lüksü pratiklikle buluşturuyor.",
+    intro: "Klasik deri koltukların o zamana meydan okuyan dayanıklılığını ve asaletini alıyor, çağımızın yenilikçi ve dinamik tasarım anlayışıyla harmanlıyoruz. Veluxe modern deri koltuk koleksiyonu; keskin minimalist çizgileri, heykelsi duruşları ve fonksiyonel yapılarıyla yaşam alanlarınıza fütüristik bir soluk getiriyor. Sıradanlığın ötesine geçmek ve mekanına imza niteliğinde bir dokunuş yapmak isteyenler için tasarlanan bu seri, lüksü pratiklikle buluşturuyor.",
     articles: [
       {
         title: "Neden Veluxe Modern Deri Koltukları Tercih Etmelisiniz?",
-        content: "Geçmişin ağırlığını taşıyan geleneksel modellerin aksine, yeni nesil tasarım anlayışımızla mekanlara ferahlık katıyoruz. Veluxe koleksiyonunun öne çıkan avantajları şunlardır:",
+        content: "Geçmişin hantal ve ağır modellerinin aksine, yeni nesil tasarım dilimizle mekanlara ferahlık katıyoruz. Geleneksel işçilikle modern çizgileri birleştiren bu koleksiyonun sunduğu avantajlar:",
         list: [
-          "Çok Yönlü Kullanım: İster modern bir ev salonu ister prestijli bir ofis ortamı olsun, tasarımlarımız her mekana mükemmel uyum sağlar.",
-          "Zarif Detaylar: Özel tasarım ahşap veya metal ayak seçenekleriyle koltuklarımız, bulunduğu ortama zarif ve havalı bir duruş kazandırır.",
-          "Esnek Modül Seçenekleri: Mekanınızın büyüklüğüne göre üçlü, ikili veya tekli formlarda tercih edebileceğiniz alternatiflerle alanınızı en verimli şekilde kullanabilirsiniz.",
-          "Hakiki Deri Şıklığı: Kaliteli ve %100 hakiki deri kullanımı, mekanın genel atmosferini anında yükselterek üst düzey bir ambiyans yaratır."
+          "Ferah ve Hafif İllüzyon: Genellikle ince metal veya zarif ahşap ayaklarla yerden yükseltilen bu modeller, odanın zeminini açıkta bırakarak mekanın çok daha geniş görünmesini sağlar.",
+          "Çok Yönlü Karakter: Seçilen tasarıma göre hem sıcak bir ev salonunda hem de prestijli bir CEO ofisinde kusursuz bir uyum yakalar.",
+          "Ergonomik Devrim: Modern tasarımlarda görsellik kadar omurga sağlığı da ön plandadır. Geniş oturum alanları ve ideal sırt eğimleri maksimum konfor için hesaplanmıştır."
         ]
-      },
-      {
-        title: "Fiyatlandırma Kriterleri: Kalite ve Beklentilerinizin Uyumu",
-        content: "Veluxe olarak şeffaflığa önem veriyoruz. Modern deri koltuk fiyatlarımızı belirleyen en temel unsur, kullandığımız derinin birinci sınıf kalitesidir. Bununla birlikte koltuğunuzun ölçüleri, tercih edilen modelin detayları, iskeletinde kullanılan malzemenin türü ve usta ellerden çıkan ince işçilik fiyat yelpazesini şekillendirir. Özel ölçü ve tasarım taleplerinizde fiyatlar projenin detaylarına göre değişkenlik gösterir. Kendi kriterlerinizi belirledikten sonra iletişim sayfamız üzerinden bize ulaşarak, hayalinizdeki koltuk için hızlıca fiyat teklifi alabilirsiniz."
       },
       {
         title: "130'dan Fazla Seçenekle Kendi Tarzınızı Yansıtın",
-        content: "Mobilya seçimi kişisel bir yolculuktur. Veluxe showroom'unu ziyaret ederek farklı doku ve renk kombinasyonlarına sahip 130'dan fazla hakiki deri alternatifini yakından inceleyebilirsiniz. Renk seçimi yaparken çevrenizden ilham almanız doğal olsa da, en büyük hatanın tamamen başkalarının zevkine göre hareket etmek olduğunu unutmayın. İç mekanınızdaki diğer eşyaların renk paletini göz önünde bulundurarak, tamamen kendi şahsi zevkinizi yansıtan cesur veya dingin seçimler yapabilirsiniz."
+        content: "Mobilya seçimi tamamen kişisel bir ifade biçimidir. Veluxe showroom'unu ziyaret ederek farklı doku ve renk kombinasyonlarına sahip 130'dan fazla hakiki deri alternatifini yakından inceleyebilirsiniz. Dekorasyonda en büyük hatanın tamamen başkalarının (veya trendlerin) zevkine göre hareket etmek olduğunu unutmayın. İç mekanınızdaki diğer eşyaların renk paletini göz önünde bulundurarak, sadece sizin ruhunuzu yansıtan cesur veya dingin seçimler yapabilirsiniz."
       },
       {
         title: "Satın Almadan Önce Evinizde Görün: Veluxe Mimari Destek",
-        content: "\"Acaba bu koltuk salonuma uyar mı?\" endişesini tamamen ortadan kaldırıyoruz. Modern deri koltuk modellerimizden birini beğendiğinizde, uzman ekibimiz tarafından sunulan mimari destek hizmetimiz devreye giriyor. Ürünü konumlandırmak istediğiniz alanın fotoğraflarını bizimle paylaşmanız yeterli. Seçtiğiniz modeli, tam da beğendiğiniz deri rengiyle birlikte bilgisayar ortamında mekanınıza 3D olarak yerleştiriyoruz. Böylece hiçbir sürprizle karşılaşmadan, kusursuz görünümden emin olarak siparişinizi verebilirsiniz."
-      },
-      {
-        title: "%100 El İşçiliği ve Özel Ölçü Üretim (Ücretsiz Keşif)",
-        content: "Standart ölçülere sıkışmak zorunda değilsiniz! Yaşam alanınıza veya ofisinize tam oturacak, mekansal verimliliği en üst düzeye çıkaracak özel ölçü üretim yapıyoruz. Talebiniz doğrultusunda sunduğumuz ücretsiz keşif hizmeti ile mekanınızda profesyonel ölçüm ve tasarım çalışmaları gerçekleştiriyoruz. Veluxe bünyesinde, tamamı usta zanaatkarlarımız tarafından %100 el işçiliğiyle ve İtalyan deri kalitesiyle üretilen koltuklarımız, yaşam alanlarınıza tam istediğiniz gibi entegre ediliyor."
+        content: "\"Acaba bu model salonuma uyar mı?\" endişesini teknolojiyle ortadan kaldırıyoruz. Modern deri koltuk modellerimizden birini beğendiğinizde, uzman ekibimiz tarafından sunulan mimari destek hizmetimiz devreye giriyor. Ürünü konumlandırmak istediğiniz odanın fotoğraflarını bize iletmeniz yeterli. Seçtiğiniz modeli, beğendiğiniz deri rengiyle birlikte 3D ortamda mekanınıza yerleştiriyoruz. Böylece hiçbir sürprizle karşılaşmadan siparişinizi verebilirsiniz."
       }
     ],
     care: {
-      title: "Uzun Ömürlü Zarafet: Hakiki Deri Koltuk Bakımı Nasıl Yapılmalı?",
-      content: "Veluxe deri koltuğunuzun ilk günkü canlılığını yıllarca koruması sizin elinizde. Doğru ve düzenli bir bakım rutini, hakiki derinin ömrünü ciddi oranda uzatır.",
-      deep: "Koltuğunuzun kuruyup çatlamasını önlemek ve canlılığını artırmak için 3 ila 6 aylık periyotlarda badem yağı veya vazelin uygulayabilirsiniz. Önce yüzeyi kuru bir bezle tozdan arındırın. Ardından temiz bir bezle yağı dairesel hareketlerle deriye yedirin.",
-      routine: "Günlük kullanımda oluşan tozlar için her 2-3 haftada bir kuru bezle toz almalı, ardından hafif nemli bir bez ve sadece beyaz sabun kullanarak nazikçe silmelisiniz.",
-      warning: "Kolonya, alkol, aseton veya piyasada satılan ağır kimyasal içerikli leke çıkarıcı deterjanları hakiki deri koltuklarınızda kesinlikle kullanmayın. Güvenilir ve risksiz bir temizlik için sadece beyaz sabun ve nemli bez kullanılması önerilir."
+      title: "Uzun Ömürlü Zarafet: Modern Deri Koltuk Bakımı Nasıl Yapılmalı?",
+      content: "Modern deri koltuğunuzun o mat veya parlak ilk günkü dokusunu yıllarca koruması tamamen sizin uygulayacağınız basit adımlara bağlıdır.",
+      deep: "Derinin kuruyup çatlamasını önlemek ve doğal esnekliğini korumak için 3 ila 6 aylık periyotlarda badem yağı veya vazelin uygulayabilirsiniz. Önce yüzeyi kuru bir bezle tozdan arındırın, ardından yağı dairesel hareketlerle deriye yedirin.",
+      routine: "Günlük kullanımda oluşan tozlar için her 2-3 haftada bir kuru mikrofiber bezle toz almalı, ardından hafif nemli bir bez ve sadece doğal beyaz sabun kullanarak nazikçe silmelisiniz.",
+      warning: "Kolonya, alkol, ıslak mendil veya piyasada 'deri temizleyici' adı altında satılan ağır kimyasal içerikli deterjanları hakiki deri koltuklarınızda kesinlikle kullanmayın."
     },
     faqs: [
-      { q: "Modern deri koltuk ile klasik deri koltuk arasındaki fark nedir?", a: "Modern deri koltuklar, klasik derinin uzun ömürlü yapısını alır ancak daha minimalist çizgiler, çağdaş tasarımlar ve zarif metal/ahşap ayak detaylarıyla günümüz dekorasyon trendlerine tam uyum sağlar." },
-      { q: "Veluxe deri koltuklar ofis kullanımı için uygun mudur?", a: "Evet, tasarımlarımız hem ev ortamının sıcaklığına hem de prestijli ofis ortamlarının profesyonel ve lüks beklentisine hitap edecek çok yönlülüğe sahiptir." },
-      { q: "Hakiki deri koltuğumun zamanla çatlamasını nasıl önlerim?", a: "Derinin esnekliğini kaybetmemesi için 3 veya 6 aylık periyotlarda badem yağı veya vazelin ile dairesel hareketler yaparak deriyi beslemeniz çatlamaları büyük ölçüde önleyecektir." },
-      { q: "Deri koltuk temizliğinde hangi kimyasallardan uzak durmalıyım?", a: "Derinin doğal yapısına zarar verecek aseton, alkol, kolonya ve ağır kimyasal barındıran deterjanlardan kesinlikle uzak durulmalıdır." },
-      { q: "Odamdaki diğer eşyalarla uyumlu rengi nasıl bulabilirim?", a: "Veluxe mağazamızda 130'dan fazla farklı renk ve doku alternatifi bulunmaktadır. Mimari ekibimizle birlikte mekanınızın paletine en uygun seçimi yapabilirsiniz." },
-      { q: "Salonumun ölçüleri standart dışı, özel ölçü üretim yapıyor musunuz?", a: "Evet, yaşam alanlarına tam uyum sağlaması için ücretsiz keşif hizmeti sunuyor ve beğendiğiniz modeli sizin ölçülerinize göre %100 el işçiliğiyle özel olarak üretiyoruz." }
+      { q: "Modern deri koltuk ile klasik deri koltuk arasındaki fark nedir?", a: "Modern deri koltuklar, klasik derinin malzeme kalitesini korur ancak hantal gövdeler ve kalın detaylar yerine ince ayaklar, düz/keskin hatlar ve minimalist bir yaklaşımla üretilir." },
+      { q: "Bu modeller ofis veya lobi kullanımı için uygun mudur?", a: "Kesinlikle. Modern çizgileri sayesinde ev sıcaklığının yanı sıra klinik, hukuk bürosu, mimarlık ofisi veya otel lobisi gibi prestijli mekanlar için de en çok tercih edilen modellerdir." },
+      { q: "Modern koltukların oturum süngerleri zamanla çöker mi?", a: "Hayır. Görüntüleri ne kadar ince ve zarif olursa olsun, iç mimarilerinde 35 DNS yüksek yoğunluklu soft sünger kullandığımız için çökme ve form kaybı yaşanmaz." },
+      { q: "Suni deri veya kumaş kaplama ile üretim yapabiliyor musunuz?", a: "Evet. Ana uzmanlığımız hakiki deri olsa da, talebiniz doğrultusunda premium seviye silinebilir kumaş veya yüksek kaliteli suni deri ile de aynı modelleri üretebiliyoruz." }
     ]
   },
   'chester-koltuk-takimlari': {
-    mainTitle: "Veluxe Chester Deri Koltuklar: Klasik İngiliz Asaleti ve El İşçiliğinin Zirvesi",
-    intro: "Chesterfield tarzının ikonik kapitone (düğme) detaylarını, yuvarlatılmış kol yapılarını ve asil duruşunu Veluxe'ün üstün el işçiliğiyle yeniden yorumluyoruz. %100 hakiki deri kullanılarak tamamen elde üretilen Chester koltuklarımız, bulunduğu mekana prestij katarak klasik bir atmosfer yaratır.",
+    mainTitle: "Veluxe Chester Deri Koltuklar: İngiliz Asaleti ve El İşçiliğinin Zirvesi",
+    intro: "18. yüzyıldan günümüze uzanan asil bir miras... Chesterfield tarzının o ikonik derin kapitone (düğme) detaylarını, dışa doğru kıvrılan yuvarlak kol yapılarını ve mekana hakim olan makam ağırlığını, Veluxe'ün üstün el işçiliğiyle yeniden yorumluyoruz. %100 hakiki deri kullanılarak tamamen zanaatkar ustalarımızın ellerinde şekillenen Chester koltuklarımız, bulunduğu mekana anında saygınlık ve klasik bir atmosfer katar.",
     articles: [
       {
-        title: "Neden Chester Deri Koltuk Tercih Etmelisiniz?",
-        content: "Chester koltuklar, geçici bir moda akımı değil, nesilden nesile aktarılan bir sanat eseridir.",
+        title: "Neden Bir Chester Deri Koltuk Tercih Etmelisiniz?",
+        content: "Chester koltuklar, gelip geçici bir dekorasyon trendi değil, nesilden nesile aktarılabilecek değerli birer sanat eseridir. Bu zamansız tasarımı seçmeniz için başlıca nedenler:",
         list: [
-          "Zamansız Tasarım: Yüzyıllardır popülerliğini kaybetmeyen kapitone işçiliği.",
-          "Prestijli Görünüm: Hem makam odalarında hem de lüks ev salonlarında gücü ve zarafeti temsil eder.",
-          "El İşçiliği: Her bir düğme ve katlama detayı, ustalarımız tarafından santim santim elde işlenir."
+          "İkonik ve Zamansız Tasarım: Yüzyıllardır popülerliğini kaybetmeyen kapitone işçiliği, her dönemde lüksün ve asaletin evrensel sembolü kabul edilir.",
+          "Prestijli Atmosfer: Hem ciddi makam odalarında hem de karakter sahibi lüks ev salonlarında, bulunduğu ortama güçlü bir otorite ve zarafet katar.",
+          "Benzersiz El İşçiliği: Chester modellerinde makineleşmeye yer yoktur. Her bir düğme, her bir deri katlaması (baklava dilimi) ustalarımız tarafından saatlerce süren bir emekle santim santim elde işlenir."
         ]
       },
       {
-        title: "Özel Üretim ve Kişiselleştirme",
-        content: "Chester modelinin o ağırbaşlı duruşunu kendi mekanınıza göre şekillendirebilirsiniz. İstediğiniz ölçüde, istediğiniz deri renginde ve ister üçlü ister köşe formunda özel üretim gerçekleştirmekteyiz."
+        title: "Gerçek Chester Deneyimi: Malzemenin Gücü",
+        content: "Bir koltuğun dışarıdan Chester gibi görünmesi onun gerçekten Chester olduğu anlamına gelmez. Orijinal hissiyat için kullanılan derinin kalınlığı, dokusu ve yıllandıkça alacağı doğal patina (eskime) çok önemlidir. Veluxe olarak sadece en üst kalite hakiki İtalyan derisi kullanıyor, kapitone düğmelerinin kopmaması için kilitli mumlu ipler tercih ediyor ve iskeletini tamamen fırınlanmış dayanıklı gürgenden inşa ediyoruz."
       }
     ],
     care: {
-      title: "Chester Deri Koltuk Bakımı Nasıl Yapılır?",
-      content: "Kapitone (düğmeli) alanların toz tutmaması için haftalık olarak kuru ve yumuşak uçlu bir fırça veya bezle tozunun alınması önemlidir.",
-      deep: "Düğme aralarına girmeyecek şekilde, düz yüzeylere 3-6 ayda bir vazelin veya badem yağı uygulayarak derinin beslenmesini ve çatlamamasını sağlayabilirsiniz.",
-      routine: "Düğme çukurlarında ıslaklık kalmamasına özen göstererek hafif nemli ve beyaz sabunlu bir bezle rutin temizliğini yapabilirsiniz.",
-      warning: "Düğme ve dikiş iplerine zarar vermemek adına sert fırçalar ve kimyasal çözücüler kullanmaktan kaçının."
+      title: "Chester Deri Koltuğunuzun Güzelliğini Korumak",
+      content: "Chester modelleri, üzerindeki yoğun düğme ve katlama detayları nedeniyle düz modern koltuklara göre bir tık daha özenli bir rutin gerektirir.",
+      deep: "Düz alanlara uygulayacağınız vazelin veya badem yağı bakımında, yağı doğrudan düğme çukurlarının içine doldurmamaya özen göstererek nazikçe yüzeye yedirin.",
+      routine: "Kapitone (düğmeli) çukurların toz tutmaması için haftalık olarak kuru, yumuşak uçlu bir toz fırçası (veya süpürgenin fırça ucu) ile yüzeyin tozunu almanız en kritik detaydır.",
+      warning: "Temizlik sırasında kullandığınız hafif nemli bezin suyunu iyice sıkın. Düğme çukurlarında ıslaklık veya su birikintisi kalmamasına özellikle dikkat edin."
     },
     faqs: [
-      { q: "Chester koltukların üretim süresi ne kadardır?", a: "Tamamen el işçiliği ve kapitone detaylarının yoğunluğu nedeniyle üretim süreci modele ve özel ölçülere göre değişkenlik gösterir. Ortalama üretim süresi için ekibimizden bilgi alabilirsiniz." },
-      { q: "Chester koltukta sünger çökmesi olur mu?", a: "Hayır, Veluxe Chester koltuklarında fırınlanmış gürgen iskelet ve 35 DNS yüksek yoğunluklu soft sünger kullanıldığı için zamanla çökme veya form kaybı yaşanmaz." },
-      { q: "Kapitone düğmeleri zamanla kopar mı?", a: "Üretimde yüksek mukavemetli özel ipler ve kilitli dikiş teknikleri kullanıldığı için düğmelerin kopma veya gevşeme riski yoktur." }
+      { q: "Chester koltukların üretim süresi neden daha uzun?", a: "Chester koltuğun üzerindeki yüzlerce baklava dilimi ve düğmenin her biri ustalarımız tarafından tek tek elle gerdirilip katlanarak dikilir. Bu titiz el işçiliği, standart bir koltuğa göre daha fazla zaman gerektirir." },
+      { q: "Zamanla oturma veya sırt kısmındaki düğmeler kopar mı?", a: "Piyasada fabrikasyon üretilen modellerde bu sorun yaşanabilir. Ancak biz üretimde yüksek mukavemetli çelik teller ve kilitli özel dikiş ipleri kullandığımız için düğmelerin kopma veya gevşeme riski yoktur." },
+      { q: "Chester modelini L (Köşe) koltuk formunda üretebiliyor musunuz?", a: "Evet. Chester zarafetini geniş aileler veya büyük salonlar için uyarlayarak, aynı kapitone işçiliğiyle özel ölçülerde L köşe takımı olarak da üretebilmekteyiz." }
     ]
   },
   'berjer-modelleri': {
     mainTitle: "Veluxe Deri Berjer Modelleri: Mekanın Yıldızı ve Kişisel Konfor Alanınız",
-    intro: "Bir odanın karakterini tek başına değiştirebilen berjerler, Veluxe'ün hakiki deri kalitesi ve ergonomik tasarımıyla buluşuyor. İster kitap okuma köşenizde kişisel bir sığınak, ister salon takımınızın en şık tamamlayıcısı olarak kullanın; deri berjerlerimiz her açından kusursuz bir konfor sunar.",
+    intro: "Bazen devasa bir salondaki atmosferi, köşede duran tek bir parça tamamen değiştirebilir. Berjerler (tekli koltuklar), Veluxe'ün hakiki deri kalitesi ve ergonomik tasarımıyla buluşarak tam da bu görevi üstleniyor. İster kahvenizi yudumlayıp kitap okuyacağınız kişisel bir sığınak, isterseniz de salon takımınızın en şık tamamlayıcısı (accent chair) olarak kullanın; deri berjerlerimiz her açıdan kusursuz bir görsel şölen sunar.",
     articles: [
       {
-        title: "Deri Berjer Kullanım Avantajları",
-        content: "Berjerler, yaşam alanlarında esneklik sağlayan en önemli mobilyalardır.",
+        title: "Deri Berjer Kullanımının Dekorasyondaki Gücü",
+        content: "Berjerler, yaşam alanlarında esneklik sağlayan ve dekorasyonu tek hamlede zenginleştiren en önemli mobilyalardır:",
         list: [
-          "Fokus Noktası (Accent Piece): Farklı bir deri rengi seçilerek mekanda dikkat çekici bir odak noktası yaratılabilir.",
-          "Ergonomik Destek: Omurga yapısına uygun tasarımlarıyla uzun süreli oturuşlarda bile üstün rahatlık sağlar.",
-          "Kolay Konumlandırma: Şömine kenarı, pencere önü veya ofis köşeleri gibi alanları anında değerlendirir."
+          "Odak Noktası (Accent Piece): Ana koltuklarınızdan tamamen zıt bir renkte (örneğin krem rengi bir takımın yanına bordo veya taba rengi) deri berjer seçerek mekanda dikkat çekici bir stil yaratabilirsiniz.",
+          "Bireysel Konfor ve Omurga Sağlığı: Saran sırt yapıları ve ideal eğimleri sayesinde, uzun süreli oturuşlarda, tv izlerken veya kitap okurken omurganıza üstün bir destek sağlar.",
+          "Mekansal Kurtarıcı: Şömine kenarı, büyük pencerelerin önü veya ofisinizdeki boş bir köşe... Berjerler, atıl durumdaki her alanı anında yaşanabilir ve lüks bir köşeye çevirir."
         ]
+      },
+      {
+        title: "Kumaş Takımlarla Hakiki Derinin Kusursuz Uyumu",
+        content: "Evinizdeki mevcut koltuklarınız kumaş kaplı olsa bile, bu düzene hakiki deri bir berjer dahil etmek tasarım dünyasında sıklıkla başvurulan bir tekniktir. Farklı dokuların (kumaşın matlığı ile hakiki derinin doğal parlaklığı) aynı odada buluşması, mekanınıza eklektik, zengin ve çok katmanlı bir şıklık katar."
       }
     ],
     care: {
-      title: "Deri Berjer Bakımı",
-      content: "Berjerleriniz genellikle en çok kullanılan oturma alanları olduğu için bakımı ihmal edilmemelidir.",
-      deep: "6 ayda bir vazelin ile dairesel masaj yaparak derinin nefes almasını sağlayabilirsiniz.",
-      routine: "Sadece nemli bez ve beyaz sabun ile haftalık toz alma işlemi yeterlidir.",
-      warning: "Özellikle cam kenarına konumlandırılan berjerleri güneşin doğrudan ve sürekli UV ışınlarından korumak derinin ömrünü uzatacaktır."
+      title: "Deri Berjeriniz İçin Pratik Bakım İpuçları",
+      content: "Berjerler genellikle evdeki 'en çok oturulan' kişisel alanlar olduğu için bakımı ihmal edilmemelidir.",
+      deep: "Sürekli oturuma bağlı olarak derinin formunu koruması için 6 ayda bir doğal badem yağı veya vazelin ile dairesel masaj yaparak deriyi besleyin.",
+      routine: "Toz birikimini önlemek için haftada bir sadece nemli beyaz bir bez ve doğal sabunla silerek hafifçe kurulayın.",
+      warning: "Okuma köşesi oluşturmak amacıyla berjerleri sık sık büyük pencerelerin (doğrudan ve yoğun güneş alan yerlerin) önüne koyarız. Derinin renginin solmaması için yaz aylarında doğrudan gelen yakıcı UV ışınlarından tül perde aracılığıyla korumaya özen gösterin."
     },
     faqs: [
-      { q: "Berjerleri mevcut kumaş koltuk takımımla kullanabilir miyim?", a: "Kesinlikle! Kumaş koltuklarla kombinlenen hakiki deri bir berjer, mekana zengin bir doku ve eklektik bir şıklık katar." },
-      { q: "Ayak kısımlarını ahşap veya metal olarak değiştirebiliyor muyuz?", a: "Evet, mekanınızın dekorasyon diline uygun olarak berjerlerimizin ayak tasarımlarında (ahşap, krom, mat siyah metal vb.) değişiklik yapabiliyoruz." }
+      { q: "Mevcut koltuk takımıma uygun renkte berjer üretebilir misiniz?", a: "Evet, elimizdeki 130 farklı deri ve sayısız kumaş kartelası sayesinde mevcut takımınıza en uyumlu veya en güzel kontrastı yaratacak rengi kolayca bulabiliriz." },
+      { q: "Berjerlerin ayak kısımları ahşap veya metal olarak değiştirilebilir mi?", a: "Modellerimizin büyük çoğunluğunda ayak yapıları mekanınızın dekorasyon diline uygun olarak (gürgen ahşap, ceviz tonları, krom veya mat siyah metal) kişiselleştirilebilmektedir." },
+      { q: "Berjerler oturum olarak çok mu serttir?", a: "Karakterli dik duruşlarına rağmen içlerinde kullandığımız 35 DNS soft sünger sayesinde hem omurganızı destekler hem de yorucu olmayan yumuşak bir oturum sunar." }
     ]
   },
   'kose-koltuk-takimlari': {
     mainTitle: "Veluxe Deri Köşe Koltuk Takımları: Maksimum Oturum Alanı, Üstün Konfor",
-    intro: "Geniş aileler, misafir ağırlamayı sevenler veya mekanını en verimli şekilde kullanmak isteyenler için özel olarak tasarlanan deri L ve U köşe koltuk takımları. Hem dinlenme uzanmaları hem de geniş sohbet alanları için ideal olan bu takımlar, salonunuzun mimarisiyle bütünleşerek kesintisiz bir şıklık sunar.",
+    intro: "Odanın sınırlarını kucaklayan, samimiyeti artıran ve mekanın kalbini oluşturan devasa konfor alanları... Veluxe deri L ve U köşe koltuk takımları; geniş aileler, misafir ağırlamayı sevenler veya mekanını en verimli şekilde kullanmak isteyenler için özel olarak tasarlandı. Hem uzanarak günün yorgunluğunu atabileceğiniz hem de kalabalık sohbetlere ev sahipliği yapacak bu takımlar, hakiki derinin lüks dokusuyla salonunuza kesintisiz bir şıklık sunar.",
     articles: [
       {
-        title: "Köşe Koltuk Tercih Etmenin Nedenleri",
-        content: "Mimari açıdan alanı en efektif kullanan mobilyalar köşe takımlarıdır.",
+        title: "Neden Bir Köşe Koltuk Tercih Etmelisiniz?",
+        content: "Mimari açıdan bir odayı en efektif ve akıllıca kullanan mobilyalar kesinlikle köşe takımlarıdır:",
         list: [
-          "Alan Tasarrufu: Odanın ölü köşelerini değerlendirerek mekanın ortasını ferah bırakır.",
-          "Sosyal Atmosfer: L formu sayesinde oturan kişilerin birbirini rahatça görmesini ve sıcak bir sohbet ortamı oluşmasını sağlar.",
-          "Lüks ve Görkem: Bütünsel hakiki deri kaplaması, odada büyük ve kesintisiz bir lüks algısı yaratır."
+          "Maksimum Alan Tasarrufu: Odanın genellikle ölü ve kullanılamayan köşelerini değerlendirerek oturum alanını artırır ve mekanın ortasını (orta sehpa ve geçiş yollarını) ferah bırakır.",
+          "Sosyal ve Sıcak Atmosfer: L formu, oturan kişilerin birbirine doğru dönük olmasını sağlar. Bu yapı, sıraya dizilmiş koltukların aksine göz temasını artırarak çok daha sıcak ve samimi bir sohbet ortamı yaratır.",
+          "Görkemli ve Kesintisiz Lüks: Aralarda boşluk olmadan devam eden devasa hakiki deri yüzeyler, odaya girildiği anda büyük ve kesintisiz bir zenginlik algısı oluşturur."
         ]
+      },
+      {
+        title: "Sizin Yönünüz, Sizin Ölçünüz",
+        content: "Köşe koltuklarda en büyük problem genellikle sağa mı yoksa sola mı uzanacağıdır. Veluxe olarak stoklu çalışmadığımız ve her ürünü siparişinize özel %100 el işçiliğiyle ürettiğimiz için uzanma yönünü (sağ/sol) tamamen odanızın mimarisine göre siz belirlersiniz. Üstelik kolon çıkıntıları veya kapı geçişleri gibi mimari zorluklara karşı koltuğunuzun uzunluk ve genişlik ölçülerini santimetresi santimetresine odanıza göre ayarlıyoruz."
       }
     ],
     care: {
-      title: "Büyük Deri Yüzeylerin Bakımı",
-      content: "Geniş yüzey alanına sahip köşe koltuklarda temizlik ve bakım, parçalara ayrılarak yapılmalıdır.",
-      deep: "Mevsim geçişlerinde (yılda 2-3 kez) badem yağı veya vazelin ile derinlemesine besleme yapabilirsiniz.",
-      routine: "Beyaz sabunlu nemli bezle tüm yüzeyleri sildikten sonra, mutlaka kuru bir bezle üzerinden geçerek nemi alın.",
-      warning: "Büyük takımlarda leke oluşumunda kimyasal kullanmak yerine anında sabunlu bez ile müdahale edilmelidir."
+      title: "Büyük Deri Yüzeylerin Bakım ve Temizlik Rutini",
+      content: "Geniş yüzey alanına sahip köşe koltuklarda temizlik ve bakım, gözünüzü korkutmasın. Parçalara ayırarak ilerlemek en doğrusudur.",
+      deep: "Mevsim geçişlerinde (yılda 2 veya 3 kez) badem yağı veya vazelin uygulamasını yaparken koltuğu zihninizde üç bölüme ayırın ve her bölümü sırayla besleyerek ilerleyin.",
+      routine: "Sıradan bir temizlik için beyaz sabunlu nemli bir bezle tüm yüzeyleri nazikçe sildikten sonra, mutlaka kuru ve yumuşak bir bezle üzerinden geçerek fazla nemi alın.",
+      warning: "Köşe koltuklar genellikle TV karşısında atıştırmalıkların yendiği alanlardır. Dökülen sıvı veya lekelere kesinlikle kimyasal çözücüler (kolonya, aseton vb.) dökmeyin; anında kağıt havlu ve sabunlu bez ile müdahale edin."
     },
     faqs: [
-      { q: "Köşe yönünü (Sağ veya Sol) biz belirleyebilir miyiz?", a: "Tüm siparişlerimiz mekanınıza özel üretildiği için köşe uzanma yönünü sağ veya sol olarak dilediğiniz gibi belirleyebilirsiniz." },
-      { q: "Köşe takımları modüler midir, sonradan parça eklenebilir mi?", a: "Modellerimizin büyük bir kısmı modüler yapıya sahiptir. Taşınma veya mekan değişikliği durumlarında sonradan orta modül veya puf eklemesi yapılabilir." }
+      { q: "Köşe yönünü (Uzanma kısmını) siparişten sonra değiştirebilir miyim?", a: "Eğer özel bir modüler tasarım (bağımsız puf ile uzanma) yapmadıysak, sabit köşe takımlarında yön (sağ veya sol) üretim aşamasında kalıcı olarak belirlenir. Bu yüzden sipariş öncesi ücretsiz keşif veya doğru ölçüm çok önemlidir." },
+      { q: "Köşe takımları modüler midir, taşınırken sorun yaşar mıyım?", a: "Merak etmeyin. Böylesine büyük parçalar tek parça halinde taşınamaz. Tasarımlarımız, kurulum ve taşıma kolaylığı sağlamak için görünmeyen gizli kilit mekanizmalarıyla birbirine bağlanan 2 veya 3 ayrı modül halinde üretilir." },
+      { q: "L koltuğumun yanına berjer ekleyebilir miyim?", a: "Evet. Özellikle açık planlı (açık mutfaklı veya büyük) salonlarda L köşe takımının açıkta kalan ucunun karşısına, takımla uyumlu bir deri berjer yerleştirmek dekorasyonu harika bir şekilde tamamlar." }
     ]
   },
   'puf-modelleri': {
-    mainTitle: "Veluxe Deri Puf Modelleri: Tamamlayıcı Şıklık ve Pratik Kullanım",
-    intro: "Yaşam alanlarındaki ufak ama en işlevsel dokunuş... Veluxe hakiki deri puflar, ister ayak uzatma alanı, ister ekstra bir oturma birimi, isterseniz de üzerine şık bir tepsi koyarak orta sehpa alternatifi olarak kullanabileceğiniz çok yönlü mobilyalardır.",
+    mainTitle: "Veluxe Deri Puf Modelleri: Tamamlayıcı Şıklık ve Çok Yönlü Pratiklik",
+    intro: "Dekorasyonun isimsiz kahramanları, yaşam alanlarındaki ufak ama en işlevsel dokunuşlar... Veluxe hakiki deri puflar; ister koltuğunuzda dinlenirken bacaklarınızı uzatacağınız bir alan, ister kalabalık günlerde ekstra bir oturma birimi, isterseniz de üzerine şık bir tepsi koyarak orta sehpa alternatifi olarak kullanabileceğiniz çok yönlü ve premium mobilyalardır.",
     articles: [
       {
-        title: "Mekanda Puf Kullanımının Ayrıcalıkları",
-        content: "Büyük mobilyaların bıraktığı boşlukları zarafetle doldurur.",
+        title: "Mekanda Puf Kullanımının Ayrıcalıklı Senaryoları",
+        content: "Büyük mobilyaların bıraktığı boşlukları zarafetle dolduran puflar, ev içindeki dinamik yaşamın en büyük kurtarıcılarıdır:",
         list: [
-          "Portatiflik: Hafif yapısıyla odanın her köşesine kolayca taşınabilir.",
-          "Orta Sehpa Alternatifi: Üzerine şık bir ahşap tepsi yerleştirilerek modern bir sehpa işlevi görebilir.",
-          "Ekstra Konfor: Koltuğunuzda dinlenirken ayak uzatma modülü olarak üstün konfor sağlar."
+          "Mobilite ve Özgürlük: Hafif ve portatif yapısı sayesinde odanın her köşesine, hatta gerektiğinde diğer odalara kolayca taşınabilir.",
+          "Orta Sehpa Alternatifi: Geniş ve düz yüzeyli pufların üzerine şık bir ahşap veya aynalı tepsi yerleştirerek, keskin kenarları olmayan çocuk dostu, modern bir orta sehpaya dönüştürebilirsiniz.",
+          "Üst Düzey Dinlenme (Ottoman): Berjerinizde veya üçlü koltuğunuzda kitap okurken bacaklarınızı uzatarak kan akışınızı dengeleyen kusursuz bir dinlenme modülü görevi görür."
         ]
       }
     ],
     care: {
-      title: "Deri Puf Bakımı",
-      content: "Genellikle ayak uzatmak için veya ekstra eşya koymak için kullanıldığından temizliği pratiktir.",
-      deep: "Deri koltuklarınıza uyguladığınız vazelin bakımını, aynı esnada pufunuza da uygulayabilirsiniz.",
-      routine: "Nemli bez ve sabun ile haftalık silmeniz yeterlidir.",
-      warning: "Sivri uçlu veya kesici objeleri puf yüzeyine direkt bırakmamaya özen gösterin."
+      title: "Deri Puf Bakımı ve Doğru Kullanımı",
+      content: "Genellikle ayak uzatmak, kitap bırakmak veya ekstra eşya koymak için kullanıldığından oldukça dayanıklı ve temizliği en pratik ürünlerdir.",
+      deep: "Ana koltuklarınıza uyguladığınız vazelin veya badem yağı bakımını, aynı gün bir miktar da pufunuzun yüzeyine uygulayarak deri sağlığını koruyabilirsiniz.",
+      routine: "Sadece hafif nemli beyaz bir bez ve doğal beyaz sabun ile haftalık silmeniz temizlik için fazlasıyla yeterlidir.",
+      warning: "Orta sehpa olarak kullanımlarda sıcak çay/kahve fincanlarını doğrudan derinin üzerine bırakmamaya, sivri uçlu (anahtar, makas vb.) objelerle yüzeyi çizmemeye özen gösterin."
     },
     faqs: [
-      { q: "Puflar mevcut koltuğumla aynı renk ve deriden mi üretiliyor?", a: "Evet, eğer takım olarak alıyorsanız birebir aynı deriden üretilir. Dilerseniz farklı bir renk seçerek zıt bir uyum (kontrast) da yaratabilirsiniz." },
-      { q: "Pufların yüksekliği koltuklarla aynı mı?", a: "Ergonomik kullanım (ayak uzatma) için puflarımızın standart yüksekliği koltuk oturum hizasıyla aynı hizada tasarlanmaktadır, ancak özel ölçü de talep edilebilir." }
+      { q: "Puflar mevcut koltuğumla aynı renk ve aynı deriden mi üretiliyor?", a: "Eğer ana koltuk takımınızla birlikte sipariş veriyorsanız, top (bütün) deriden kesildiği için ton farkı olmaksızın birebir aynı deriden üretilir. Dilerseniz sadece pufu farklı bir renkte seçerek zıt bir uyum (kontrast) da yaratabilirsiniz." },
+      { q: "Pufun yüksekliği ayak uzatmak için uygun mu?", a: "Ergonomik kullanım ve kan dolaşımı sağlığı için puflarımızın standart yüksekliği, koltuklarınızın oturum hizasıyla aynı (veya çok hafif alçak) olacak şekilde özel olarak hesaplanmaktadır." },
+      { q: "Pufların üzerine cam kestirip sehpa yapabilir miyim?", a: "Bunu tavsiye etmiyoruz çünkü cam, derinin hava almasını tamamen kesecek ve zamanla yüzeye yapışarak deriye zarar verebilecektir. Sehpa olarak kullanmak için kalın dekoratif tepsiler çok daha sağlıklı ve şık bir çözümdür." }
     ]
   }
 };

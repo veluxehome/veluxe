@@ -7,3 +7,38 @@
 }
 
 /* Mevcut diğer css kodlarınız (varsa) aşağıda kalabilir */
+
+/* ==========================================================================
+   GOOGLE TRANSLATE GİZLEME (NATIVE GÖRÜNÜM İÇİN)
+   ========================================================================== */
+/* Üstteki beyaz/mavi Google barını gizler */
+.goog-te-banner-frame.skiptranslate,
+.goog-te-banner-frame {
+    display: none !important;
+}
+
+/* Google barı çıktığında sayfanın aşağı kaymasını engeller */
+body {
+    top: 0px !important; 
+    position: static !important;
+}
+
+/* Çevrilen metnin üzerine gelince çıkan can sıkıcı baloncukları (tooltip) gizler */
+.goog-tooltip,
+.goog-tooltip:hover,
+#goog-gt-tt {
+    display: none !important;
+}
+
+/* Çevrilen metinlerin arkaplanındaki sarı vurguyu (highlight) kaldırır */
+.goog-text-highlight {
+    background-color: transparent !important;
+    border: none !important; 
+    box-shadow: none !important;
+}
+
+/* Google'ın yeni güncellemelerle eklediği ekstra pop-up sınıflarını engeller */
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf,
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+    display: none !important;
+}
