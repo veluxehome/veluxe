@@ -618,11 +618,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/134.jpg",
       "/wp-content/uploads/2024/10/132.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Dolce </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Adını İtalyanca 'tatlı, yumuşak' kelimesinden alan <strong>Dolce</strong>, sırt ve kolçakların tek bir akıcı çizgide birleştiği bütünsel tasarımıyla salonunuzda zarif bir sığınak yaratıyor. Sizi kucaklayan saran (koza) formu ve gövdesini süsleyen dikey dikiş detaylarıyla bu <b>modern deri koltuk</b>, sıradanlığa meydan okuyan görsel bir ritim sunuyor.<br/><br/>İncecik metal ayakları üzerinde havada süzülüyormuş gibi duran Dolce; fırınlanmış gürgen iskeleti ve omurga dostu 65 cm net oturum derinliğiyle (35 DNS soft sünger) benzersiz bir ergonomi vadediyor. 130'dan fazla renk seçeneği, hakiki İtalyan derisi veya kedi/köpek tırmalamasına dayanıklı premium kumaş alternatifleriyle tamamen size özel olarak üretilmektedir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Dolce: Akıcı Çizgilerin İtalyan Yorumu</h2><p>Tasarımda keskin köşelerden uzaklaşıp akıcı formlara yönelmek, mekana her zaman daha yumuşak ve dingin bir enerji katar. <strong>Dolce İtalyan Deri Modern Koltuk</strong>, sırt kısmından başlayıp kollarla bütünleşen tek parça (kabuk) tasarımıyla salonunuzda adeta modern bir koza yaratır. Gövdesini saran ince dikey dikiş (kapitone) detayları, bu akıcı forma kusursuz bir görsel ritim kazandırarak koltuğunuzu sıradan bir mobilyadan çok, incelikle işlenmiş bir sanat eserine dönüştürür.</p><h2>Sizi Kucaklayan Kusursuz Ergonomi</h2><p>Dolce modelinin o estetik ve zarif görünümü, oturduğunuz an yerini üst düzey bir konfora bırakır. İnsan anatomisi için en ideal ölçü olan 65 cm'lik net oturum derinliği, bedeninizi kusursuz bir açıyla destekler. Dışarıdan görünmeyen ancak yıllarca ilk günkü sağlamlığını koruyan fırınlanmış gürgen iskeleti, 35 DNS yüksek yoğunluklu soft sünger ile kaplanmıştır. %100 Hakiki İtalyan derisinin dört mevsim nefes alan doğal yapısı, bu konforu kelimenin tam anlamıyla 'premium' bir seviyeye taşır.</p><h2>Sizin Renkleriniz, Sizin Yaşam Alanınız</h2><p>Havada süzülüyormuş illüzyonu yaratan ince metal ayaklarıyla Dolce, 240 cm'lik cömert genişliğine rağmen mekanınızı asla boğmaz. Üstelik bu benzersiz tasarımı sadece hakiki İtalyan derisiyle değil; dilerseniz evcil hayvan dostu (patili dostlarımızın tırmalamalarına karşı ekstra dirençli ve iplik çekmeyen) özel kumaşlar veya yüksek kaliteli suni derilerle de üretebiliyoruz. 130'dan fazla renk yelpazesi arasından dilediğiniz tonu seçebilir, koltuğunuzun ölçülerini yaşam alanınızın mimarisine göre milimetrik olarak yeniden boyutlandırabilirsiniz.</p>",
+    
+    "faqs": [
+      {
+        "question": "Dolce modelindeki dikey dikişler zamanla açılma veya esneme yapar mı?",
+        "answer": "Hayır. Bu dikişler, derinin formunu yıllarca koruması için yüksek mukavemetli özel iplerle ve kilitli dikiş tekniğiyle uygulanmaktadır. Görsel olarak estetik olduğu kadar derinin pot yapmasını engelleyerek ömrünü de uzatan bir detaydır."
+      },
+      {
+        "question": "Sırt ve kol kısmının birleşik olmasının (koza tasarımının) avantajı nedir?",
+        "answer": "Bu tasarım, hem mekana kesintisiz, akıcı bir zarafet katar hem de koltuğun köşelerine yaslandığınızda sırtınızı ve kollarınızı her açıdan yumuşakça destekleyerek maksimum konfor (lounge hissiyatı) sağlar."
+      },
+      {
+        "question": "Koltuğun altı temizlik robotları (akıllı süpürgeler) için uygun mudur?",
+        "answer": "Evet, Dolce'nin mekana ferahlık katan ince metal ayak tasarımı, robot süpürgelerin ve standart temizlik aletlerinin rahatça girebileceği ideal yüksekliğe sahiptir."
+      },
+      {
+        "question": "240 cm ölçüsü standart mıdır, değiştirebilir miyiz?",
+        "answer": "Görseldeki modelimiz ideal oranları yansıtması açısından 240 cm'dir ancak siparişinize özel olarak salonunuzun fiziksel şartlarına göre (örneğin 210 cm veya 280 cm gibi) tamamen daraltılıp genişletilebilir."
+      }
+    ],
+
     "features": {
       "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Metal Ayaklar (Özelleştirilebilir)",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
@@ -715,11 +737,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/Eleganze-2.jpg",
       "/wp-content/uploads/2024/10/Eleganze-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Eleganze</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Zamana meydan okuyan duruşuyla Veluxe'ün en çok tercih edilen tasarımlarından biri olan <strong>Eleganze</strong>, yaşam alanlarına ağırbaşlı ve kusursuz bir lüks katıyor. Ortadan ikiye bölünen özgün minderi ve yere sağlam basan kare formlu alçak ahşap ayaklarıyla bu <b>modern deri koltuk</b>, mekanınızda hem görsel bir denge hem de sarsılmaz bir kalite hissi yaratır.<br/><br/>Tasarımın saflığını koruyan sırt kısmında mekanik bir aksam bulunmazken, manuel olarak aşağı-yukarı ayarlanabilen özel sırt yapısı sayesinde koltuğunuza dilediğiniz görsel formu kazandırabilirsiniz. Standart 250 cm genişliği ve 70 cm'lik ekstra oturum derinliğiyle (35 DNS soft sünger) benzersiz bir <b>özel üretim koltuk</b> deneyimi sunan Eleganze, 130'dan fazla hakiki İtalyan derisi veya premium kumaş seçeneğiyle tamamen size özel boyutlandırılabilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Eleganze: Veluxe'ün En Çok Tercih Edilen Modern Klasiği</h2><p>Bazı tasarımlar trendlerin ötesine geçerek birer klasiğe dönüşür. Veluxe koleksiyonunun en çok satan ve en sevilen modellerinden biri olan <strong>Eleganze İtalyan Deri Modern Koltuk</strong>, abartıdan uzak ama bir o kadar da gösterişli duruşuyla bu unvanı sonuna kadar hak ediyor. Standart 250 cm'lik cömert genişliği, yere yakın ve oturaklı yapısı ile salonunuzda güçlü bir odak noktası oluştururken, modern hatları sayesinde mekanı asla boğmuyor.</p><h2>Özgün Mimari ve Manuel Tasarım Dokunuşu</h2><p>Eleganze modelini sıradan koltuklardan ayıran en büyük estetik detayı, oturum alanını tam ortadan ikiye bölen simetrik tasarımıdır. Bu bölünmüş mimari, koltuğa hem ritmik bir şıklık katar hem de geniş oturum alanını görsel olarak dengeler. Tasarımın estetik çizgisini korumak adına sırt kısmında klasik hareketli bir mekanizma kullanılmamıştır. Bunun yerine, tamamen görsel amaçlı olarak manuel şekilde aşağı-yukarı ayarlanabilen sırt yapısı sayesinde, koltuğunuzun duruşunu o anki dekorasyon modunuza göre kişiselleştirebilirsiniz.</p><h2>Ekstra Geniş Oturum ve Gizli Konfor</h2><p>Koltuğun ağırbaşlı gövdesi, zemine sağlam basan kare formlu alçak ahşap ayaklarla desteklenerek tasarımın o 'güven veren' karakteri tamamlanmıştır. Dıştan dışa 100 cm derinliğe sahip olan Eleganze, iç kısımda standartların üzerine çıkarak 70 cm'lik ekstra geniş net oturum derinliği (35 DNS soft sünger) sunar. Bu sayede kelimenin tam anlamıyla sizi kucaklayan kusursuz bir dinlenme (lounge) hissiyatı yaşatır. Fırınlanmış gürgen ağacının esnemez gücü ve %100 hakiki İtalyan derisinin dört mevsim nefes alan dokusuyla, evinizin vazgeçilmez konfor alanı olacaktır.</p>",
+    
+    "faqs": [
+      {
+        "question": "Eleganze neden en çok satan modellerinizden biri?",
+        "answer": "Eleganze, yere sağlam basan ağırbaşlı duruşu, ortadan ikiye bölünen simetrik yapısı ve 250 cm'lik gösterişli genişliği sayesinde minimal veya klasik fark etmeksizin hemen her salon dekorasyonuna kusursuz bir uyum sağladığı için müşterilerimizin favorisidir."
+      },
+      {
+        "question": "Sırt kısmındaki aşağı-yukarı hareket eden mekanizma nasıl çalışıyor?",
+        "answer": "Eleganze modelimizin sırt kısmında klasik anlamda öne-arkaya hareket eden mekanik bir aksam yoktur. Bunun yerine, tamamen görsel zenginlik ve estetik amaçlı olarak manuel (elle) aşağı-yukarı konumlandırabileceğiniz özel bir sırt tasarımı bulunmaktadır."
+      },
+      {
+        "question": "Oturum derinliği standart modellerden farklı mı?",
+        "answer": "Evet. Klasik modellerimizde net oturum derinliği 65 cm iken, Eleganze modelimizde daha yayılmalık ve rahat bir 'lounge' hissiyatı sunmak amacıyla net oturum derinliği 70 cm olarak tasarlanmıştır. Dıştan dışa derinliği ise yine 100 cm'dir."
+      },
+      {
+        "question": "250 cm standart ölçüyü salonuma göre değiştirebilir miyim?",
+        "answer": "Tüm modellerimizde olduğu gibi Eleganze de tamamen el işçiliğiyle üretilmektedir. 250 cm'lik standart ölçü, salonunuzun mimarisine ve ihtiyacınıza göre istediğiniz oranda daraltılabilir veya genişletilebilir."
+      }
+    ],
+
     "features": {
-      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 250 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Kare Ahşap Alçak Ayaklar",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
@@ -773,11 +817,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/167.jpg",
       "/wp-content/uploads/2024/10/169.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Fiore  </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Lüks otel lobilerinin ve premium estetik merkezlerinin asil duruşunu yaşam alanlarınıza taşıyan <strong>Fiore</strong>, zıtlıkların kusursuz uyumundan doğuyor. İncecik, minimalist ve keskin çerçevesi; iç kısmında yer alan devasa, salaş ve davetkâr kırlentlerle birleşerek mekanınıza hem resmi bir zarafet hem de evcil bir sıcaklık katıyor.<br/><br/>Görsel bir illüzyon yaratan zarif yapısının ardında fırınlanmış gürgen iskeleti ve 35 DNS soft süngeriyle sarsılmaz bir kalite barındıran bu <b>lüks tasarım koltuk</b>, standart 240 cm genişliğe sahiptir. İster modern metal ayaklarla ister sıcak bir dokunuş için ahşap ayaklarla tercih edebileceğiniz Fiore; %100 hakiki İtalyan derisi veya premium kumaş seçenekleriyle mekanınızın ölçülerine göre özel olarak üretilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Fiore: Premium Lobilerden Evinizin Baş Köşesine</h2><p>Tasarımda gerçek ustalık, birbirine zıt kavramları kusursuz bir uyum içinde sunabilmektir. <strong>Fiore İtalyan Deri Modern Koltuk</strong>, başlangıçta üst düzey estetik merkezleri, lüks otel lobileri ve prestijli ofislerin bekleme alanları için tasarlanmış son derece elit bir modeldir. Ancak barındırdığı o devasa, salaş ve konforlu sırt kırlentleri, ona öylesine davetkâr bir hava katar ki; bu keskin zarafet evinizin salonunda da vazgeçilmez bir dinlenme köşesine dönüşür.</p><h2>Salaş Kırlentler ve Minimalist İskeletin Kontrastı</h2><p>Fiore'nin tasarım karakteri, dış çerçevesindeki o tavizsiz ve ince İtalyan minimalizminden gelir. Gövdeyi bir kabuk gibi saran bu ince hatlar, iç kısımdaki büyük ve salaş formlu yastıklarla kırılarak harika bir görsel denge oluşturur. İnsan anatomisini saran bu seyyar salaş kırlentler, koltuğa dilediğiniz gibi yayılma özgürlüğü sunarken; alt kısımdaki 65 cm net oturum derinliğine sahip 35 DNS soft sünger, saatlerce sürecek bir oturum konforu sağlar.</p><h2>Kurumsal Şıklık veya Evcil Sıcaklık Sizin Elinizde</h2><p>Mekanınızın diline en uygun versiyonu yaratmak tamamen sizin elinizde. Koltuğunuzu estetik bir klinikte veya ofiste kullanacaksanız, ince metal ayaklar ve koyu tonlarda hakiki İtalyan derisiyle son derece 'ciddi ve otoriter' bir görünüm yakalayabilirsiniz. Aynı modeli evinizin salonu için düşünüyorsanız; ayakları sıcak tonlarda ahşap malzemeyle değiştirebilir, 130'dan fazla renk seçeneğimiz arasından toprak tonlarında leke tutmaz premium kumaşlar seçerek ortamı anında 'cozy' ve sıcak bir yuvaya çevirebilirsiniz.</p>",
+    
+    "faqs": [
+      {
+        "question": "Fiore modeli ev salonu için çok mu 'ofis' tarzı kalır?",
+        "answer": "Kesinlikle hayır. Fiore'nin dış çerçevesi resmi ve ciddi görünse de, içerisinde yer alan o devasa ve salaş kırlentler koltuğa son derece evcil, rahat ve davetkâr bir ruh katar. Bu sayede ev dekorasyonunda lüks ve rahatlığı aynı anda sunar."
+      },
+      {
+        "question": "İçerisindeki büyük (salaş) kırlentler koltuğa sabit mi?",
+        "answer": "Hayır. O salaş ve konforlu görünümü veren dev sırt ve yan kırlentleri seyyardır. Bu sayede koltukta uzanmak veya daha derin bir oturum alanı yaratmak istediğinizde kırlentleri dilediğiniz gibi konumlandırabilirsiniz."
+      },
+      {
+        "question": "Ayaklarında sadece metal mi kullanılıyor?",
+        "answer": "Görseldeki modelimizde endüstriyel zarafeti vurgulamak için ince metal ayaklar kullanılmıştır. Ancak siparişinize özel olarak bu ayakları, ev ortamına çok daha sıcak bir hava katan ahşap ayaklarla değiştirebilmekteyiz."
+      },
+      {
+        "question": "Bekleme salonumuz için farklı ölçülerde üretebilir misiniz?",
+        "answer": "Evet, Fiore modeli estetik merkezleri ve klinik lobileri için en çok tercih edilen modellerimizdendir. 240 cm'lik standart ölçüsü, mekanınızın kolon aralıklarına veya bekleme salonunuzun büyüklüğüne göre tamamen özel olarak yeniden boyutlandırılabilir."
+      }
+    ],
+
     "features": {
       "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Metal veya Ahşap Ayaklar (Seçmeli)",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },

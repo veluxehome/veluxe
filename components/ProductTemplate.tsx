@@ -83,58 +83,14 @@ export default function ProductTemplate({ product }: { product: Product }) {
       {/* ÜRÜN DETAY ALANI ANA GRİD */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative">
         
-        {/* SOL SÜTUN (GALERİ + UZUN AÇIKLAMA + SSS) */}
-        <div className="lg:col-span-7 xl:col-span-8">
-          
-          {/* Ürün Görselleri */}
+        {/* 1. GALERİ (Mobilde en üstte, Masaüstünde sol üstte) */}
+        <div className="lg:col-span-7 xl:col-span-8 order-1 w-full">
           <ProductGallery images={displayImages} title={product.title} />
-
-          {/* Sadece uzun açıklama veya SSS varsa ayırıcı çizgi göster */}
-          {(product.longDescription || (product.faqs && product.faqs.length > 0)) && (
-            <div className="my-16 border-t border-gray-100"></div>
-          )}
-
-          {/* UZUN AÇIKLAMA (SEO METNİ) - Galeri Altı */}
-          {product.longDescription && (
-            <div className="mb-16">
-              <div 
-                className="text-sm md:text-base text-gray-600 font-light leading-relaxed [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6"
-                dangerouslySetInnerHTML={{ __html: product.longDescription }}
-              />
-            </div>
-          )}
-
-          {/* SIKÇA SORULAN SORULAR (FAQ) - Galeri Altı */}
-          {product.faqs && product.faqs.length > 0 && (
-            <div className="mb-8">
-              <h3 className="text-2xl font-serif font-light text-gray-900 mb-8">
-                Sıkça Sorulan Sorular
-              </h3>
-              <div className="space-y-4">
-                {product.faqs.map((faq, index) => (
-                  <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden">
-                    <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                      <h4 className="font-serif text-lg font-light">{faq.question}</h4>
-                      <span className="shrink-0 transition duration-300 group-open:-rotate-180">
-                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                          <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
-                        </svg>
-                      </span>
-                    </summary>
-                    <p className="mt-4 leading-relaxed text-gray-600 font-light text-sm">
-                      {faq.answer}
-                    </p>
-                  </details>
-                ))}
-              </div>
-            </div>
-          )}
-
         </div>
 
-        {/* SAĞ SÜTUN (ÜRÜN BİLGİLERİ VE BUTONLAR - STICKY) */}
-        {/* top-32 değeri, header'ın aşağı kayarken içeriği örtmesini engeller */}
-        <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4">
+        {/* 2. SAĞ SÜTUN / DETAYLAR (Mobilde 2. sırada, Masaüstünde sağda sabit) */}
+        {/* lg:col-start-8 ve lg:row-span-2 özellikleri sayesinde masaüstü yapışkanlık korunur */}
+        <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:col-start-8 xl:col-start-9 lg:row-span-2 w-full">
           
           <p className="text-[10px] text-gray-400 mb-4 uppercase tracking-[0.25em] font-medium">
             SKU: {product.sku}
@@ -222,6 +178,51 @@ export default function ProductTemplate({ product }: { product: Product }) {
               ))}
             </div>
           </div>
+
+        </div>
+
+        {/* 3. UZUN AÇIKLAMA VE SSS (Mobilde en altta, Masaüstünde sol altta) */}
+        <div className="lg:col-span-7 xl:col-span-8 order-3 lg:col-start-1 w-full">
+          
+          {(product.longDescription || (product.faqs && product.faqs.length > 0)) && (
+            <div className="mt-8 lg:mt-16 pt-8 lg:pt-0 border-t border-gray-100"></div>
+          )}
+
+          {/* UZUN AÇIKLAMA (SEO METNİ) */}
+          {product.longDescription && (
+            <div className="mb-16">
+              <div 
+                className="text-sm md:text-base text-gray-600 font-light leading-relaxed [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6"
+                dangerouslySetInnerHTML={{ __html: product.longDescription }}
+              />
+            </div>
+          )}
+
+          {/* SIKÇA SORULAN SORULAR (FAQ) */}
+          {product.faqs && product.faqs.length > 0 && (
+            <div className="mb-8">
+              <h3 className="text-2xl font-serif font-light text-gray-900 mb-8">
+                Sıkça Sorulan Sorular
+              </h3>
+              <div className="space-y-4">
+                {product.faqs.map((faq, index) => (
+                  <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden">
+                    <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
+                      <h4 className="font-serif text-lg font-light">{faq.question}</h4>
+                      <span className="shrink-0 transition duration-300 group-open:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                        </svg>
+                      </span>
+                    </summary>
+                    <p className="mt-4 leading-relaxed text-gray-600 font-light text-sm">
+                      {faq.answer}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          )}
 
         </div>
       </div>
