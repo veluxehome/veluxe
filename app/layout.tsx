@@ -13,8 +13,8 @@ const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfa
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.veluxe.com.tr'),
-  title: "Veluxe | Premium Koltuk Tasarımları",
-  description: "Modern, Chester ve lüks koltuk takımları.",
+  title: "Hakiki Deri Koltuk & Gerçek Deri Koltuk Modelleri | Veluxe",
+  description: "Özel tasarım hakiki deri koltuk takımları, chester ve berjer modelleri. %100 gerçek deri, el işçiliği ve fırınlanmış gürgen iskeletle lüksü evinize taşıyın.",
 };
 
 export default function RootLayout({

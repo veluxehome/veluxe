@@ -20,8 +20,8 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const cleanDescription = product.shortDescription.replace(/<[^>]*>?/gm, '').replace(/\\n/g, ' ').substring(0, 160);
 
   return {
-    title: `${product.title} | Veluxe Premium`,
-    description: cleanDescription,
+    title: `${product.title} - Hakiki Deri Koltuk | Veluxe`,
+    description: `${product.title}. Fırınlanmış gürgen iskelet ve gerçek deri garantisiyle üretilen özel tasarım deri koltuk. Mekanınıza özel ölçü ve renk seçenekleriyle.`,
     openGraph: {
       title: product.title,
       description: cleanDescription,

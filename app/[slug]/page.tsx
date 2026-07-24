@@ -180,8 +180,9 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const category = categories.find((c) => c.slug === currentSlug);
   if (category) {
     return {
-      title: `${category.title} Modelleri | Veluxe Premium`,
-      description: `${category.title} koleksiyonumuzdaki lüks ve modern tasarımları keşfedin.`,
+      // Örnek Çıktı: Chester Koltuk Takımları - Hakiki Deri Koltuk Modelleri | Veluxe
+      title: `${category.title} - Hakiki Deri Koltuk Modelleri | Veluxe`,
+      description: `Veluxe ${category.title} koleksiyonu. %100 hakiki ve gerçek deri ile üretilen, evinize özel tasarım lüks deri koltukları keşfedin.`,
     };
   }
 

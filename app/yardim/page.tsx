@@ -12,6 +12,7 @@ export default function HelpPage() {
     { id: 'teslimat', label: 'Teslimat Seçenekleri' },
     { id: 'garanti', label: 'Garanti Koşulları' },
     { id: 'kvkk', label: 'KVKK Politikası' },
+    { id: 'gizlilik', label: 'Gizlilik Politikası' }, // YENİ EKLENEN TAB
     { id: 'mesafeli-satis', label: 'Mesafeli Satış Sözleşmesi' },
     { id: 'iade', label: 'İade Koşulları' },
   ];
@@ -318,7 +319,58 @@ export default function HelpPage() {
             </div>
           )}
 
-          {/* 5. MESAFELİ SATIŞ SÖZLEŞMESİ */}
+          {/* 5. GİZLİLİK POLİTİKASI (YENİ EKLENEN) */}
+          {activeTab === 'gizlilik' && (
+            <div className="space-y-8">
+              <h2 className="text-2xl md:text-3xl font-serif font-light text-gray-900 border-b border-gray-200 pb-4">
+                Gizlilik Politikası
+              </h2>
+
+              <div className="space-y-4 text-xs md:text-sm text-gray-600 font-light leading-relaxed max-h-[600px] overflow-y-auto pr-4 border p-6 bg-[#f9f9f9]">
+                <p className="font-semibold text-gray-900 uppercase">GİZLİLİK POLİTİKASI VE VERİ GÜVENLİĞİ</p>
+                <p>
+                  Ela Teknoloji ve Tasarım San. Tic. Ltd. Şti. (bundan böyle "Veluxe" veya "Şirket" olarak anılacaktır) olarak, www.veluxe.com.tr alan adlı internet sitesini (kısaca "Site") ziyaret eden kullanıcılarımızın ve müşterilerimizin ("Kullanıcı") kişisel verilerinin gizliliğine ve güvenliğine en yüksek seviyede önem veriyoruz. İşbu Gizlilik Politikası, Site üzerinden toplanan bilgilerin ne şekilde kullanıldığını ve korunduğunu açıklamaktadır.
+                </p>
+
+                <h4 className="font-medium text-gray-900 pt-2">1. Hangi Bilgiler Toplanmaktadır?</h4>
+                <p>
+                  Site üzerinden bir sipariş oluşturduğunuzda, iletişim formunu doldurduğunuzda veya bültene kayıt olduğunuzda adınız, soyadınız, e-posta adresiniz, teslimat ve fatura adresiniz, telefon numaranız gibi kişisel bilgileriniz toplanmaktadır. Ödeme işlemleri sırasında kullandığınız kredi kartı bilgileriniz hiçbir şekilde sunucularımızda saklanmaz; bu veriler doğrudan ve güvenli bir şekilde (SSL sertifikası kullanılarak) BDDK onaylı ödeme kuruluşuna (PayTR) iletilir.
+                </p>
+
+                <h4 className="font-medium text-gray-900 pt-2">2. Bilgilerin Kullanım Amacı</h4>
+                <p>Toplanan kişisel bilgileriniz aşağıdaki amaçlar doğrultusunda kullanılır:</p>
+                <ul className="list-disc pl-5 space-y-1">
+                  <li>Siparişlerinizin işlenmesi, teslimatı ve faturalandırılması,</li>
+                  <li>Özel üretim (ölçü ve kumaş) süreçlerinde sizinle iletişime geçilmesi,</li>
+                  <li>Satış sonrası hizmetler, montaj ve garanti süreçlerinin yönetilmesi,</li>
+                  <li>Açık rızanız olması halinde, yeni koleksiyonlar, indirimler ve kampanyalar hakkında size bilgi verilmesi,</li>
+                  <li>Site içi deneyiminizin kişiselleştirilmesi ve iyileştirilmesi.</li>
+                </ul>
+
+                <h4 className="font-medium text-gray-900 pt-2">3. Bilgilerin Üçüncü Kişilerle Paylaşımı</h4>
+                <p>
+                  Veluxe, kullanıcılarına ait kişisel bilgileri kesinlikle satmaz, kiralamaz ve üçüncü kişilerle ticari amaçlarla paylaşmaz. Bilgileriniz, yalnızca yasal zorunluluklar çerçevesinde veya hizmetin ifası için gerekli olduğu durumlarda (örneğin; ürünlerin teslimatı için kargo ve lojistik firmalarıyla) ve gizlilik sözleşmeleriyle güvence altına alınmış iş ortaklarımızla paylaşılır.
+                </p>
+
+                <h4 className="font-medium text-gray-900 pt-2">4. Çerezler (Cookies)</h4>
+                <p>
+                  Sitemiz, alışveriş sepetinizin hatırlanması, oturumunuzun açık kalması ve site kullanım istatistiklerinin (Google Analytics vb.) analiz edilmesi amacıyla çerezleri (cookies) kullanmaktadır. Tarayıcı ayarlarınızdan çerezleri reddedebilirsiniz, ancak bu durum Sitenin bazı işlevlerinin (örneğin sepet işlemlerinin) tam olarak çalışmasını engelleyebilir.
+                </p>
+
+                <h4 className="font-medium text-gray-900 pt-2">5. Veri Güvenliği</h4>
+                <p>
+                  Kişisel verilerinize yetkisiz erişimi, verilerinizin değiştirilmesini, ifşa edilmesini veya imha edilmesini önlemek amacıyla sektör standartlarında (SSL, güvenlik duvarları) teknik ve idari güvenlik önlemleri alınmaktadır. 
+                </p>
+                
+                <h4 className="font-medium text-gray-900 pt-2">6. İletişim İzni ve İptali</h4>
+                <p>
+                  Pazarlama ve kampanya bildirimleri almak istemiyorsanız, size gönderilen e-postalardaki "Abonelikten Çık" (Unsubscribe) linkine tıklayarak veya <strong>info@veluxe.com.tr</strong> adresine e-posta göndererek bu izninizi dilediğiniz zaman iptal edebilirsiniz.
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* 6. MESAFELİ SATIŞ SÖZLEŞMESİ */}
           {activeTab === 'mesafeli-satis' && (
             <div className="space-y-8">
               <h2 className="text-2xl md:text-3xl font-serif font-light text-gray-900 border-b border-gray-200 pb-4">
@@ -347,7 +399,7 @@ export default function HelpPage() {
             </div>
           )}
 
-          {/* 6. İADE KOŞULLARI */}
+          {/* 7. İADE KOŞULLARI */}
           {activeTab === 'iade' && (
             <div className="space-y-8">
               <h2 className="text-2xl md:text-3xl font-serif font-light text-gray-900 border-b border-gray-200 pb-4">

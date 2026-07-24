@@ -41,6 +41,7 @@ export default function Footer() {
               <li><Link href="/iletisim" className="text-sm font-light hover:text-white transition-colors">İletişim</Link></li>
               <li><Link href="/blog" className="text-sm font-light hover:text-white transition-colors">Veluxe Akademi</Link></li>
               <li><Link href="/deri-koltuk-tamiri" className="text-sm font-light hover:text-white transition-colors">Deri Koltuk Tamiri</Link></li>
+              <li><Link href="/site-haritasi" className="text-sm font-light hover:text-white transition-colors">Site Haritası</Link></li>
             </ul>
           </div>
 
