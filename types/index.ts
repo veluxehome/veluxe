@@ -32,6 +32,8 @@ export interface Product {
     sponge?: string;
   };
   colors: ColorVariant[];
+  longDescription?: string;
+  faqs?: { question: string; answer: string }[];
 }
 
 export interface BlogPost {

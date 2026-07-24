@@ -17,7 +17,29 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/6.jpg",
       "/wp-content/uploads/2024/10/5.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Ambra </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Modern yaşam alanlarında güçlü bir duruş sergilemek isteyenler için tasarlanan <strong>Ambra</strong>, keskin hatları ve maskülen karakteriyle dikkat çekiyor. İtalyan lüksünü evinize taşıyan bu <b>modern deri koltuk</b>, sadece şık bir görünüm değil; fırınlanmış gürgen iskeleti ve 35 DNS soft süngeriyle yıllara meydan okuyan bir konfor sunuyor.<br/><br/>Tercihinize göre birinci sınıf hakiki İtalyan deri, yüksek kaliteli suni deri veya premium kumaş seçenekleriyle üretilebilen Ambra, 130'dan fazla renk alternatifiyle mekanınızın ruhuna tam uyum sağlar. Gürgen veya ceviz ahşap ayak detaylarıyla zenginleştirilen bu <b>özel üretim koltuk</b>, alanınızın ölçülerine göre baştan yaratılabilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçü ve hayalinizdeki renk-doku kombinasyonunu belirlemek için lütfen sipariş oluşturmadan önce bizimle iletişime geçin.</em></span>",
+    
+    "longDescription": "<h2>Ambra: Modern Yaşamın Maskülen ve Güçlü Yüzü</h2><p>Tasarım dünyasında bazı parçalar sadece bir mobilya olmanın ötesine geçerek mekanın ruhunu belirler. <strong>Ambra İtalyan Deri Modern Koltuk</strong>, tam da bu iddiayı taşıyan, keskin hatları ve ağırbaşlı duruşuyla salonunuza veya ofisinize otoriter bir karakter kazandıran özel bir tasarımdır. Minimalist ancak bir o kadar da gösterişli yapısı, modern mimariyle mükemmel bir ahenk yakalar.</p><h2>Hakiki Deri ve Üstün Malzeme Kalitesi</h2><p>Ambra’nın eşsiz dokunuşu, birinci sınıf hakiki İtalyan derisinden gelir. Zaman geçtikçe güzelleşen ve nefes alan bu doğal yapı, koltuğunuzun yıllar boyunca ilk günkü lüks hissiyatını korumasını sağlar. Görünmeyen kısımlarda ise Veluxe kalitesi devreye girer: Asla esneme yapmayan, fırınlanmış gürgen ağacından üretilen sağlam iskelet ve uzun oturumlarda dahi formunu kaybetmeyen 35 DNS soft sünger yapısı ile konforunuz güvence altındadır.</p><h2>Kişiselleştirme ve Özel Üretim</h2><p>Sizin yaşam alanınız, sizin kurallarınız. Ambra modelini, standartların ötesine taşıyarak mekanınızın tam ölçülerine göre özel olarak üretiyoruz. 130'dan fazla renk ve doku seçeneği arasından tarzınıza en uygun olanı belirleyebilir; hakiki deri yerine alternatif olarak suni deri veya premium silinebilir kumaş tercih edebilirsiniz. Ayrıca tasarımın altını çizen ayak kısımlarını mekanınızın konseptine göre ceviz veya gürgen ahşap olarak özelleştirebilirsiniz.</p><h2>Veluxe Mimari Destek</h2><p>Ambra’nın iddialı duruşunun salonunuzda nasıl duracağını hayal etmekte zorlanıyorsanız, mimari destek hizmetimiz yanınızda. Odanızın fotoğraflarını bizimle paylaştığınızda, seçtiğiniz renk ve ölçülerdeki Ambra koltuğunuzu 3D ortamda mekanınıza yerleştirerek satın almadan önce sonucu görmenizi sağlıyoruz.</p>",
+    
+    "faqs": [
+      {
+        "question": "Ambra koltuk modelinde hangi deri türleri kullanılıyor?",
+        "answer": "Ambra modelimizde birinci sınıf hakiki İtalyan derisi standart olarak sunulmaktadır. Talebinize göre premium kumaş veya yüksek kaliteli suni deri seçeneklerimiz de mevcuttur."
+      },
+      {
+        "question": "Bu modelin ayakları ahşap mı yoksa metal mi?",
+        "answer": "Tasarımın sıcaklığını korumak adına Ambra modelinde fırınlanmış gürgen veya ceviz rengi ahşap ayaklar kullanılmaktadır. İsteğinize göre bu ahşap tonları özelleştirilebilir."
+      },
+      {
+        "question": "Ambra koltuk takımını kendi salonumun ölçülerine göre yaptırabilir miyim?",
+        "answer": "Evet, tüm ürünlerimizde olduğu gibi Ambra modelinde de %100 el işçiliği ile mekanınıza tam uyum sağlayacak özel ölçü üretim yapmaktayız."
+      },
+      {
+        "question": "Oturum süngeri zamanla çökme yapar mı?",
+        "answer": "Hayır, üretimimizde endüstri standartlarının üzerinde yer alan yüksek yoğunluklu 35 DNS soft sünger kullanıyoruz. Bu sünger yapısı uzun yıllar boyunca formunu ve esnekliğini korur."
+      }
+    ],
+
     "features": {
       "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
@@ -118,11 +140,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/22.jpg",
       "/wp-content/uploads/2024/10/23.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Antes </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Evinin kalbine sıcak, davetkâr ve aileyi bir araya getiren bir parça yerleştirmek isteyenlerin ilk tercihi <strong>Antes</strong>. Yaklaşık 3 metrelik devasa oturum alanıyla bu <b>hakiki deri koltuk</b>, uzun film gecelerinin ve keyifli sohbetlerin vazgeçilmez merkezi olacak. İç iskeletinde yatan fırınlanmış gürgen sağlamlığı ve 35 DNS soft süngerin eşsiz rahatlığı, nesiller boyu sürecek bir kalite vadediyor.<br/><br/>Standart olarak sunulan zarif metal ayaklar, mekanınızın ruhuna göre ahşap ayaklarla da değiştirilebilir. 130'u aşkın renk yelpazesinden seçeceğiniz İtalyan derisi, silinebilir premium kumaş veya suni deri ile ailenizin ihtiyaçlarına en uygun dokuyu yaratabilirsiniz. Tamamen el işçiliğiyle üretilen bu <b>özel üretim salon koltuğu</b>, yaşam alanınızın ölçülerine göre yeniden boyutlandırılabilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçü ve hayalinizdeki renk-doku kombinasyonunu belirlemek için lütfen sipariş oluşturmadan önce bizimle iletişime geçin.</em></span>",
+    
+    "longDescription": "<h2>Antes: Ailenizin Yeni Buluşma Noktası</h2><p>Ev sadece dört duvardan ibaret değildir; sevdiklerimizle paylaştığımız anıların biriktiği yerdir. <strong>Antes İtalyan Deri Modern Koltuk</strong>, tam 300 cm'lik geniş ve samimi silüetiyle salonunuzu gerçek bir yaşam alanına dönüştürmek için tasarlandı. Geniş oturum minderleri ve sarıp sarmalayan yumuşak sırt yapısı sayesinde, günün tüm yorgunluğunu ailenizle birlikte atabileceğiniz konforlu bir sığınak sunar.</p><h2>Ödünsüz Kalite ve Hakiki Deri Konforu</h2><p>Antes'in sıcak karakterinin ardında, üstün bir mühendislik ve malzeme kalitesi yatar. Oturum kısmında kullanılan 35 DNS yüksek yoğunluklu soft sünger, uzun süreli kullanımlarda bile çökme yapmaz ve bedeninizi destekler. %100 hakiki İtalyan derisi ile kaplanan yüzeyi, nefes alan doğal yapısıyla yazın terletmez, kışın üşütmez. Gizli kahramanımız olan fırınlanmış gürgen iskelet ise koltuğunuza yıllara meydan okuyan bir sağlamlık kazandırır.</p><h2>Sizin Eviniz, Sizin Tasarımınız</h2><p>Her evin hikayesi farklıdır, bu yüzden Antes'i tamamen size özel üretiyoruz. Modern ve endüstriyel bir görünüm veren şık metal ayaklar, dilerseniz mekanınızın dokusuna uygun sıcak ahşap ayaklarla değiştirilebilir. 130'dan fazla renk seçeneğimiz arasından hakiki deri, premium kumaş veya suni deri seçimi yaparak koltuğunuzu kişiselleştirebilirsiniz. Üstelik 3 metrelik bu devasa yapı, odanızın fiziksel şartlarına göre daraltılabilir veya genişletilebilir.</p><h2>Mimari Destek ve Ücretsiz Keşif</h2><p>Böylesine görkemli bir parçanın salonunuzda nasıl duracağını hayal etmek yerine, mimari destek hizmetimizden faydalanabilirsiniz. Yaşam alanınızın fotoğraflarını bize ilettiğinizde, Antes modelini seçtiğiniz renk ve ayak detaylarıyla birlikte 3D olarak odanıza yerleştiriyoruz. Böylece satın alma kararınızı içiniz rahat bir şekilde verebilirsiniz.</p>",
+    
+    "faqs": [
+      {
+        "question": "Antes koltuk modelinin tam ölçüsü nedir?",
+        "answer": "Antes modelimiz, 3 adet 80 cm'lik geniş oturum minderi ve 30'ar cm'lik kalın kolçaklarıyla standart olarak toplam 300 cm genişliğe sahiptir. Ancak sipariş üzerine mekanınıza özel ölçülerde daraltılıp genişletilebilir."
+      },
+      {
+        "question": "Koltuk ayaklarını metal yerine ahşap yapabiliyor muyuz?",
+        "answer": "Evet. Antes standart olarak zarif metal ayaklarla üretilmektedir ancak dekorasyonunuza daha sıcak bir dokunuş katmak isterseniz gürgen veya ceviz gibi ahşap ayak seçeneklerimiz de mevcuttur."
+      },
+      {
+        "question": "Hakiki deri yerine kumaş tercih edebilir miyiz?",
+        "answer": "Kesinlikle. Çocuklu veya evcil hayvanlı aileler için hakiki derinin yanı sıra premium leke tutmaz kumaş veya yüksek kaliteli suni deri seçeneklerimiz bulunmaktadır."
+      },
+      {
+        "question": "Bu kadar büyük bir koltuğun iskeleti sağlam mı?",
+        "answer": "Koltuğumuzun iç iskeletinde zamanla esneme veya kırılma yapmayan fırınlanmış gürgen ağacı kullanılmaktadır. Geniş yapısına rağmen ekstra destek profilleriyle nesiller boyu dayanacak şekilde tasarlanmıştır."
+      }
+    ],
+
     "features": {
-      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 300 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Metal Ayaklar (İsteğe Göre Ahşap Seçeneği)",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
@@ -264,11 +308,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/45.jpg",
       "/wp-content/uploads/2024/10/47.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Aria</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Daha dar mekanlara maksimum şıklık ve ferahlık katmak için tasarlanan <strong>Aria</strong>, yaklaşık 210 cm'lik zarif ölçüsüyle yaşam alanınızın baş köşesine layık. Fırınlanmış gürgen iskeleti ve 35 DNS soft süngeriyle hem yer kaplamayan hem de üst düzey bir konfor sunan bu <b>modern koltuk</b>, görenleri kendine hayran bırakacak.<br/><br/>Standart olarak doğal ahşap ayaklarla üretilen Aria, tarzınıza göre metal ayaklarla da tasarlanabilir. Hakiki İtalyan dana derisinin nefes alan lüks dokusunu tercih edebileceğiniz gibi; evcil hayvan dostu (kedi/köpek tırmalamasına dayanıklı) özel kumaşlar veya suni deri seçenekleriyle de koltuğunuzu kişiselleştirebilirsiniz.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Aria: Küçük Mekanlarda Büyük İtalyan Zarafeti</h2><p>Lüks ve konforun her zaman devasa alanlara ihtiyaç duymadığının en güzel kanıtı: <strong>Aria İtalyan Deri Modern Koltuk</strong>. Ortalama 210 cm'lik kompakt genişliği ve minimalist çizgileriyle Aria, özellikle metropol evleri ve ofisler gibi daha dar alanlara ferah, modern ve elit bir hava katmak için özel olarak tasarlandı. Mekanı boğmayan zarif silüeti, 35 DNS soft süngerin eşsiz rahatlığıyla birleşerek size günün yorgunluğunu atabileceğiniz kusursuz bir dinlenme alanı sunar.</p><h2>Hakiki İtalyan Dana Derisi ve Özelleştirilebilir Dokular</h2><p>Aria'nın kaplamasında, zaman geçtikçe güzelleşen ve karakter kazanan %100 Hakiki İtalyan Dana Derisi kullanıyoruz. Nefes alabilen bu doğal malzeme, dört mevsim ideal oturum sıcaklığı sağlar. Ancak evinizde patili dostlarınız varsa, hakiki deriye şık bir alternatif olarak kedi ve köpek tırmalamasına karşı ekstra dirençli, sık dokumalı ve leke tutmayan premium kumaş seçeneklerimizi de değerlendirebilirsiniz. Tamamen el işçiliği olan bu tasarımda, ahşap ayakların sıcaklığını ya da metal ayakların endüstriyel modernliğini seçmek tamamen sizin zevkinize kalmış.</p><h2>Uzun Ömürlü Zarafet: Deri Bakımı Nasıl Yapılmalı?</h2><p>Hakiki İtalyan dana derisinin o eşsiz canlılığını yıllarca korumak oldukça kolaydır. Derinin kurumamasını ve doğal esnekliğini korumasını sağlamak için 3 ila 6 ayda bir vazelin veya badem yağı ile dairesel hareketlerle ince bir bakım uygulamanız yeterlidir. Rutin temizlik için ise ağır kimyasallardan, alkol veya kolonyadan kesinlikle uzak durulmalı; sadece hafif nemli beyaz bir bez ve doğal beyaz sabun ile nazikçe silinmelidir. Fırınlanmış gürgen iskeletiyle zaten yıllara meydan okuyan Aria, doğru deri bakımıyla nesilden nesile aktarılacak bir başyapıta dönüşür.</p>",
+    
+    "faqs": [
+      {
+        "question": "Aria koltuk modeli küçük salonlar için uygun mu?",
+        "answer": "Kesinlikle. Aria modeli yaklaşık 210 cm'lik genişliği ve kibar hatlarıyla özellikle dar salonlar, butik ofisler ve minimalist yaşam alanları için tasarlanmış, mekanı boğmayan kompakt bir modeldir."
+      },
+      {
+        "question": "Kedim/köpeğim var, hakiki deri yerine hangi materyali seçmeliyim?",
+        "answer": "Evcil hayvanlı müşterilerimiz için hakiki deri yerine, kedi ve köpek tırmalamasına karşı yüksek direnç gösteren, iplik çekmesi yapmayan özel sık dokumalı kumaş ve suni deri seçeneklerimiz mevcuttur."
+      },
+      {
+        "question": "Ayakları ahşap mı yoksa metal mi üretiyorsunuz?",
+        "answer": "Aria modelimiz tasarımın sıcak doğasına uygun olarak standart ahşap ayaklarla üretilmektedir. Ancak modern ve endüstriyel bir dokunuş isteyen müşterilerimiz için metal ayak seçeneğiyle de üretim yapabiliyoruz."
+      },
+      {
+        "question": "İtalyan dana derisinin bakımı zor mudur?",
+        "answer": "Hayır, oldukça pratiktir. Kimyasal temizleyicilerden uzak durarak sadece nemli bez ve beyaz sabunla silebilirsiniz. 6 ayda bir vazelin veya badem yağı ile yapacağınız basit bir bakım, derinin ömrünü yıllarca uzatacaktır."
+      }
+    ],
+
     "features": {
-      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 210 cm / D: 95 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Ahşap (İsteğe Göre Metal Seçeneği)",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
@@ -278,43 +344,6 @@ export const products: Product[] = [
         "hex": "#5d4037",
         "slug": "aria-italyan-deri-modern-koltuk-kahverengi",
         "image": "/wp-content/uploads/2024/10/45.jpg"
-      }
-    ]
-  },
-  {
-    "sku": "VX-031",
-    "title": "Armen İtalyan Deri Modern Takım",
-    "slug": "armen-italyan-deri-modern-takim",
-    "categorySlug": "koltuk-takimlari",
-    "images": [
-      "/wp-content/uploads/2024/10/armen.jpg",
-      "/wp-content/uploads/2024/10/armen-3-1.jpg",
-      "/wp-content/uploads/2024/10/armen-4.jpg",
-      "/wp-content/uploads/2024/10/armen-5.jpg",
-      "/wp-content/uploads/2024/10/armen-6.jpg",
-      "/wp-content/uploads/2024/10/armen-1.jpg",
-      "/wp-content/uploads/2024/10/armen-2.jpg"
-    ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Armen</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
-    "features": {
-      "dimensions": "3'lü: G:240 D:100 Y:85 / Tekli: G:90 D:95 Y:90",
-      "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
-      "sponge": "35 DNS Soft Sünger",
-      "frame": "Fırınlanmış Gürgen Ağacı"
-    },
-    "colors": [
-      {
-        "name": "Kahverengi",
-        "hex": "#5d4037",
-        "slug": "armen-italyan-deri-modern-takim-kahverengi",
-        "image": "/wp-content/uploads/2024/10/armen-3.jpg"
-      },
-      {
-        "name": "Siyah",
-        "hex": "#000000",
-        "slug": "armen-italyan-deri-modern-takim-siyah",
-        "image": "/wp-content/uploads/2024/10/armen-6.jpg"
       }
     ]
   },
@@ -344,11 +373,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/bello-5.jpg",
       "/wp-content/uploads/2024/10/bello-6.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Bello</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Kübik hatları ve yere sağlam basan mimari duruşuyla <strong>Bello</strong>, modern lüksü yaşam alanlarınıza taşıyor. Blok formundaki kalın kolçakları ve geniş oturum minderleriyle bu <b>modern deri koltuk</b>, ağırbaşlı gövdesini taşıyan zarif metal ayakları sayesinde mekanınızda ferah bir illüzyon yaratıyor.<br/><br/>İç iskeletindeki fırınlanmış gürgen ağacı ve 35 DNS soft sünger yapısı, estetiği kusursuz bir konforla birleştiriyor. Standart olarak 220 cm genişliğinde tasarlanan Bello; hakiki İtalyan derisi, silinebilir premium kumaş veya suni deri seçenekleriyle mekanınızın ruhuna göre kişiselleştirilebilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Bello: Mimari Duruş ve Modern Lüksün Sentezi</h2><p>Tasarımda denge, göze hitap eden en güçlü unsurdur. <strong>Bello İtalyan Deri Modern Koltuk</strong>, gövdesindeki tok ve güçlü hatları, onu zarafetle yükselten ince metal ayaklarla buluşturarak salonunuzda heykelsi bir odak noktası yaratır. Keskin bloklardan oluşan kalın kolçakları ve 220 cm'lik ideal genişliği ile Bello, modern mimarinin minimalizmini ve lüksün gösterişini tek bir formda eritmeyi başarıyor.</p><h2>Üstün Malzeme, Eşsiz Konfor</h2><p>Bello'nun etkileyici dış görünümünün altında, Veluxe atölyelerinin tavizsiz kalite anlayışı yatar. Fırınlanmış gürgen ağacından elde edilen iskelet, koltuğunuza yıllarca sürecek bir dayanıklılık sağlarken; 90 cm'lik derin oturum alanında kullanılan 35 DNS soft sünger, her oturuşta sizi kucaklayan üst düzey bir rahatlık sunar. Doğal yapısıyla nefes alan ve zamanla kendi karakterini kazanan hakiki İtalyan derisi ise bu konforu premium bir dokunuşla taçlandırır.</p><h2>Kişiselleştirilebilir Tasarım ve Özel Üretim</h2><p>Hayalinizdeki salonu yaratırken sınırlara bağlı kalmayın. Bello modeli, standart ölçülerinin dışında, tamamen mekanınızın ihtiyaçlarına göre baştan boyutlandırılabilir. 130'dan fazla renk seçeneği arasından tarzınıza en uygun tonu seçebilir; hakiki deri yerine alternatif olarak yüksek kaliteli suni deri veya çocuklu/evcil hayvanlı evler için leke tutmayan premium kumaş seçeneklerimizi değerlendirebilirsiniz.</p>",
+    
+    "faqs": [
+      {
+        "question": "Bello koltuğun ayakları hangi malzemeden üretiliyor?",
+        "answer": "Bello modelimizde, tasarımın modern ve endüstriyel karakterini vurgulayan paslanmaz metal ayaklar kullanılmaktadır."
+      },
+      {
+        "question": "220 cm ölçüsü salonum için küçük/büyük kalırsa değiştirebilir miyim?",
+        "answer": "Evet, tüm modellerimizde olduğu gibi Bello da tamamen el işçiliğiyle üretildiği için mekanınıza uygun olarak daraltılabilir veya genişletilebilir."
+      },
+      {
+        "question": "Deri dışında farklı bir kaplama seçeneği var mı?",
+        "answer": "Elbette. Hakiki İtalyan derisinin yanı sıra, leke tutmayan premium kumaşlar veya yüksek kaliteli suni deri kartelamızdan seçim yapabilirsiniz."
+      },
+      {
+        "question": "Koltuğun oturum derinliği ne kadar?",
+        "answer": "Bello modelimizde hem şık bir görünüm hem de ekstra konfor sağlamak (lounge hissiyatı) amacıyla oturum derinliği standart olarak 65 cm olarak tasarlanmıştır."
+      }
+    ],
+
     "features": {
-      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 220 cm / D: 90 cm / Y: 80 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Metal Ayaklar",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
@@ -402,11 +453,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/76.jpg",
       "/wp-content/uploads/2024/10/77.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <strong>Celesta</strong> Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Sıradan formlara meydan okuyan aerodinamik çizgileriyle <strong>Celesta</strong>, yaşam alanınıza ultra-modern ve elit bir imza atıyor. İnce ve zarif bazası üzerinde havada süzülüyormuş hissi veren bu <b>lüks tasarım koltuk</b>, yatay düzlemi destekleyen alçak kolçaklarıyla mekanınıza olağanüstü bir ferahlık katıyor.<br/><br/>Görsel bir şölen sunan Celesta, fırınlanmış gürgen iskeleti ve insan anatomisine en uygun olan 65 cm'lik ideal oturum derinliği (35 DNS soft sünger) ile kusursuz bir ergonomi vadediyor. İnce siyah metal ayaklarla standartlaşan bu <b>özel üretim koltuk</b>; hakiki İtalyan derisi, birinci sınıf kumaş veya suni deri seçenekleriyle tamamen sizin zevkinize göre özelleştirilebilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Celesta: Sınırları Aşan Ultra-Modern Zarafet</h2><p>Tasarımda yatay çizgiler her zaman mekanı daha geniş, ferah ve dingin gösterir. <strong>Celesta İtalyan Deri Modern Koltuk</strong>, bu tasarım sırrını mükemmel bir şekilde kullanarak salonunuza fütüristik bir zarafet katıyor. Alışılmış yüksek ve hantal kolçakların aksine, yatay formu destekleyen minder formundaki alçak kolçakları ve incecik bazası sayesinde, Celesta adeta mekanınızda havada süzülüyor (floating) hissi yaratır.</p><h2>Kusursuz Ergonomi ve Malzeme Mühendisliği</h2><p>Celesta'nın zarif görünümünün arkasında kusursuz bir ergonomi ve mühendislik yatar. Dıştan dışa 100 cm olan toplam derinliği, iç kısımda insan anatomisi için dünyaca kabul görmüş en ideal ölçü olan 65 cm'lik net oturum derinliğini barındırır. 35 DNS soft süngerin vücudu kavrayan yapısı ve fırınlanmış gürgen ağacının esnemez gücü, bu koltuğu sadece görsel bir şaheser değil, aynı zamanda vazgeçilmez bir dinlenme alanına dönüştürür. %100 Hakiki İtalyan derisinin nefes alan yapısı ise bu deneyimi premium bir seviyeye taşır.</p><h2>Mekanınıza Göre Tamamen Özelleştirilebilir</h2><p>Celesta'nın o eşsiz ince metal ayakları ve aerodinamik gövdesi, sizin yaşam alanınıza göre yeniden şekillenebilir. 130'dan fazla renk alternatifimiz sayesinde hakiki derinin en asil tonlarını seçebileceğiniz gibi, evcil hayvan dostu leke tutmaz kumaşlar veya kaliteli suni deriler de tercih edebilirsiniz. 240 cm'lik standart genişliği, odanızın mimarisine uygun olarak usta ellerde özel ölçülerle yeniden boyutlandırılabilir.</p>",
+    
+    "faqs": [
+      {
+        "question": "Celesta'nın oturum derinliği ne kadardır, rahat mıdır?",
+        "answer": "Koltuğumuzun dıştan dışa toplam derinliği 100 cm'dir. İç kısımda ise insan anatomisi ve omurga sağlığı için en ideal konfor ölçüsü olan 65 cm net oturum derinliği bulunmaktadır. 35 DNS soft süngerle desteklenen bu ölçü, kusursuz bir oturum rahatlığı sunar."
+      },
+      {
+        "question": "Kolçak (kolluk) tasarımı neden bu kadar alçak?",
+        "answer": "Celesta'nın tasarım karakteri, mekanın ferahlığını bozmamak üzerine kuruludur. Alçak ve minder formundaki kolçaklar, odayı daha geniş gösteren 'yatay mimari' illüzyonunu desteklerken, uzanıp dinlenmek istediğinizde mükemmel bir yastık işlevi görür."
+      },
+      {
+        "question": "Ayakları sadece siyah metal olarak mı üretiyorsunuz?",
+        "answer": "Görseldeki modelimizde endüstriyel şıklığı vurgulamak için ince siyah metal ayaklar kullanılmıştır. Ancak siparişinize özel olarak farklı renkte metal veya ahşap ayak seçeneklerimiz de bulunmaktadır."
+      },
+      {
+        "question": "Gerçek deri yerine kumaş kaplama yapılabilir mi?",
+        "answer": "Evet. 130'dan fazla renk seçeneğimizin içinde hakiki İtalyan derisinin yanı sıra silinebilir premium kumaş ve yüksek kaliteli suni deri kartelamız da bulunmaktadır."
+      }
+    ],
+
     "features": {
       "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Metal Ayaklar (Özelleştirilebilir)",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
@@ -445,11 +518,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/cozy-2.jpg",
       "/wp-content/uploads/2024/10/cozy-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Cozy </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Kesintisiz çizgileri ve dışa doğru zarifçe açılan ince kolçak tasarımıyla <strong>Konnes</strong>, İtalyan minimalizmini yaşam alanlarınıza taşıyor. Hantal tasarımlardan uzaklaşarak mekana ferahlık katan bu <b>modern deri koltuk</b>, ince kolları sayesinde 240 cm'lik standart genişliğinde bile ekstra geniş bir net oturum alanı sunar.<br/><br/>İnce siyah metal ayakları üzerinde havada süzülen şık gövdesi, fırınlanmış gürgen iskeleti ve omurgayı destekleyen 65 cm'lik ideal oturum derinliğiyle kusursuz bir konfor vadediyor. 130'dan fazla renk seçeneği bulunan hakiki İtalyan derisi, leke tutmaz premium kumaş veya suni deri seçenekleriyle Konnes, tamamen size ve mekanınıza özel olarak üretilebilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Konnes: İtalyan Minimalizminin Zirvesi</h2><p>Lüks, karmaşadan uzaklaşıp sadeliğe ulaştığınızda başlar. <strong>Konnes İtalyan Deri Modern Koltuk</strong>, gereksiz hacimlerden arındırılmış pürüzsüz ve akıcı çizgileriyle salonunuzda sofistike bir atmosfer yaratır. Tasarımındaki en büyük imza, dışa doğru hafif bir kavisle inen zarif ve ince kolçaklarıdır. Bu ince kolçak tasarımı, mekanı daraltmadan koltuğa estetik bir hafiflik katarken, aynı zamanda oturum alanını maksimize ederek size çok daha geniş bir kullanım alanı sunar.</p><h2>Geniş Oturum, Kusursuz Konfor</h2><p>Konnes'in ince ve zarif görünümü, sunduğu devasa konforu ustalıkla gizler. Dıştan dışa 100 cm olan derinliği, iç kısımda insan anatomisi için en rahat açıları sunan 65 cm'lik net oturum derinliğini barındırır. Uzun saatler süren sohbetlerde veya dinlenme anlarınızda formunu asla kaybetmeyen 35 DNS yüksek yoğunluklu soft sünger, fırınlanmış gürgen ağacından oluşan sarsılmaz iç iskeletle desteklenmektedir. %100 Hakiki İtalyan derisinin eşsiz dokusu ise her oturuşta bu kaliteyi teninizde hissetmenizi sağlar.</p><h2>Evinizin Mimarına Dönüşün</h2><p>Konnes'i sadece bir koltuk olarak değil, yaşam alanınızın bir parçası olarak baştan yaratabilirsiniz. 240 cm'lik standart ölçüsü, salonunuzun fiziksel şartlarına göre daraltılabilir veya genişletilebilir. Zarif metal ayakları dilerseniz farklı renklerde boyanabilir veya sıcak bir ahşap dokunuşuyla değiştirilebilir. 130'dan fazla renk seçeneği arasından hakiki deri, premium kumaş veya suni deri seçimi yaparak, tamamen sizin tarzınızı yansıtan, eşsiz bir esere sahip olabilirsiniz.</p>",
+    
+    "faqs": [
+      {
+        "question": "İnce kolçak (kolluk) tasarımı koltuğun sağlamlığını etkiler mi?",
+        "answer": "Kesinlikle hayır. Konnes'in ince kolçakları, özel profiller ve fırınlanmış gürgen ağacı ile güçlendirilmiş bir iç iskelete sahiptir. Görsel olarak ne kadar zarif görünse de, dayanıklılık açısından oldukça sağlamdır."
+      },
+      {
+        "question": "Konnes modelinin oturum alanı geniş mi?",
+        "answer": "Evet. Konnes'in ince kolçak tasarımının en büyük avantajı budur. Standart kalın kolçaklı koltukların kolları içten yer çalarken, Konnes 240 cm'lik genişliğinin neredeyse tamamını net oturum alanı olarak size sunar."
+      },
+      {
+        "question": "Metal ayaklarda zamanla paslanma veya renk atması olur mu?",
+        "answer": "Hayır. Konnes modelinde kullanılan metal ayaklar, elektrostatik fırın boya ile kaplanmıştır. Çizilmelere ve paslanmaya karşı ekstra dirençlidir. Dilerseniz bu ayakları ahşap alternatifleriyle de değiştirebilirsiniz."
+      },
+      {
+        "question": "Farklı bir renk veya ölçü yaptırmak fiyatı çok etkiler mi?",
+        "answer": "Tüm koltuklarımız siparişiniz üzerine atölyelerimizde sıfırdan el işçiliği ile üretildiği için, 130 renk seçeneğimiz arasından yapacağınız renk değişimleri (aynı malzeme sınıfı içinde) fiyata etki etmez. Ölçü değişiklikleri ise kullanılan malzeme oranına göre adil bir şekilde yeniden hesaplanır."
+      }
+    ],
+
     "features": {
       "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Metal Ayaklar (Özelleştirilebilir)",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },

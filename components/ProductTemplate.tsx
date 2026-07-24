@@ -16,7 +16,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
   const waMessage = encodeURIComponent(`Merhaba, ${product.title} (Kod: ${product.sku}) hakkında fiyat ve detaylı bilgi almak istiyorum.`);
   const waUrl = `https://wa.me/905424895826?text=${waMessage}`;
 
-  // 1. BENZER ÜRÜNLER ALGORİTMASI (DÜZELTİLDİ: ID yerine kesin olan Slug kullanıldı)
+  // 1. BENZER ÜRÜNLER ALGORİTMASI
   let relatedProducts = products.filter(p => p.categorySlug === product.categorySlug && p.slug !== product.slug);
   
   // Eğer kendi kategorisinde 4'ten az ürün varsa, sitenin diğer ürünlerinden çekerek 4'e tamamla
@@ -80,14 +80,61 @@ export default function ProductTemplate({ product }: { product: Product }) {
         <span className="text-gray-900 truncate max-w-[200px] md:max-w-[400px]">{product.title}</span>
       </nav>
 
-      {/* ÜRÜN DETAY ALANI */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start">
+      {/* ÜRÜN DETAY ALANI ANA GRİD */}
+      <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative">
         
+        {/* SOL SÜTUN (GALERİ + UZUN AÇIKLAMA + SSS) */}
         <div className="lg:col-span-7 xl:col-span-8">
+          
+          {/* Ürün Görselleri */}
           <ProductGallery images={displayImages} title={product.title} />
+
+          {/* Sadece uzun açıklama veya SSS varsa ayırıcı çizgi göster */}
+          {(product.longDescription || (product.faqs && product.faqs.length > 0)) && (
+            <div className="my-16 border-t border-gray-100"></div>
+          )}
+
+          {/* UZUN AÇIKLAMA (SEO METNİ) - Galeri Altı */}
+          {product.longDescription && (
+            <div className="mb-16">
+              <div 
+                className="text-sm md:text-base text-gray-600 font-light leading-relaxed [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6"
+                dangerouslySetInnerHTML={{ __html: product.longDescription }}
+              />
+            </div>
+          )}
+
+          {/* SIKÇA SORULAN SORULAR (FAQ) - Galeri Altı */}
+          {product.faqs && product.faqs.length > 0 && (
+            <div className="mb-8">
+              <h3 className="text-2xl font-serif font-light text-gray-900 mb-8">
+                Sıkça Sorulan Sorular
+              </h3>
+              <div className="space-y-4">
+                {product.faqs.map((faq, index) => (
+                  <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden">
+                    <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
+                      <h4 className="font-serif text-lg font-light">{faq.question}</h4>
+                      <span className="shrink-0 transition duration-300 group-open:-rotate-180">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
+                        </svg>
+                      </span>
+                    </summary>
+                    <p className="mt-4 leading-relaxed text-gray-600 font-light text-sm">
+                      {faq.answer}
+                    </p>
+                  </details>
+                ))}
+              </div>
+            </div>
+          )}
+
         </div>
 
-        <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-12 pt-4">
+        {/* SAĞ SÜTUN (ÜRÜN BİLGİLERİ VE BUTONLAR - STICKY) */}
+        {/* top-32 değeri, header'ın aşağı kayarken içeriği örtmesini engeller */}
+        <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4">
           
           <p className="text-[10px] text-gray-400 mb-4 uppercase tracking-[0.25em] font-medium">
             SKU: {product.sku}
@@ -179,7 +226,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
         </div>
       </div>
 
-      {/* DİĞER ÜRÜNLER ALANI */}
+      {/* DİĞER ÜRÜNLER ALANI (GRID DIŞINDA) */}
       {relatedProducts.length > 0 && (
         <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100">
           <div className="flex justify-between items-end mb-8 px-2">
@@ -199,7 +246,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
                   {rp.images && rp.images.length > 0 ? (
                     <Image src={rp.images[0]} alt={rp.title} fill sizes="(max-width: 768px) 100vw, 320px" className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.02]" />
                   ) : (
-                     <div className="flex items-center justify-center w-full h-full text-gray-300">Görsel Yok</div>
+                      <div className="flex items-center justify-center w-full h-full text-gray-300">Görsel Yok</div>
                   )}
                 </div>
                 <h4 className="text-sm text-gray-900 font-serif font-light tracking-wide truncate">
@@ -214,7 +261,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
         </div>
       )}
 
-      {/* TEKLİF VE İLETİŞİM FORMU */}
+      {/* TEKLİF VE İLETİŞİM FORMU (GRID DIŞINDA) */}
       <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 flex flex-col md:flex-row gap-16 xl:gap-32">
         <div className="md:w-1/3">
           <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">İletişime Geçin</span>

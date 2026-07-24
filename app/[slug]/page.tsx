@@ -233,6 +233,16 @@ export default async function DynamicRootPage(props: PageProps) {
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
 
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24 py-12 md:py-20">
+          
+          {/* YENİ EKLENEN BREADCRUMB */}
+          <nav className="flex items-center justify-center gap-2 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-8">
+            <Link href="/" className="hover:text-gray-900 transition-colors">Anasayfa</Link>
+            <span className="text-gray-300">/</span>
+            <Link href="/koleksiyonlar" className="hover:text-gray-900 transition-colors">Koleksiyonlar</Link>
+            <span className="text-gray-300">/</span>
+            <span className="text-gray-900 truncate max-w-[200px]">{category.title}</span>
+          </nav>
+
           <div className="mb-12 md:mb-20 text-center">
             {/* Sayfadaki tek H1 */}
             <h1 className="text-3xl md:text-5xl font-serif font-light text-gray-900 mb-4">{category.title}</h1>
