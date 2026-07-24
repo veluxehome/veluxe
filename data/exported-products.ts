@@ -1192,6 +1192,76 @@ export const products: Product[] = [
     ]
   },
   {
+    "sku": "VX-088",
+    "title": "Nuvola Kavisli Puf Deri Kanepe",
+    "slug": "nuvola-kavisli-puf-deri-kanepe",
+    "categorySlug": "modern-koltuk-takimlari",
+    "images": [
+      "/wp-content/uploads/2024/10/nuvola-taba-1.webp",
+      "/wp-content/uploads/2024/10/nuvola-taba-2.webp",
+      "/wp-content/uploads/2024/10/nuvola-taba-3.webp",
+      "/wp-content/uploads/2024/10/nuvola-taba-4.webp",
+      "/wp-content/uploads/2024/10/nuvola-taba-5.webp",
+      "/wp-content/uploads/2024/10/nuvola-taba-6.webp"
+    ],
+    "shortDescription": "Akıcı kavisleri ve yere yakın pofuduk tasarımıyla <strong>Nuvola</strong>, yaşam alanlarınıza organik bir sıcaklık ve modern bir şıklık katmak için tasarlandı. Sıradan köşeli formları reddeden bu <b>özel tasarım deri kanepe</b>, heykelsi masif ahşap ayaklarıyla dikkat çekerken, samimi ve davetkar bir lounge atmosferi yaratır.<br/><br/>60 cm ideal oturum derinliği ve ergonomik dolgun yapısı sayesinde sizi sarıp sarmalayacak olan Nuvola, birinci sınıf fırınlanmış gürgen iskeleti ve 35 DNS soft süngeriyle yıllara meydan okur. Görseldeki özel taba, asil siyah ve aydınlık krem renk alternatifleriyle sunulan premium deri kaplaması, evinize sofistike bir dokunuş yapar.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Nuvola: Kavislerin Büyüleyici Ergonomisi</h2><p>Doğanın akıcı formlarından ilham alan <strong>Nuvola Kavisli Puf Deri Kanepe</strong>, keskin köşelerden tamamen uzak, bütüncül ve pofuduk bir silüete sahiptir. Bu yumuşak hatlar, mekana sadece estetik bir akıcılık katmakla kalmaz, aynı zamanda çocuklu aileler için de çarpma riskini en aza indiren güvenli bir yaşam alanı sunar. İddialı ama bir o kadar da rahatlatıcı tasarımıyla salonunuzun tartışmasız odak noktası olmaya adaydır.</p><h2>Heykelsi Ahşap Ayaklar ve Lounge Konforu</h2><p>Tasarımın en çarpıcı detaylarından biri olan organik formlu, heykelsi masif ahşap ayaklar, koltuğun modern deri görünümüne doğal ve sıcak bir kontrast ekler. Nuvola'nın 40 cm'lik oturum yüksekliği, yere daha yakın 'lounge' tarzı bir konfor sunarak bedeninizi doğal bir dinlenme pozisyonuna teşvik eder. İç iskelette kullanılan fırınlanmış gürgen ağacı ve yüksek yoğunluklu sünger yapısı sayesinde, o dolgun görünümünü yıllar süren yoğun kullanımda bile kaybetmez.</p><h2>Sizin Renginiz, Sizin Tarzınız</h2><p>250 cm'lik cömert genişliği ve 110 cm'lik dış derinliği ile kalabalık misafirlerinizi veya uzanarak film izleme keyfini rahatlıkla destekler. Taba, siyah ve krem renklerindeki premium deri dokusu lüks hissini zirveye taşırken; dileyen müşterilerimiz için patili dostlara dayanıklı, kolay silinebilir premium kumaş alternatifleri ile de tamamen size özel üretilebilmektedir.</p>",
+    
+    "faqs": [
+      {
+        "question": "Nuvola modelinin yere yakın (lounge) tasarımı kullanım açısından avantajlı mıdır?",
+        "answer": "Evet. 40 cm'lik oturum yüksekliği ve geniş pofuduk yapısı, bedeni daha rahat ve yaygın bir pozisyona teşvik ederek ekstra bir rahatlama hissi yaratır. Günün yorgunluğunu atmak ve uzun süreli dinlenmeler için ideal ergonomiyi sunar."
+      },
+      {
+        "question": "Kavisli ve pofuduk gövdede zamanla çökme veya form kaybı yaşanır mı?",
+        "answer": "Hayır. Nuvola'nın o tok ve dolgun görünümü, 35 DNS yüksek yoğunluklu soft sünger ve sarsılmaz fırınlanmış gürgen iskelet kombinasyonuyla elde edilir. Uzun yıllar formunu ve estetik dolgunluğunu korur."
+      },
+      {
+        "question": "Tasarımda kullanılan heykelsi ahşap ayakların rengi değiştirilebilir mi?",
+        "answer": "Standart olarak koltuğun doğal hatlarına ve deri renklerine en uygun ceviz/meşe tonlarında masif ahşap uygulanmaktadır. Ancak özel siparişlerinizde mekanınızın ahşap detaylarına uyumlu farklı cila renkleri de uygulanabilmektedir."
+      },
+      {
+        "question": "Evcil hayvanım var, deri yerine farklı bir kaplama seçebilir miyim?",
+        "answer": "Kesinlikle. Nuvola'nın formuna çok yakışacak, kedi/köpek tırnaklarına karşı ekstra dirençli ve kolay temizlenebilir leke tutmayan premium kumaş (örneğin nubuk veya bukle) kartelalarımız mevcuttur."
+      }
+    ],
+
+    "features": {
+      "dimensions": "G: 250 cm / D: 110 cm / Y: 80 cm",
+      "material": "Premium Deri (Kumaş seçeneği mevcuttur)",
+      "legs": "Organik Formlu Masif Ahşap Ayaklar",
+      "sponge": "35 DNS Yüksek Yoğunluklu Soft Sünger",
+      "frame": "Fırınlanmış Gürgen Ağacı"
+    },
+    "colors": [
+      {
+        "name": "Taba",
+        "hex": "#8b5a2b",
+        "slug": "nuvola-kavisli-puf-deri-kanepe-taba",
+        "image": "/wp-content/uploads/2024/10/nuvola-taba-1.webp"
+      },
+      {
+        "name": "Siyah",
+        "hex": "#2b2b2b",
+        "slug": "nuvola-kavisli-puf-deri-kanepe-siyah",
+        "image": "/wp-content/uploads/2024/10/nuvola-siyah-1.webp"
+      },
+      {
+        "name": "Krem",
+        "hex": "#f5f5dc",
+        "slug": "nuvola-kavisli-puf-deri-kanepe-krem",
+        "image": "/wp-content/uploads/2024/10/nuvola-krem-1.webp"
+      },
+      {
+        "name": "Haki",
+        "hex": "#455735",
+        "slug": "nuvola-kavisli-puf-deri-kanepe-haki",
+        "image": "/wp-content/uploads/2024/10/nuvola-haki-1.webp"
+      }
+    ]
+  },
+  {
     "sku": "VX-005",
     "title": "Lucente İtalyan Deri Modern Koltuk",
     "slug": "lucente-italyan-deri-modern-koltuk",

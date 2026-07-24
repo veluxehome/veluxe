@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   if (!product) return { title: 'Ürün Bulunamadı | Veluxe' };
 
   // HTML etiketlerini temizleyerek pürüzsüz bir meta açıklaması oluşturuyoruz
-  const cleanDescription = product.shortDescription.replace(/<[^>]*>?/gm, '').replace(/\\n/g, ' ').substring(0, 160);
+  const cleanDescription = product.shortDescription.replace(/<[^>]*>?/gm, '').replace(/\n/g, ' ').substring(0, 160);
 
   return {
     title: `${product.title} - Hakiki Deri Koltuk | Veluxe`,
