@@ -89,7 +89,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
         </div>
 
         {/* 2. SAĞ SÜTUN / DETAYLAR (Mobilde 2. sırada, Masaüstünde sağda sabit) */}
-        {/* lg:col-start-8 ve lg:row-span-2 özellikleri sayesinde masaüstü yapışkanlık korunur */}
         <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:col-start-8 xl:col-start-9 lg:row-span-2 w-full">
           
           <p className="text-[10px] text-gray-400 mb-4 uppercase tracking-[0.25em] font-medium">
@@ -137,21 +136,35 @@ export default function ProductTemplate({ product }: { product: Product }) {
             </div>
           </div>
 
-          <div className="flex flex-col sm:flex-row gap-4 mb-16">
-            <a 
-              href={waUrl} 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="flex-1 bg-[#25D366] hover:bg-[#1ebd5b] text-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-colors"
+          <div className="flex flex-col gap-4 mb-16">
+            <div className="flex flex-col sm:flex-row gap-4">
+              <a 
+                href={waUrl} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="flex-1 bg-[#25D366] hover:bg-[#1ebd5b] text-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-colors"
+              >
+                WhatsApp'tan Sor
+              </a>
+              <button 
+                onClick={() => document.getElementById('teklif-formu')?.scrollIntoView({ behavior: 'smooth' })}
+                className="flex-1 bg-[#111] hover:bg-black text-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-colors cursor-pointer"
+              >
+                Teklif İste
+              </button>
+            </div>
+            
+            {/* YENİ EKLENEN PDF BUTONU */}
+            <Link 
+              href={`/urun/${product.slug}/pdf`} 
+              target="_blank"
+              className="flex items-center justify-center gap-3 w-full border border-gray-200 hover:border-gray-900 text-gray-700 hover:text-gray-900 bg-[#fbfbfb] hover:bg-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-all"
             >
-              WhatsApp'tan Sor
-            </a>
-            <button 
-              onClick={() => document.getElementById('teklif-formu')?.scrollIntoView({ behavior: 'smooth' })}
-              className="flex-1 bg-[#111] hover:bg-black text-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-colors cursor-pointer"
-            >
-              Teklif İste
-            </button>
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+              Ürün Kartını PDF Olarak İndir
+            </Link>
           </div>
 
           <div className="border-t border-gray-100 pt-10">
