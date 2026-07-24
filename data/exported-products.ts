@@ -882,12 +882,34 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/flux-2.jpg",
       "/wp-content/uploads/2024/10/flux-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Flux </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Keskin köşeleri reddeden organik ve yumuşak hatlarıyla <strong>Flux</strong>, salonunuzda sizi şefkatle kucaklayacak bir konfor vahası yaratıyor. Ortadan ikiye bölünebilen akıllı modüler yapısı ve zemine güvenle basan kare formlu alçak ahşap ayaklarıyla bu <b>modern deri koltuk</b>, heybetli görünümünü pratik bir kullanımla buluşturuyor.<br/><br/>Standartların ötesine geçerek 70 cm net oturum derinliği sunan Flux, günün tüm stresini geride bırakacağınız eşsiz bir uzanma (lounge) hissiyatı vadediyor. %100 el işçiliğiyle şekillendirilen pofuduk formları, fırınlanmış gürgen iskeleti ve 35 DNS soft süngeriyle her bir detayı size özel olarak usta ellerde hayat buluyor.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. Tamamen el işçiliği ve organik sünger kesimleri nedeniyle standart ölçülerde milimetrik farklılıklar (ürünün size özel olmasının doğası gereği) görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Flux: Keskin Hatlara Veda, Organik Konfora Merhaba</h2><p>Modern mobilya tasarımında sıklıkla karşılaştığımız soğuk ve keskin hatlar, <strong>Flux İtalyan Deri Modern Koltuk</strong> ile yerini sıcak, davetkâr ve organik kıvrımlara bırakıyor. Adeta görsel olarak size yumuşaklığını hissettiren pofuduk ve bombeli yapısı, salonunuza girdiğiniz an sizi dinlenmeye davet eden bir enerji yayar. Gövdesini destekleyen kare formlu alçak ahşap ayakları ise, bu yumuşak bulut hissiyatını yere sağlam basan oturaklı bir zarafetle dengeler.</p><h2>Pratikliği Estetikle Buluşturan Bölünmüş Tasarım</h2><p>Devasa ve tek parça bir koltuğun taşıma zorluklarını tamamen ortadan kaldıran Flux, ortadan ikiye bölünebilen akıllı bir mimariye sahiptir. Bu tasarım, dar kapılardan ve koridorlardan geçişi inanılmaz derecede kolaylaştırırken, görsel olarak da koltuğa harika bir simetri ve ritim katar. Her iki modül de gizli bağlantı noktalarıyla birbirine sımsıkı kilitlenerek, oturum sırasında asla ayrılmayan tek parça bir sağlamlık sunar.</p><h2>El İşçiliğinin İmzası ve 70 cm'lik Derin Oturum</h2><p>Flux sıradan bir koltuk değil, gün sonu sığınağınızdır. Bu nedenle standart 65 cm'lik ölçüler yerine, içine gömülüp bacaklarınızı rahatça uzatabileceğiniz 70 cm'lik ekstra geniş net oturum derinliğiyle tasarlanmıştır. Yüksek yoğunluklu 35 DNS soft sünger ve %100 hakiki İtalyan derisi ile kaplanan her bir modelimiz, fabrikasyon kalıplardan değil, ustalarımızın ellerinden çıkar. Bu %100 el işçiliği, koltuğun organik kıvrımlarında ve ölçülerinde milimetrik, tatlı farklılıklar yaratır; bu da Flux'unuzun dünyada sadece size ait ve eşsiz (bespoke) bir eser olduğunun en güzel kanıtıdır.</p>",
+    
+    "faqs": [
+      {
+        "question": "Flux modelinin oturum alanı ne kadar derin?",
+        "answer": "Standart modellerimizde iç oturum derinliği 65 cm iken, Flux modelimizde ekstra konforlu bir 'yayılma ve dinlenme' (lounge) hissiyatı yaratmak amacıyla net oturum derinliği 70 cm olarak özel tasarlanmıştır."
+      },
+      {
+        "question": "Koltuğun ortadan ikiye bölünebilmesi sağlamlığını etkiler mi?",
+        "answer": "Kesinlikle etkilemez. İki ayrı modül, kurulum esnasında alt kısımdan özel çelik bağlantı aparatlarıyla birbirine kilitlenir. Dar alanlarda taşıma kolaylığı sağlayan bu özellik, kullanım sırasında tek parça bir koltuk kadar sarsılmazdır."
+      },
+      {
+        "question": "Ölçülerde neden ufak farklılıklar olabiliyor?",
+        "answer": "Flux'un tasarımı gereği sünger kesimleri dik açılı değil, bombeli ve organiktir. %100 el işçiliği ile yapılan bu döşeme ve deri gerdirme işlemi sırasında, fabrikasyon ürünlerin aksine 1-2 cm'lik doğal tolerans payları oluşabilir. Bu, koltuğunuzun el yapımı ve benzersiz olduğunun bir göstergesidir."
+      },
+      {
+        "question": "Ahşap ayakların rengini parkelerime göre seçebilir miyim?",
+        "answer": "Evet, Flux modeline o karakteristik ağırlığı katan kare alçak ahşap ayakların cila tonu, salonunuzdaki diğer mobilyalara veya zemin renginize uyum sağlayacak şekilde kişiselleştirilebilmektedir."
+      }
+    ],
+
     "features": {
       "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
-      "sponge": "35 DNS Soft Sünger",
+      "legs": "Kare Ahşap Alçak Ayaklar",
+      "sponge": "35 DNS Soft Sünger (70cm Derinlik)",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
     "colors": [
@@ -1046,11 +1068,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/hera-5.jpg",
       "/wp-content/uploads/2024/10/hera-6.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Hera </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Sıra dışı formları ve heykelsi duruşuyla <strong>Hera</strong>, klasik ev dekorasyonunun ötesine geçerek lüks otel lobileri, estetik merkezleri ve prestijli ofisler için tasarlandı. Yuvarlak hatları ve mekanı saran yenilikçi tasarımıyla bu <b>modern deri koltuk</b>, misafirlerinize unutulmaz bir ilk izlenim sunar.<br/><br/>Standart 210 cm genişliğiyle kusursuz bir orantıya sahip olan Hera'nın en belirgin özelliği, ön kısmında yer alan sökülebilir döner panel (kapak) sistemidir. Bu inovatif tasarım sayesinde koltuğunuzu dilerseniz panelli yekpare bir formda, dilerseniz paneli sökerek ahşap veya metal ayakları açıkta kalacak şekilde kullanabilirsiniz.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Hera: Sınırları Aşan Heykelsi Zarafet</h2><p>Bazı mobilyalar sadece oturmak için değil, mekana sanatsal bir karakter ve otorite katmak için tasarlanır. <strong>Hera İtalyan Deri Modern Koltuk</strong>, keskin köşeleri ve alışılagelmiş formları tamamen reddeden oval, akıcı ve heykelsi yapısıyla tam olarak böyle bir başyapıttır. Ev kullanımından ziyade; lüks otel lobileri, estetik klinikleri, güzellik merkezleri ve prestijli holding binaları gibi 'ilk izlenimin' her şey olduğu sıra dışı mekanlar için özel olarak kurgulanmıştır.</p><h2>İnovatif Tasarım: Sökülebilir Ön Panel</h2><p>Hera'yı muadillerinden ayıran en büyük mühendislik ve tasarım harikası, ön gövdesini kusursuz bir kavisle saran sökülebilir döner panel (kapak) sistemidir. Bu inovatif panel, koltuğa yere sıfır, yekpare ve fütüristik bir görünüm kazandırır. Dilerseniz bu paneli çok pratik bir şekilde çıkararak, koltuğunuzu iç kısmında yer alan zarif metal veya ahşap ayaklarıyla, yerden yüksek daha ferah bir formda da kullanabilirsiniz. Tek bir tasarımla iki farklı kimlik sunan Hera, işletmenizin veya mekanınızın değişen dekorasyon konseptlerine anında uyum sağlar.</p><h2>Göz Alıcı Karşılama, Benzersiz Konfor</h2><p>Dışarıdan bakıldığında modern sanat müzesinden fırlamış gibi duran Hera, sunduğu oturum konforuyla da şaşırtmayı başarır. Tasarımın o kusursuz oval formunun (altın oranının) bozulmaması adına standart 210 cm genişliğinde kurgulanmış olup, lobi veya bekleme alanlarında mekanı daraltmadan mükemmel bir uyumla konumlandırılır. İç yapısındaki 35 DNS soft sünger ve fırınlanmış gürgen iskelet, %100 hakiki İtalyan derisinin kalitesiyle birleşerek misafirlerinize görsel bir şölenin yanı sıra üst düzey bir rahatlık sunar.</p>",
+    
+    "faqs": [
+      {
+        "question": "Hera modeli ev kullanımına hiç mi uygun değil?",
+        "answer": "Hera oldukça iddialı, avangart ve heykelsi bir tasarımdır. Ağırlıklı olarak lüks işletmeler ve lobiler tarafından 'karşılama (statement)' koltuğu olarak tercih edilse de, sıra dışı ve cesur bir stile sahip modern evlerde, geniş antrelerde veya büyük giyinme odalarında harika bir odak noktası oluşturabilir."
+      },
+      {
+        "question": "Önündeki sökülebilir panelin / kapağın amacı nedir?",
+        "answer": "Koltuğa yekpare, akıcı ve fütüristik bir görünüm kazandırmaktır. İsteğinize bağlı olarak sökülebilir yapısı sayesinde kapağı çıkarıp, koltuğunuzu ahşap veya metal ayakları üzerinde yükselen daha hafif bir tasarıma anında dönüştürebilirsiniz."
+      },
+      {
+        "question": "Genişliği neden 210 cm olarak belirlendi?",
+        "answer": "Hera'nın sahip olduğu o kusursuz oval ve akıcı formun (tasarımsal altın oranın) bozulmaması ve bekleme salonlarında (lobilerde) alanın daha işlevsel kullanılabilmesi için 210 cm genişlik en ideal ölçü olarak belirlenmiştir."
+      },
+      {
+        "question": "Kapak söküldüğünde ortaya çıkacak ayakları biz seçebiliyor muyuz?",
+        "answer": "Evet, ön kapağı çıkardığınızda görünür olacak ayakları, işletmenizin veya mekanınızın genel konseptine göre paslanmaz metal veya sıcak tonlarda ahşap olarak sipariş esnasında tercih edebilirsiniz."
+      }
+    ],
+
     "features": {
-      "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
+      "dimensions": "G: 210 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Gizli Ahşap/Metal Ayaklar & Sökülebilir Panel",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
@@ -1108,11 +1152,33 @@ export const products: Product[] = [
       "/wp-content/uploads/2024/10/luce-2.jpg",
       "/wp-content/uploads/2024/10/luce-3.jpg"
     ],
-    "shortDescription": "Hakiki deriden vazgeçemeyenlerin tercihi <b>Luce </b>Modern koltuk.\r\n\r\nYaşam alanınıza değer katan modern tasarımıyla evinizin veya ofisinizin baş köşesine layık.\r\n\r\nMütevazilikten uzak ve modern görünümüyle görenleri kendine hayran bırakacak.\r\n\r\nFarklı renk seçenekleri ile her mekana uyum sağlayacaktır.\r\n\r\n<span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    "shortDescription": "Dolu dolu gövdesi ve güven veren duruşuyla <strong>Luce</strong>, ailenizle geçireceğiniz sinema akşamlarının ve uzun sohbetlerin vazgeçilmez merkezi olmaya aday. Kübik hatları ve kalın kolçaklarıyla mekana güçlü bir karakter katan bu <b>modern deri koltuk</b>, minimalist metal ayakları sayesinde ağırbaşlılığını modern bir zarafetle dengeliyor.<br/><br/>Geniş ve pofuduk oturum minderlerinde ideal 65 cm net oturum derinliğini ve 35 DNS soft sünger teknolojisini barındıran Luce, fırınlanmış gürgen iskeletiyle yıllara meydan okur. 130'dan fazla hakiki İtalyan derisi veya çocuklu evler için kolay temizlenebilir premium kumaş seçenekleriyle tamamen ailenize özel boyutlandırılabilir.<br/><br/><span style=\"color: #800000;\"><em>Mekanınıza özel ölçüde üretim yapılabilmektedir. El işçiliği nedeniyle standart ölçülerde ufak değişiklikler görülebilir. Lütfen sipariş oluşturmadan önce renk tercihinizi belirtiniz.</em></span>",
+    
+    "longDescription": "<h2>Luce: Aile Boyu Konfor ve Güçlü Duruş</h2><p>Bir salonun kalbi, üzerinde paylaşılan anılarla atar. <strong>Luce İtalyan Deri Modern Koltuk</strong>, ince ve kırılgan tasarımların aksine, 'dolu dolu' ve tok gövdesiyle size ve ailenize sonsuz bir güven hissi verir. Kalın kolçakları ve geniş minderleriyle özellikle hafta sonu sinema keyifleri veya uzun süreli dinlenmeler için kusursuz bir konfor vahası yaratır. Kübik ve net çizgileri, tasarımın abartıya kaçmadan lüks, modern ve otoriter görünmesini sağlar.</p><h2>Minimalist Metal Ayaklar, Kusursuz Denge</h2><p>Luce'nin o heybetli ve tok gövdesi, zemine sıfır oturmak yerine, tasarımın modern kimliğini vurgulayan minimalist metal ayaklar üzerinde zarifçe yükselir. Bu ufak ama etkili detay, koltuğa hem estetik bir hafiflik katar hem de temizlik robotlarının rahatça çalışmasına olanak tanır. İç mimarisinde yer alan fırınlanmış gürgen ağacı, koltuğun sarsılmaz temelini oluştururken; 65 cm net oturum derinliği sunan 35 DNS yüksek yoğunluklu soft sünger, her oturuşta sizi şefkatle sararak günün tüm yorgunluğunu alır.</p><h2>Sizin Aileniz, Sizin Renkleriniz</h2><p>Luce modelini sadece bir mobilya değil, yaşam alanınızın bir parçası haline getirmek tamamen sizin elinizde. 240 cm'lik standart ölçüsü, salonunuzun fiziksel şartlarına veya ailenizin büyüklüğüne göre yeniden boyutlandırılabilir. 130'dan fazla renk seçeneği arasından doğal hakiki İtalyan derisini seçebileceğiniz gibi; patili dostlarınız veya küçük çocuklarınız varsa sıvı itici, kolay temizlenebilir premium kumaş alternatiflerimizi de değerlendirebilirsiniz.</p>",
+    
+    "faqs": [
+      {
+        "question": "Luce modeli neden özellikle 'sinema koltuğu' veya aile koltuğu olarak öneriliyor?",
+        "answer": "Kalın kolçakları, tok gövdesi ve omurgayı destekleyen 65 cm'lik ideal oturum derinliği sayesinde uzun süreli oturuşlarda ve uzanmalarda maksimum ergonomi sunduğu için, kalabalık aile kullanımına ve uzun televizyon/sinema saatlerine çok uygundur."
+      },
+      {
+        "question": "Koltuğun gövdesi çok kalın, zamanla süngerlerde çökme olur mu?",
+        "answer": "Hayır. Luce modelimizin o tok ve pofuduk görünümü, 35 DNS yüksek yoğunluklu soft sünger ve sarsılmaz fırınlanmış gürgen iskelet kombinasyonuyla elde edilir. Yıllar süren yoğun aile kullanımında bile formunu ve esnekliğini kaybetmez."
+      },
+      {
+        "question": "Görseldeki metal ayaklar yerine ahşap ayak yapılabilir mi?",
+        "answer": "Görseldeki modelimizde koltuğun modern hatlarını desteklemek için siyah metal ayaklar tercih edilmiştir. Ancak üretim aşamasında, mekanınızın dekorasyonuna uyum sağlaması adına bu ayakları ahşap seçeneklerle değiştirebilmekteyiz."
+      },
+      {
+        "question": "Çocuklu aileler için hakiki deri dışında kumaş seçeneği var mı?",
+        "answer": "Evet. Hakiki deri dışındaki kaplama tercihlerinizde, özellikle çocuklu veya evcil hayvanlı aileler için hayat kurtaran leke tutmayan, silinebilir ve premium kalitede kumaş/suni deri kartelalarımız bulunmaktadır."
+      }
+    ],
+
     "features": {
       "dimensions": "G: 240 cm / D: 100 cm / Y: 85 cm",
       "material": "%100 Orijinal Kumaş/Deri",
-      "legs": "Ahşap / Metal Ayaklar",
+      "legs": "Metal Ayaklar (Özelleştirilebilir)",
       "sponge": "35 DNS Soft Sünger",
       "frame": "Fırınlanmış Gürgen Ağacı"
     },
