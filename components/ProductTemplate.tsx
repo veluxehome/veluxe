@@ -11,11 +11,9 @@ export default function ProductTemplate({ product }: { product: Product }) {
   const [selectedColor, setSelectedColor] = useState<any>(null);
   const [selectedMaterial, setSelectedMaterial] = useState<MaterialType>('hakikiDeri');
   
-  // Form State Yönetimi
   const [formData, setFormData] = useState({ name: '', email: '', phone: '', message: '' });
   const [formStatus, setFormStatus] = useState<'idle' | 'loading' | 'success' | 'error'>('idle');
 
-  // Slider Referansı
   const relatedSliderRef = useRef<HTMLDivElement>(null);
 
   const materialNames: Record<MaterialType, string> = {
@@ -97,7 +95,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
     }
   };
 
-  // SLIDER KONTROLLERİ VE OTOMATİK OYNATMA
   const scrollNext = () => {
     if (relatedSliderRef.current) {
       const { scrollLeft, scrollWidth, clientWidth } = relatedSliderRef.current;
@@ -135,9 +132,12 @@ export default function ProductTemplate({ product }: { product: Product }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} 
       />
 
-      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16">
+      {/* KRİTİK ÇÖZÜM 1: En dış div'e w-full ve style kalkanı eklendi */}
+      <div 
+        className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16 w-full min-w-0" 
+        style={{ overflowX: 'clip' }}
+      >
         
-        {/* BREADCRUMB */}
         <nav className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-10 border-b border-gray-100 pb-4">
           <Link href="/" className="hover:text-gray-900 transition-colors">Anasayfa</Link>
           <span className="text-gray-300">/</span>
@@ -150,14 +150,16 @@ export default function ProductTemplate({ product }: { product: Product }) {
           <span className="text-gray-900 truncate max-w-[200px] md:max-w-[400px]">{product.title}</span>
         </nav>
 
-        {/* ÜRÜN DETAY ALANI ANA GRİD */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative">
+        {/* ANA GRİD */}
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative w-full">
           
-          <div className="lg:col-span-7 xl:col-span-8 order-1 w-full">
+          {/* KRİTİK ÇÖZÜM 2: Gallery Blowout'ı engellemek için min-w-0 eklendi */}
+          <div className="lg:col-span-7 xl:col-span-8 order-1 min-w-0 w-full">
             <ProductGallery images={displayImages} title={product.title} />
           </div>
 
-          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:col-start-8 xl:col-start-9 lg:row-span-2 w-full">
+          {/* KRİTİK ÇÖZÜM 3: Sağ sütun blowout'ı engellemek için min-w-0 eklendi */}
+          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:col-start-8 xl:col-start-9 lg:row-span-2 min-w-0 w-full">
             
             <div className="mb-4 border-b border-gray-100 pb-3">
               <p className="text-[10px] text-gray-400 uppercase tracking-[0.25em] font-medium">
@@ -165,12 +167,12 @@ export default function ProductTemplate({ product }: { product: Product }) {
               </p>
             </div>
             
-            <h1 className="text-2xl md:text-3xl lg:text-[1.75rem] xl:text-[1.5rem] font-normal text-gray-900 tracking-tight leading-[1.3] mb-6 font-serif text-balance">
+            <h1 className="text-2xl md:text-3xl lg:text-[1.75rem] xl:text-[1.5rem] font-normal text-gray-900 tracking-tight leading-[1.3] mb-6 font-serif text-balance break-words">
               {product.title}
             </h1>
 
             <div 
-              className="text-sm text-gray-500 font-light leading-relaxed mb-8 [&>b]:font-semibold [&>b]:text-gray-900 [&>strong]:font-semibold [&>strong]:text-gray-900"
+              className="text-sm text-gray-500 font-light leading-relaxed mb-8 break-words [&>b]:font-semibold [&>b]:text-gray-900 [&>strong]:font-semibold [&>strong]:text-gray-900"
               dangerouslySetInnerHTML={formatHTML(product.shortDescription)}
             />
 
@@ -213,7 +215,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
                 <svg className="w-5 h-5 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 8h16M4 16h16M8 4v4m8-4v4m-8 8v4m8-4v4" />
                 </svg>
-                <div className="text-sm text-gray-700 font-light tracking-wide">
+                <div className="text-sm text-gray-700 font-light tracking-wide break-words">
                   {product.features.dimensions}
                 </div>
               </div>
@@ -297,7 +299,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
           </div>
 
-          <div className="lg:col-span-7 xl:col-span-8 order-3 lg:col-start-1 w-full">
+          <div className="lg:col-span-7 xl:col-span-8 order-3 lg:col-start-1 min-w-0 w-full">
             
             {(product.longDescription || (product.faqs && product.faqs.length > 0)) && (
               <div className="mt-8 lg:mt-16 pt-8 lg:pt-0 border-t border-gray-100"></div>
@@ -306,7 +308,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
             {product.longDescription && (
               <div className="mb-16">
                 <div 
-                  className="text-sm md:text-base text-gray-600 font-light leading-relaxed [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6"
+                  className="text-sm md:text-base text-gray-600 font-light leading-relaxed break-words [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6"
                   dangerouslySetInnerHTML={{ __html: product.longDescription }}
                 />
               </div>
@@ -321,14 +323,14 @@ export default function ProductTemplate({ product }: { product: Product }) {
                   {product.faqs.map((faq, index) => (
                     <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden">
                       <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                        <h4 className="font-serif text-lg font-light">{faq.question}</h4>
+                        <h4 className="font-serif text-lg font-light break-words pr-4">{faq.question}</h4>
                         <span className="shrink-0 transition duration-300 group-open:-rotate-180">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                           </svg>
                         </span>
                       </summary>
-                      <p className="mt-4 leading-relaxed text-gray-600 font-light text-sm">
+                      <p className="mt-4 leading-relaxed text-gray-600 font-light text-sm break-words">
                         {faq.answer}
                       </p>
                     </details>
@@ -342,7 +344,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
         {/* DİĞER ÜRÜNLER ALANI */}
         {relatedProducts.length > 0 && (
-          <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100">
+          <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100 w-full min-w-0">
             <div className="flex justify-between items-center mb-8 px-2">
               <h3 className="text-xs md:text-sm font-semibold text-gray-900 uppercase tracking-[0.2em]">
                 İlginizi Çekebilecek Diğer Modeller
@@ -372,7 +374,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
             
             <div 
               ref={relatedSliderRef}
-              className="flex gap-4 md:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory px-2 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+              className="flex gap-4 md:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory px-2 w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
             >
               {relatedProducts.map((rp) => (
                 <RelatedProductCard key={rp.slug} rp={rp} />
@@ -381,10 +383,10 @@ export default function ProductTemplate({ product }: { product: Product }) {
           </div>
         )}
 
-        {/* TEKLİF VE İLETİŞİM FORMU */}
-        <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 flex flex-col md:flex-row gap-16 xl:gap-32">
-          {/* Form Alanı Kodlarınız... */}
-          <div className="md:w-1/3">
+        {/* TEKLİF FORMU */}
+        <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-16 xl:gap-24 w-full">
+          
+          <div className="md:col-span-1 min-w-0 w-full">
             <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">İletişime Geçin</span>
             <h2 className="text-2xl md:text-3xl font-serif font-light text-gray-900 tracking-tight mb-6">
               Özel Teklif İsteyin
@@ -393,14 +395,14 @@ export default function ProductTemplate({ product }: { product: Product }) {
               <strong>{product.title}</strong> modeli için özel ölçü, kumaş/deri tercihi veya proje bazlı toplu alımlarınız için detaylı fiyat teklifi alabilirsiniz.
             </p>
             <div className="flex flex-col gap-4">
-              <a href="tel:+905424895826" className="text-sm text-gray-900 font-light hover:underline block">T: +90 542 489 58 26</a>
-              <a href="mailto:info@veluxe.com.tr" className="text-sm text-gray-900 font-light hover:underline block">M: info@veluxe.com.tr</a>
+              <a href="tel:+905424895826" className="text-sm text-gray-900 font-light hover:underline block truncate">T: +90 542 489 58 26</a>
+              <a href="mailto:info@veluxe.com.tr" className="text-sm text-gray-900 font-light hover:underline block truncate">M: info@veluxe.com.tr</a>
             </div>
           </div>
 
-          <div className="md:w-2/3 max-w-2xl">
-            <form onSubmit={handleQuoteSubmit} className="flex flex-col gap-6">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="md:col-span-2 lg:col-span-2 max-w-3xl min-w-0 w-full">
+            <form onSubmit={handleQuoteSubmit} className="flex flex-col gap-6 w-full">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full">
                 <input 
                   type="text" 
                   placeholder="Adınız Soyadınız *" 
@@ -461,11 +463,10 @@ export default function ProductTemplate({ product }: { product: Product }) {
   );
 }
 
-// YENİ EKLENEN ALT BİLEŞEN: Her slider kartının görsel state'ini kendi içinde tutmasını sağlar
+// YENİ EKLENEN ALT BİLEŞEN
 function RelatedProductCard({ rp }: { rp: Product }) {
   const [activeImg, setActiveImg] = useState(rp.images && rp.images.length > 0 ? rp.images[0] : '');
 
-  // Aynı isimdeki renklerin tekrarlanmasını önlüyoruz
   const uniqueColors = rp.colors
     ? rp.colors.filter((color: any, index: number, self: any[]) => 
         index === self.findIndex((c) => c.name === color.name)
@@ -476,10 +477,10 @@ function RelatedProductCard({ rp }: { rp: Product }) {
   const extraColorsCount = uniqueColors.length - 4;
 
   return (
-    <div className="w-[260px] md:w-[320px] shrink-0 snap-start group cursor-pointer flex flex-col">
+    <div className="w-[260px] md:w-[320px] shrink-0 snap-start group cursor-pointer flex flex-col min-w-0">
       <Link 
         href={`/urun/${rp.slug}`} 
-        className="block relative w-full aspect-[4/3] bg-[#f9f9f9] mb-4 overflow-hidden border border-gray-100"
+        className="block relative w-full aspect-[4/3] bg-[#f9f9f9] mb-4 overflow-hidden border border-gray-100 group-hover:border-gray-300 transition-colors"
       >
         {activeImg ? (
           <Image 
@@ -503,7 +504,6 @@ function RelatedProductCard({ rp }: { rp: Product }) {
         </p>
       </Link>
       
-      {/* RENK PALETİ VE HOVER ETKİSİ */}
       {displayColors.length > 0 && (
         <div className="flex items-center gap-2 mt-3">
           {displayColors.map((color: any, idx: number) => (
@@ -514,7 +514,6 @@ function RelatedProductCard({ rp }: { rp: Product }) {
                 if (color.image) setActiveImg(color.image);
               }}
               onMouseLeave={() => {
-                // Üzerinden çekilince ilk resme dönmesini istemiyorsan bu fonksiyonu silebilirsin
                 if (rp.images && rp.images.length > 0) setActiveImg(rp.images[0]);
               }}
               className="w-4 h-4 rounded-full border border-gray-200 cursor-pointer transition-transform hover:scale-110"

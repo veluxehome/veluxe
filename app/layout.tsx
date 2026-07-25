@@ -92,7 +92,7 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.className} ${playfair.variable} bg-white text-gray-900 antialiased`}>
+      <body className={`${inter.className} ${playfair.variable} bg-white text-gray-900 antialiased overflow-x-clip`}>
         <Header />
         
         {/* Header üstte sabit kaldığı için içeriklerin ezilmemesi adına pt-24 (padding-top) eklendi */}

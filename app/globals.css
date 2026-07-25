@@ -42,3 +42,9 @@ body {
 .VIpgJd-ZVi9od-ORHb-OEVmcd {
     display: none !important;
 }
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
