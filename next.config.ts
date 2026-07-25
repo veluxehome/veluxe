@@ -17,9 +17,13 @@ const nextConfig: NextConfig = {
       // 3. PHP dosyaları ve RSS feed kalıntıları
       { source: '/:path*.php', destination: '/', permanent: true },
       { source: '/:path*/feed', destination: '/', permanent: true },
+      
+      // 4. ESKİ WOOCOMMERCE KATEGORİ YÖNLENDİRMELERİ
+      { source: '/urun-kategori/koltuk-takimi', destination: '/koleksiyonlar', permanent: true },
+      { source: '/urun-kategori/koltuk-takimi/', destination: '/koleksiyonlar', permanent: true },
+      { source: '/urun-kategori/:path*', destination: '/koleksiyonlar', permanent: true },
     ];
   },
-  // OPTİMİZASYON: unoptimized: true kaldırılarak WebP ve AVIF aktif edildi
   images: {
     formats: ['image/avif', 'image/webp'],
   },

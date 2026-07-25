@@ -36,7 +36,7 @@ export default function SitemapPage() {
               <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-5 text-sm font-light text-gray-600">
                 <li><Link href="/" className="hover:text-[#c25b19] transition-colors flex items-center gap-3"><span className="text-[#c25b19] text-[8px]">■</span> Anasayfa</Link></li>
                 <li><Link href="/koleksiyonlar" className="hover:text-[#c25b19] transition-colors flex items-center gap-3"><span className="text-[#c25b19] text-[8px]">■</span> Koleksiyonlar</Link></li>
-                <li><Link href="/kurumsal" className="hover:text-[#c25b19] transition-colors flex items-center gap-3"><span className="text-[#c25b19] text-[8px]">■</span> Hakkımızda</Link></li>
+                <li><Link href="/hakkimizda" className="hover:text-[#c25b19] transition-colors flex items-center gap-3"><span className="text-[#c25b19] text-[8px]">■</span> Hakkımızda</Link></li>
                 <li><Link href="/iletisim" className="hover:text-[#c25b19] transition-colors flex items-center gap-3"><span className="text-[#c25b19] text-[8px]">■</span> İletişim</Link></li>
                 <li><Link href="/blog" className="hover:text-[#c25b19] transition-colors flex items-center gap-3"><span className="text-[#c25b19] text-[8px]">■</span> Blog</Link></li>
               </ul>
