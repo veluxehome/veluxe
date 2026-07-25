@@ -103,11 +103,9 @@ export default function ProductTemplate({ product }: { product: Product }) {
       const { scrollLeft, scrollWidth, clientWidth } = relatedSliderRef.current;
       const maxScroll = scrollWidth - clientWidth;
       
-      // Sona gelindiyse başa dön (Tolerans payı 10px)
       if (scrollLeft >= maxScroll - 10) {
         relatedSliderRef.current.scrollTo({ left: 0, behavior: 'smooth' });
       } else {
-        // Mobilde 276px (kart+boşluk), Masaüstünde 352px (kart+boşluk) kaydır
         const scrollAmount = window.innerWidth < 768 ? 276 : 352;
         relatedSliderRef.current.scrollBy({ left: scrollAmount, behavior: 'smooth' });
       }
@@ -125,8 +123,8 @@ export default function ProductTemplate({ product }: { product: Product }) {
     if (relatedProducts.length > 0) {
       const interval = setInterval(() => {
         scrollNext();
-      }, 4000); // 4 saniyede bir kaydır
-      return () => clearInterval(interval); // Bileşen kaldırıldığında döngüyü temizle
+      }, 4000); 
+      return () => clearInterval(interval); 
     }
   }, [relatedProducts.length]);
 
@@ -342,16 +340,14 @@ export default function ProductTemplate({ product }: { product: Product }) {
           </div>
         </div>
 
-        {/* DİĞER ÜRÜNLER ALANI (Güncellendi) */}
+        {/* DİĞER ÜRÜNLER ALANI */}
         {relatedProducts.length > 0 && (
           <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100">
-            {/* BAŞLIK VE OKLAR */}
             <div className="flex justify-between items-center mb-8 px-2">
               <h3 className="text-xs md:text-sm font-semibold text-gray-900 uppercase tracking-[0.2em]">
                 İlginizi Çekebilecek Diğer Modeller
               </h3>
               
-              {/* ZARİF OKLAR */}
               <div className="flex gap-2">
                 <button 
                   onClick={scrollPrev} 
@@ -374,37 +370,12 @@ export default function ProductTemplate({ product }: { product: Product }) {
               </div>
             </div>
             
-            {/* KAYDIRMA ALANI - SCROLLBAR TAMAMEN GİZLENDİ */}
             <div 
               ref={relatedSliderRef}
               className="flex gap-4 md:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory px-2 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
             >
               {relatedProducts.map((rp) => (
-                <Link 
-                  key={rp.slug} 
-                  href={`/urun/${rp.slug}`} 
-                  className="w-[260px] md:w-[320px] shrink-0 snap-start group cursor-pointer block"
-                >
-                  <div className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-5 overflow-hidden border border-gray-100">
-                    {rp.images && rp.images.length > 0 ? (
-                      <Image 
-                        src={rp.images[0]} 
-                        alt={rp.title} 
-                        fill 
-                        sizes="(max-width: 768px) 100vw, 320px" 
-                        className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.02]" 
-                      />
-                    ) : (
-                        <div className="flex items-center justify-center w-full h-full text-gray-300">Görsel Yok</div>
-                    )}
-                  </div>
-                  <h4 className="text-sm text-gray-900 font-serif font-light tracking-wide truncate">
-                    {rp.title}
-                  </h4>
-                  <p className="text-[10px] text-gray-400 mt-1.5 uppercase tracking-[0.2em] font-medium">
-                    {rp.sku}
-                  </p>
-                </Link>
+                <RelatedProductCard key={rp.slug} rp={rp} />
               ))}
             </div>
           </div>
@@ -412,6 +383,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
         {/* TEKLİF VE İLETİŞİM FORMU */}
         <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 flex flex-col md:flex-row gap-16 xl:gap-32">
+          {/* Form Alanı Kodlarınız... */}
           <div className="md:w-1/3">
             <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">İletişime Geçin</span>
             <h2 className="text-2xl md:text-3xl font-serif font-light text-gray-900 tracking-tight mb-6">
@@ -486,5 +458,78 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
       </div>
     </>
+  );
+}
+
+// YENİ EKLENEN ALT BİLEŞEN: Her slider kartının görsel state'ini kendi içinde tutmasını sağlar
+function RelatedProductCard({ rp }: { rp: Product }) {
+  const [activeImg, setActiveImg] = useState(rp.images && rp.images.length > 0 ? rp.images[0] : '');
+
+  // Aynı isimdeki renklerin tekrarlanmasını önlüyoruz
+  const uniqueColors = rp.colors
+    ? rp.colors.filter((color: any, index: number, self: any[]) => 
+        index === self.findIndex((c) => c.name === color.name)
+      )
+    : [];
+    
+  const displayColors = uniqueColors.slice(0, 4);
+  const extraColorsCount = uniqueColors.length - 4;
+
+  return (
+    <div className="w-[260px] md:w-[320px] shrink-0 snap-start group cursor-pointer flex flex-col">
+      <Link 
+        href={`/urun/${rp.slug}`} 
+        className="block relative w-full aspect-[4/3] bg-[#f9f9f9] mb-4 overflow-hidden border border-gray-100"
+      >
+        {activeImg ? (
+          <Image 
+            src={activeImg} 
+            alt={rp.title} 
+            fill 
+            sizes="(max-width: 768px) 100vw, 320px" 
+            className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.02]" 
+          />
+        ) : (
+            <div className="flex items-center justify-center w-full h-full text-gray-300">Görsel Yok</div>
+        )}
+      </Link>
+      
+      <Link href={`/urun/${rp.slug}`} className="block">
+        <h4 className="text-sm text-gray-900 font-serif font-light tracking-wide truncate">
+          {rp.title}
+        </h4>
+        <p className="text-[10px] text-gray-400 mt-1.5 uppercase tracking-[0.2em] font-medium">
+          {rp.sku}
+        </p>
+      </Link>
+      
+      {/* RENK PALETİ VE HOVER ETKİSİ */}
+      {displayColors.length > 0 && (
+        <div className="flex items-center gap-2 mt-3">
+          {displayColors.map((color: any, idx: number) => (
+            <div
+              key={idx}
+              title={color.name}
+              onMouseEnter={() => {
+                if (color.image) setActiveImg(color.image);
+              }}
+              onMouseLeave={() => {
+                // Üzerinden çekilince ilk resme dönmesini istemiyorsan bu fonksiyonu silebilirsin
+                if (rp.images && rp.images.length > 0) setActiveImg(rp.images[0]);
+              }}
+              className="w-4 h-4 rounded-full border border-gray-200 cursor-pointer transition-transform hover:scale-110"
+              style={{ backgroundColor: color.hex }}
+            >
+              <span className="sr-only">{color.name}</span>
+            </div>
+          ))}
+          {extraColorsCount > 0 && (
+            <span className="text-[10px] text-gray-400 ml-1 font-medium tracking-wider">
+              +{extraColorsCount} Renk
+            </span>
+          )}
+        </div>
+      )}
+    </div>
   );
 }

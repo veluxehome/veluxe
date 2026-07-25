@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation';
 import { categories, products, blogs } from '@/data';
 import Link from 'next/link';
 import Image from 'next/image';
+import ProductCard from '@/components/ProductCard'; // YENİ EKLENDİ
 
 // NEXT.JS 15 UYUMLU PROMISE YAPISI
 type PageProps = {
@@ -215,7 +216,6 @@ export async function generateMetadata(props: PageProps): Promise<Metadata> {
   const category = categories.find((c) => c.slug === currentSlug);
   if (category) {
     return {
-      // Örnek Çıktı: Chester Koltuk Takımları - Hakiki Deri Koltuk Modelleri | Veluxe
       title: `${category.title} - Hakiki Deri Koltuk Modelleri | Veluxe`,
       description: `Veluxe ${category.title} koleksiyonu. %100 hakiki ve gerçek deri ile üretilen, evinize özel tasarım lüks deri koltukları keşfedin.`,
     };
@@ -249,10 +249,8 @@ export default async function DynamicRootPage(props: PageProps) {
   if (category) {
     const categoryProducts = products.filter(p => p.categorySlug === category.slug);
 
-    // Kategoriye ait SEO datası var mı kontrol et (Eğer yoksa genel Modern Koltuklar taslağını kullan)
     const content = seoData[category.slug] || seoData['modern-koltuk-takimlari'];
 
-    // FAQ SCHEMA (Google Rich Snippets için)
     const faqSchema = {
       "@context": "https://schema.org",
       "@type": "FAQPage",
@@ -269,7 +267,6 @@ export default async function DynamicRootPage(props: PageProps) {
 
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24 py-12 md:py-20">
           
-          {/* YENİ EKLENEN BREADCRUMB */}
           <nav className="flex items-center justify-center gap-2 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-8">
             <Link href="/" className="hover:text-gray-900 transition-colors">Anasayfa</Link>
             <span className="text-gray-300">/</span>
@@ -279,35 +276,22 @@ export default async function DynamicRootPage(props: PageProps) {
           </nav>
 
           <div className="mb-12 md:mb-20 text-center">
-            {/* Sayfadaki tek H1 */}
             <h1 className="text-3xl md:text-5xl font-serif font-light text-gray-900 mb-4">{category.title}</h1>
             <p className="text-sm text-gray-500 font-light tracking-[0.2em] uppercase">Premium Koleksiyon</p>
           </div>
           
-          {/* Ürün Listeleme: Masaüstünde 3'lü (lg:grid-cols-3) sıralanır */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16 max-w-[1400px] mx-auto">
+            {/* YENİ ÜRÜN KARTI BİLEŞENİ BURADA ÇAĞRILIYOR */}
             {categoryProducts.map((product) => (
-              <Link key={product.slug} href={`/urun/${product.slug}`} className="group flex flex-col cursor-pointer">
-                <div className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-5 overflow-hidden border border-gray-100">
-                  {product.images && product.images.length > 0 ? (
-                    <Image src={product.images[0]} alt={product.title} fill sizes="(max-width: 768px) 100vw, 33vw" className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.02]" />
-                  ) : (
-                      <div className="flex items-center justify-center w-full h-full text-gray-300">Görsel Yok</div>
-                  )}
-                </div>
-                <h4 className="text-sm text-gray-900 font-serif font-light tracking-wide truncate">{product.title}</h4>
-                <p className="text-[10px] text-gray-400 mt-1.5 uppercase tracking-[0.2em] font-medium">{product.sku}</p>
-              </Link>
+              <ProductCard key={product.slug} product={product} />
             ))}
           </div>
         </div>
 
-        {/* SEO VE SSS BÖLÜMÜ - Tek Sütun Alt Alta Yapı */}
         <section className="border-t border-gray-100 bg-[#fdfcfb] py-24 mt-10">
           <div className="max-w-4xl mx-auto px-4 sm:px-8">
             <div className="space-y-20">
               
-              {/* 1. SEO İÇERİK METNİ */}
               <div className="space-y-12 text-gray-800">
                 
                 <article>
@@ -374,7 +358,6 @@ export default async function DynamicRootPage(props: PageProps) {
 
               </div>
 
-              {/* 2. SIKÇA SORULAN SORULAR (ACCORDION) */}
               <div className="pt-16">
                 <div className="text-center mb-10">
                   <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">
