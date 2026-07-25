@@ -8,8 +8,9 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from 'next/script';
 
-const inter = Inter({ subsets: ["latin"] });
-const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair' });
+// OPTİMİZASYON: Fontlara swap ve preload özellikleri eklendi
+const inter = Inter({ subsets: ["latin"], display: 'swap', preload: true });
+const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair', display: 'swap', preload: true });
 
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.veluxe.com.tr'),
@@ -25,14 +26,14 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        {/* Google tag (gtag.js) */}
+        {/* OPTİMİZASYON: strategy lazyOnload yapıldı */}
         <Script
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-C2E9WXKQMP"
         />
         <Script
           id="google-gtag"
-          strategy="afterInteractive"
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];

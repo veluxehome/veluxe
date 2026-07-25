@@ -56,7 +56,7 @@ export default function ProductGallery({ images, title }: { images: string[], ti
     <>
       <div className="flex flex-col md:flex-row gap-4 lg:gap-8 items-start h-full">
         
-        {/* Küçük resimler (Tek resim olsa bile düzeni korumak için her zaman render edilir) */}
+        {/* Küçük resimler */}
         <div className="flex md:flex-col gap-4 overflow-x-auto md:overflow-y-auto scrollbar-hide order-2 md:order-1 w-full md:w-28 lg:w-32 shrink-0 pb-4 md:pb-0 md:max-h-[450px] xl:max-h-[650px]">
           {images.map((img, index) => (
             <button
@@ -82,8 +82,7 @@ export default function ProductGallery({ images, title }: { images: string[], ti
             src={mainImage}
             alt={title}
             fill
-            priority
-            // Hafif ve yavaş zoom efekti buraya eklendi
+            priority={true} // Açıkça belirtildi
             className="object-cover object-center transition-transform duration-[2000ms] ease-out group-hover:scale-[1.02]"
             sizes="(max-width: 1024px) 100vw, 75vw"
           />
@@ -109,7 +108,6 @@ export default function ProductGallery({ images, title }: { images: string[], ti
             </svg>
           </button>
 
-          {/* Oklar sadece 1'den fazla resim varsa çıkar */}
           {images.length > 1 && (
             <>
               <button className="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 w-16 h-16 md:w-24 md:h-24 hidden sm:flex items-center justify-center text-white/50 hover:text-white transition-all duration-300 z-10 cursor-pointer group" onClick={showPrev}>
@@ -125,7 +123,6 @@ export default function ProductGallery({ images, title }: { images: string[], ti
             </>
           )}
 
-          {/* Hatalı kod yerine doğru Lightbox resmi eklendi */}
           <div className="relative w-full h-full max-w-7xl max-h-[90vh] cursor-default" onClick={(e) => e.stopPropagation()}>
             <Image src={mainImage} alt={title} fill className="object-contain select-none" sizes="100vw" draggable={false} />
           </div>

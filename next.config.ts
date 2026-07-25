@@ -19,8 +19,9 @@ const nextConfig: NextConfig = {
       { source: '/:path*/feed', destination: '/', permanent: true },
     ];
   },
+  // OPTİMİZASYON: unoptimized: true kaldırılarak WebP ve AVIF aktif edildi
   images: {
-    unoptimized: true,
+    formats: ['image/avif', 'image/webp'],
   },
 };
 
