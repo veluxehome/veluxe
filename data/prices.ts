@@ -21,7 +21,7 @@ export const productPrices: Record<string, ProductPriceOption> = {
   "VX-026": { hakikiDeri: "220.000 TL", suniDeri: "125.000 TL", kumash: "75.000 TL" }, // Eleganze
   "VX-025": { hakikiDeri: "210.000 TL", suniDeri: "118.000 TL", kumash: "68.000 TL" }, // Fiore
   "VX-024": { hakikiDeri: "215.000 TL", suniDeri: "120.000 TL", kumash: "70.000 TL" }, // Flux
-  "VX-022": { hakikiDeri: "310.000 TL", suniDeri: "175.000 TL", kumash: "110.000 TL" }, // Gieda (3+1+1+Puf Takım)
+  "VX-022": { hakikiDeri: "450.000 TL", suniDeri: "210.000 TL", kumash: "195.000 TL" }, // Gieda (3+1+1+Puf Takım)
   "VX-021": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Hera
   "VX-003": { hakikiDeri: "240.000 TL", suniDeri: "135.000 TL", kumash: "85.000 TL" }, // Letra (Chester)
   "VX-004": { hakikiDeri: "210.000 TL", suniDeri: "118.000 TL", kumash: "68.000 TL" }, // Luce
@@ -34,7 +34,7 @@ export const productPrices: Record<string, ProductPriceOption> = {
   "VX-011": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Punes
   "VX-012": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Qui
   "VX-013": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Senta
-  "VX-015": { hakikiDeri: "285.000 TL", suniDeri: "160.000 TL", kumash: "98.000 TL" }, // Serena (Takım: 3+1)
+  "VX-015": { hakikiDeri: "450.000 TL", suniDeri: "210.000 TL", kumash: "195.000 TL" }, // Serena (Takım: 3+1+1+Puf Takım)
   "VX-014": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Sole
   "VX-017": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Stella
   "VX-018": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Stilo
@@ -52,8 +52,9 @@ export const productPrices: Record<string, ProductPriceOption> = {
   "VX-0058": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Cozy
   "VX-0060": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Velva
   "VX-0041-1": { hakikiDeri: "195.000 TL", suniDeri: "110.000 TL", kumash: "60.000 TL" }, // Fels
-  "VX-015-1": { hakikiDeri: "285.000 TL", suniDeri: "160.000 TL", kumash: "98.000 TL" }, // Bonte (Takım)
+  "VX-015-1": { hakikiDeri: "445.000 TL", suniDeri: "250.000 TL", kumash: "180.000 TL" }, // Bonte (Takım)
   "VX-0057-1-1": { hakikiDeri: "240.000 TL", suniDeri: "135.000 TL", kumash: "85.000 TL" }, // Torino (Chester)
+  "VX-088": { hakikiDeri: "205.000 TL", suniDeri: "115.000 TL", kumash: "80.000 TL" }, // Nuvola
 
   // --- BERJERLER (TEKLİLER) ---
   "VX-034": { hakikiDeri: "125.000 TL", suniDeri: "70.000 TL", kumash: "55.000 TL" }, // Amore Berjer
@@ -74,11 +75,11 @@ export const productPrices: Record<string, ProductPriceOption> = {
   "VX-0053-1": { hakikiDeri: "125.000 TL", suniDeri: "70.000 TL", kumash: "55.000 TL" }, // Nuova Berjer
 
   // --- PUFLAR (Fiyatları 0 TL) ---
-  "VX-0061": { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" }, // Cerchio Puf
-  "VX-0062": { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" }, // Forza Puf
-  "VX-0063": { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" }, // Fred Puf
-  "VX-0064": { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" }, // Inzio Puf
-  "VX-0065": { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" }, // Lento Puf
-  "VX-0066": { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" }, // Rosa Puf
-  "VX-0067": { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" }, // Viale Puf
+  "VX-0061": { hakikiDeri: "60.000 TL", suniDeri: "40.000 TL", kumash: "40.000 TL" }, // Cerchio Puf
+  "VX-0062": { hakikiDeri: "30.000 TL", suniDeri: "20.000 TL", kumash: "20.000 TL" }, // Forza Puf
+  "VX-0063": { hakikiDeri: "40.000 TL", suniDeri: "25.000 TL", kumash: "20.000 TL" }, // Fred Puf
+  "VX-0064": { hakikiDeri: "85.000 TL", suniDeri: "60.000 TL", kumash: "55.000 TL" }, // Inzio Puf
+  "VX-0065": { hakikiDeri: "40.000 TL", suniDeri: "27.000 TL", kumash: "25.000 TL" }, // Lento Puf
+  "VX-0066": { hakikiDeri: "30.000 TL", suniDeri: "20.000 TL", kumash: "20.000 TL" }, // Rosa Puf
+  "VX-0067": { hakikiDeri: "40.000 TL", suniDeri: "32.000 TL", kumash: "28.000 TL" }, // Viale Puf
 };
