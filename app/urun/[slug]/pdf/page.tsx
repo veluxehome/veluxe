@@ -56,7 +56,7 @@ export default function ProductPdfPage(props: { params: Promise<{ slug: string }
          {/* 1. KISIM: LOGO VE ÜRÜN BİLGİSİ */}
          <div className="flex justify-between items-center border-b-2 border-gray-900 pb-6 mb-8">
            <div className="relative h-10 w-48">
-             // Yenisi (Doğru ve Optimize Edilmiş Hali)
+
       <Image src="/images/logo/logo.webp" alt="Veluxe Logo" fill sizes="(max-width: 768px) 150px, 250px"className="object-contain object-left" />
            </div>
            <div className="text-right">
