@@ -12,6 +12,7 @@ export default function robots(): MetadataRoute.Robots {
         '/odeme/', 
         '/my-account/', 
         '/*?attribute_pa_*', 
+        '/*/pdf',
         '/*?gridcookie=*'
       ],
     },
