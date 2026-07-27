@@ -164,7 +164,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
               {product.title}
             </h1>
 
-            {/* iOS ÇÖZÜMÜ: overscroll-x-contain */}
             <div 
               className="text-sm text-gray-500 font-light leading-relaxed mb-8 break-words [&>b]:font-semibold [&>b]:text-gray-900 [&>strong]:font-semibold [&>strong]:text-gray-900 w-full max-w-full overflow-x-auto overscroll-x-contain"
               dangerouslySetInnerHTML={formatHTML(product.shortDescription)}
@@ -295,7 +294,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
           <div className="lg:col-span-7 xl:col-span-8 order-3 min-w-0 w-full max-w-full">
             
-            {/* iOS ÇÖZÜMÜ: overscroll-x-contain */}
             {product.longDescription && (
               <div className="mb-16 w-full max-w-full overflow-x-auto overscroll-x-contain pb-4">
                 <div 
@@ -333,7 +331,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
           </div>
         </div>
 
-        {/* DİĞER ÜRÜNLER ALANI */}
         {relatedProducts.length > 0 && (
           <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100 w-full min-w-0 max-w-full">
             <div className="flex justify-between items-center mb-8 px-2">
@@ -363,7 +360,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
               </div>
             </div>
             
-            {/* iOS ÇÖZÜMÜ: overscroll-x-contain eklendi */}
             <div 
               ref={relatedSliderRef}
               className="flex gap-4 md:gap-8 overflow-x-auto overscroll-x-contain pb-8 snap-x snap-mandatory px-2 w-full max-w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
@@ -375,7 +371,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
           </div>
         )}
 
-        {/* TEKLİF FORMU */}
         <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-16 xl:gap-24 w-full min-w-0 max-w-full">
           
           <div className="md:col-span-1 min-w-0 w-full">
@@ -468,7 +463,7 @@ function RelatedProductCard({ rp }: { rp: Product }) {
   const extraColorsCount = uniqueColors.length - 4;
 
   return (
-    <div className="w-[260px] md:w-[320px] shrink-0 snap-start group cursor-pointer flex flex-col min-w-0">
+    <div className="w-[260px] md:w-[320px] shrink-0 snap-start group cursor-pointer flex flex-col min-w-0 max-w-full">
       <Link 
         href={`/urun/${rp.slug}`} 
         className="block relative w-full aspect-[4/3] bg-[#f9f9f9] mb-4 overflow-hidden border border-gray-100 group-hover:border-gray-300 transition-colors"
@@ -478,7 +473,7 @@ function RelatedProductCard({ rp }: { rp: Product }) {
             src={activeImg} 
             alt={rp.title} 
             fill 
-            sizes="(max-width: 768px) 100vw, 320px" 
+            sizes="(max-width: 768px) 320px" 
             className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.02]" 
           />
         ) : (
@@ -486,17 +481,17 @@ function RelatedProductCard({ rp }: { rp: Product }) {
         )}
       </Link>
       
-      <Link href={`/urun/${rp.slug}`} className="block">
+      <Link href={`/urun/${rp.slug}`} className="block min-w-0">
         <h4 className="text-sm text-gray-900 font-serif font-light tracking-wide truncate">
           {rp.title}
         </h4>
-        <p className="text-[10px] text-gray-400 mt-1.5 uppercase tracking-[0.2em] font-medium">
+        <p className="text-[10px] text-gray-400 mt-1.5 uppercase tracking-[0.2em] font-medium truncate">
           {rp.sku}
         </p>
       </Link>
       
       {displayColors.length > 0 && (
-        <div className="flex items-center gap-2 mt-3">
+        <div className="flex flex-wrap items-center gap-2 mt-3 min-w-0 w-full">
           {displayColors.map((color: any, idx: number) => (
             <div
               key={idx}
@@ -507,14 +502,14 @@ function RelatedProductCard({ rp }: { rp: Product }) {
               onMouseLeave={() => {
                 if (rp.images && rp.images.length > 0) setActiveImg(rp.images[0]);
               }}
-              className="w-4 h-4 rounded-full border border-gray-200 cursor-pointer transition-transform hover:scale-110"
+              className="w-4 h-4 rounded-full border border-gray-200 cursor-pointer transition-transform hover:scale-110 shrink-0"
               style={{ backgroundColor: color.hex }}
             >
               <span className="sr-only">{color.name}</span>
             </div>
           ))}
           {extraColorsCount > 0 && (
-            <span className="text-[10px] text-gray-400 ml-1 font-medium tracking-wider">
+            <span className="text-[10px] text-gray-400 ml-1 font-medium tracking-wider whitespace-nowrap">
               +{extraColorsCount} Renk
             </span>
           )}

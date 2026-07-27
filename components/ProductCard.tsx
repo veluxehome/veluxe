@@ -9,7 +9,6 @@ export default function ProductCard({ product }: { product: Product }) {
     product.images && product.images.length > 0 ? product.images[0] : ''
   );
 
-  // Aynı isimdeki renklerin tekrarlanmasını önlüyoruz
   const uniqueColors = product.colors
     ? product.colors.filter((color: any, index: number, self: any[]) => 
         index === self.findIndex((c) => c.name === color.name)
@@ -20,7 +19,7 @@ export default function ProductCard({ product }: { product: Product }) {
   const extraColorsCount = uniqueColors.length - 4;
 
   return (
-    <div className="group flex flex-col cursor-pointer">
+    <div className="group flex flex-col cursor-pointer min-w-0 w-full">
       <Link 
         href={`/urun/${product.slug}`} 
         className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-5 overflow-hidden border border-gray-100 block"
@@ -38,18 +37,17 @@ export default function ProductCard({ product }: { product: Product }) {
         )}
       </Link>
       
-      <Link href={`/urun/${product.slug}`} className="block">
+      <Link href={`/urun/${product.slug}`} className="block min-w-0">
         <h4 className="text-sm text-gray-900 font-serif font-light tracking-wide truncate">
           {product.title}
         </h4>
-        <p className="text-[10px] text-gray-400 mt-1.5 uppercase tracking-[0.2em] font-medium">
+        <p className="text-[10px] text-gray-400 mt-1.5 uppercase tracking-[0.2em] font-medium truncate">
           {product.sku}
         </p>
       </Link>
 
-      {/* RENK PALETİ VE HOVER ETKİSİ */}
       {displayColors.length > 0 && (
-        <div className="flex items-center gap-2 mt-3">
+        <div className="flex flex-wrap items-center gap-2 mt-3 min-w-0 w-full">
           {displayColors.map((color: any, idx: number) => (
             <div
               key={idx}
@@ -60,7 +58,7 @@ export default function ProductCard({ product }: { product: Product }) {
               onMouseLeave={() => {
                 if (product.images && product.images.length > 0) setActiveImg(product.images[0]);
               }}
-              className="w-4 h-4 rounded-full border border-gray-200 cursor-pointer transition-transform hover:scale-110"
+              className="w-4 h-4 rounded-full border border-gray-200 cursor-pointer transition-transform hover:scale-110 shrink-0"
               style={{ backgroundColor: color.hex }}
             >
               <span className="sr-only">{color.name}</span>
@@ -68,7 +66,7 @@ export default function ProductCard({ product }: { product: Product }) {
           ))}
           
           {extraColorsCount > 0 && (
-            <span className="text-[10px] text-gray-400 ml-1 font-medium tracking-wider">
+            <span className="text-[10px] text-gray-400 ml-1 font-medium tracking-wider whitespace-nowrap">
               +{extraColorsCount} Renk
             </span>
           )}
