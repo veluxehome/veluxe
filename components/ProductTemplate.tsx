@@ -132,34 +132,30 @@ export default function ProductTemplate({ product }: { product: Product }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} 
       />
 
-      {/* KRİTİK ÇÖZÜM 1: En dış div'e w-full ve style kalkanı eklendi */}
-      <div 
-        className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16 w-full min-w-0" 
-        style={{ overflowX: 'clip' }}
-      >
+      {/* MUCİZE KOD BURADA: Sadece mobilde overflow-x-hidden eklendi. Masaüstünde lg:overflow-x-visible oluyor! */}
+      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16 w-full overflow-x-hidden lg:overflow-x-visible">
         
-        <nav className="flex items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-10 border-b border-gray-100 pb-4">
-          <Link href="/" className="hover:text-gray-900 transition-colors">Anasayfa</Link>
-          <span className="text-gray-300">/</span>
+        {/* BREADCRUMB ZIRHI: Metin uzunsa ... ile kesilecek, ekranı ASLA esnetmeyecek */}
+        <nav className="flex flex-nowrap items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-10 border-b border-gray-100 pb-4 w-full overflow-hidden">
+          <Link href="/" className="hover:text-gray-900 transition-colors whitespace-nowrap shrink-0">Anasayfa</Link>
+          <span className="text-gray-300 shrink-0">/</span>
           {category ? (
             <>
-              <Link href={`/${category.slug}`} className="hover:text-gray-900 transition-colors">{category.title}</Link>
-              <span className="text-gray-300">/</span>
+              <Link href={`/${category.slug}`} className="hover:text-gray-900 transition-colors whitespace-nowrap shrink-0">{category.title}</Link>
+              <span className="text-gray-300 shrink-0">/</span>
             </>
           ) : null}
-          <span className="text-gray-900 truncate max-w-[200px] md:max-w-[400px]">{product.title}</span>
+          <span className="text-gray-900 truncate min-w-0">{product.title}</span>
         </nav>
 
         {/* ANA GRİD */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative w-full">
           
-          {/* KRİTİK ÇÖZÜM 2: Gallery Blowout'ı engellemek için min-w-0 eklendi */}
           <div className="lg:col-span-7 xl:col-span-8 order-1 min-w-0 w-full">
             <ProductGallery images={displayImages} title={product.title} />
           </div>
 
-          {/* KRİTİK ÇÖZÜM 3: Sağ sütun blowout'ı engellemek için min-w-0 eklendi */}
-          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:col-start-8 xl:col-start-9 lg:row-span-2 min-w-0 w-full">
+          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:row-span-2 min-w-0 w-full">
             
             <div className="mb-4 border-b border-gray-100 pb-3">
               <p className="text-[10px] text-gray-400 uppercase tracking-[0.25em] font-medium">
@@ -177,7 +173,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
             />
 
             {hasAnyPrice && (
-              <div className="mb-8 bg-gray-50/50 p-4 border border-gray-100">
+              <div className="mb-8 bg-gray-50/50 p-4 border border-gray-100 w-full">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-[10px] font-medium text-gray-500 uppercase tracking-[0.2em]">
                     Kaplama Türü
@@ -211,11 +207,11 @@ export default function ProductTemplate({ product }: { product: Product }) {
             )}
 
             {product.features.dimensions && (
-              <div className="flex items-center gap-3 py-4 border-y border-gray-100 mb-8">
+              <div className="flex items-center gap-3 py-4 border-y border-gray-100 mb-8 w-full">
                 <svg className="w-5 h-5 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 8h16M4 16h16M8 4v4m8-4v4m-8 8v4m8-4v4" />
                 </svg>
-                <div className="text-sm text-gray-700 font-light tracking-wide break-words">
+                <div className="text-sm text-gray-700 font-light tracking-wide break-words min-w-0">
                   {product.features.dimensions}
                 </div>
               </div>
@@ -242,13 +238,13 @@ export default function ProductTemplate({ product }: { product: Product }) {
               </div>
             </div>
 
-            <div className="flex flex-col gap-4 mb-16">
-              <div className="flex flex-col sm:flex-row gap-4">
+            <div className="flex flex-col gap-4 mb-16 w-full">
+              <div className="flex flex-col sm:flex-row gap-4 w-full">
                 <a 
                   href={waUrl} 
                   target="_blank" 
                   rel="noopener noreferrer"
-                  className="flex-1 bg-[#25D366] hover:bg-[#1ebd5b] text-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-colors"
+                  className="flex-1 bg-[#25D366] hover:bg-[#1ebd5b] text-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-colors truncate"
                 >
                   WhatsApp'tan Sor
                 </a>
@@ -265,30 +261,30 @@ export default function ProductTemplate({ product }: { product: Product }) {
                 target="_blank"
                 className="flex items-center justify-center gap-3 w-full border border-gray-200 hover:border-gray-900 text-gray-700 hover:text-gray-900 bg-[#fbfbfb] hover:bg-white text-center py-4 px-6 text-xs uppercase tracking-[0.2em] font-medium transition-all"
               >
-                <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
-                Ürün Kartını PDF Olarak İndir
+                <span className="truncate">Ürün Kartını PDF Olarak İndir</span>
               </Link>
             </div>
 
-            <div className="border-t border-gray-100 pt-10">
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8">
+            <div className="border-t border-gray-100 pt-10 w-full">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8 w-full">
                 {Object.entries(product.features)
                   .filter(([key]) => key !== 'dimensions')
                   .map(([key, value]) => (
-                    <div key={key} className="flex gap-4">
+                    <div key={key} className="flex gap-4 w-full">
                       <div className="shrink-0 mt-1">
                         {key === 'material' && <svg className="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z" /></svg>}
                         {key === 'legs' && <svg className="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 6h16M4 10h16M4 14h16M4 18h16" /></svg>}
                         {key === 'sponge' && <svg className="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z" /></svg>}
                         {key === 'frame' && <svg className="w-5 h-5 text-gray-300" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M20 7l-8-4-8 4m16 0l-8 4m8-4v10l-8 4m0-10L4 7m8 4v10M4 7v10l8 4" /></svg>}
                       </div>
-                      <div>
+                      <div className="flex-1 min-w-0">
                         <h4 className="text-[10px] font-semibold text-gray-400 uppercase tracking-widest mb-1.5">
                           {key === 'material' ? 'Malzeme' : key === 'legs' ? 'Ayaklar' : key === 'sponge' ? 'Sünger' : key === 'frame' ? 'İskelet' : key}
                         </h4>
-                        <p className="text-xs text-gray-700 font-light leading-relaxed">
+                        <p className="text-xs text-gray-700 font-light leading-relaxed break-words">
                           {key === 'material' && hasAnyPrice ? materialNames[selectedMaterial] : value}
                         </p>
                       </div>
@@ -299,31 +295,27 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
           </div>
 
-          <div className="lg:col-span-7 xl:col-span-8 order-3 lg:col-start-1 min-w-0 w-full">
+          <div className="lg:col-span-7 xl:col-span-8 order-3 min-w-0 w-full">
             
-            {(product.longDescription || (product.faqs && product.faqs.length > 0)) && (
-              <div className="mt-8 lg:mt-16 pt-8 lg:pt-0 border-t border-gray-100"></div>
-            )}
-
             {product.longDescription && (
-              <div className="mb-16">
+              <div className="mb-16 w-full overflow-x-auto pb-4">
                 <div 
-                  className="text-sm md:text-base text-gray-600 font-light leading-relaxed break-words [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6"
+                  className="text-sm md:text-base text-gray-600 font-light leading-relaxed break-words min-w-full [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6 [&_*]:max-w-full [&_*]:!h-auto"
                   dangerouslySetInnerHTML={{ __html: product.longDescription }}
                 />
               </div>
             )}
 
             {product.faqs && product.faqs.length > 0 && (
-              <div className="mb-8">
+              <div className="mb-8 w-full">
                 <h3 className="text-2xl font-serif font-light text-gray-900 mb-8">
                   Sıkça Sorulan Sorular
                 </h3>
                 <div className="space-y-4">
                   {product.faqs.map((faq, index) => (
-                    <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden">
+                    <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden w-full">
                       <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
-                        <h4 className="font-serif text-lg font-light break-words pr-4">{faq.question}</h4>
+                        <h4 className="font-serif text-lg font-light break-words pr-4 flex-1 min-w-0">{faq.question}</h4>
                         <span className="shrink-0 transition duration-300 group-open:-rotate-180">
                           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
@@ -346,11 +338,11 @@ export default function ProductTemplate({ product }: { product: Product }) {
         {relatedProducts.length > 0 && (
           <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100 w-full min-w-0">
             <div className="flex justify-between items-center mb-8 px-2">
-              <h3 className="text-xs md:text-sm font-semibold text-gray-900 uppercase tracking-[0.2em]">
+              <h3 className="text-xs md:text-sm font-semibold text-gray-900 uppercase tracking-[0.2em] truncate">
                 İlginizi Çekebilecek Diğer Modeller
               </h3>
               
-              <div className="flex gap-2">
+              <div className="flex gap-2 shrink-0">
                 <button 
                   onClick={scrollPrev} 
                   className="w-9 h-9 flex items-center justify-center border border-gray-200 hover:border-gray-900 text-gray-500 hover:text-gray-900 transition-colors bg-white cursor-pointer" 
@@ -384,7 +376,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
         )}
 
         {/* TEKLİF FORMU */}
-        <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-16 xl:gap-24 w-full">
+        <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-16 xl:gap-24 w-full min-w-0">
           
           <div className="md:col-span-1 min-w-0 w-full">
             <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">İletişime Geçin</span>
@@ -463,7 +455,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
   );
 }
 
-// YENİ EKLENEN ALT BİLEŞEN
 function RelatedProductCard({ rp }: { rp: Product }) {
   const [activeImg, setActiveImg] = useState(rp.images && rp.images.length > 0 ? rp.images[0] : '');
 

@@ -4,12 +4,11 @@ import { menuItems } from '@/data';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#0a0a0a] text-gray-400 pt-20 pb-10 border-t border-gray-900 mt-16">
+    <footer className="bg-[#0a0a0a] text-gray-400 pt-20 pb-10 border-t border-gray-900 mt-16 w-full overflow-hidden">
       <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24">
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16">
           
-          {/* 1. SÜTUN: Logo, Açıklama ve Sosyal Medya */}
           <div className="lg:col-span-3 flex flex-col">
             <div className="relative h-8 w-40 mb-6 brightness-0 invert opacity-90">
               <Image src="/images/logo/logo.webp" alt="Veluxe" fill sizes="(max-width: 768px) 160px, 200px" className="object-contain object-left" />
@@ -33,7 +32,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* 2. SÜTUN: Veluxe Hızlı Menü */}
           <div className="lg:col-span-3">
             <h4 className="text-white text-xs font-semibold uppercase tracking-[0.2em] mb-6">Veluxe.</h4>
             <ul className="flex flex-col gap-4">
@@ -45,7 +43,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* 3. SÜTUN: Ürün Kategorileri */}
           <div className="lg:col-span-3">
             <h4 className="text-white text-xs font-semibold uppercase tracking-[0.2em] mb-6">Ürün Kategorileri</h4>
             <ul className="flex flex-col gap-4">
@@ -59,7 +56,6 @@ export default function Footer() {
             </ul>
           </div>
 
-          {/* 4. SÜTUN: İletişim Bilgileri */}
           <div className="lg:col-span-3">
             <h4 className="text-white text-xs font-semibold uppercase tracking-[0.2em] mb-6">İletişim Bilgileri</h4>
             <ul className="flex flex-col gap-4 text-sm font-light">
@@ -83,20 +79,19 @@ export default function Footer() {
 
         </div>
 
-        {/* ALT TELİF VE ELA TEKNOLOJİ LİNKİ */}
-        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p className="text-[11px] font-light tracking-wider text-center sm:text-left">
+        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row justify-between items-center gap-4 w-full">
+          <p className="text-[11px] font-light tracking-wider text-center sm:text-left shrink-0">
             &copy; {new Date().getFullYear()} VELUXE. Tüm Hakları Saklıdır. Ela Teknoloji ve Tasarım.
           </p>
-          <div className="flex items-center gap-6">
-            <Link href="/yardim/#kvkk" className="text-[10px] uppercase tracking-widest hover:text-white transition-colors">KVKK</Link>
-            <Link href="/yardim/#garanti" className="text-[10px] uppercase tracking-widest hover:text-white transition-colors">Garanti Koşulları</Link>
-            <Link href="/yardim/#mesafeli-satis" className="text-[10px] uppercase tracking-widest hover:text-white transition-colors">Mesafeli Satış</Link>
+          <div className="flex flex-wrap justify-center sm:justify-end items-center gap-x-6 gap-y-3">
+            <Link href="/yardim/#kvkk" className="text-[10px] uppercase tracking-widest hover:text-white transition-colors whitespace-nowrap">KVKK</Link>
+            <Link href="/yardim/#garanti" className="text-[10px] uppercase tracking-widest hover:text-white transition-colors whitespace-nowrap">Garanti Koşulları</Link>
+            <Link href="/yardim/#mesafeli-satis" className="text-[10px] uppercase tracking-widest hover:text-white transition-colors whitespace-nowrap">Mesafeli Satış</Link>
             <a 
               href="https://www.eladesign.org" 
               target="_blank" 
               rel="noopener noreferrer" 
-              className="text-[11px] font-medium tracking-wider text-gray-300 hover:text-white transition-colors underline"
+              className="text-[11px] font-medium tracking-wider text-gray-300 hover:text-white transition-colors underline whitespace-nowrap"
             >
               Web Tasarım Ela Teknoloji
             </a>
