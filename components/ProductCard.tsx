@@ -19,17 +19,17 @@ export default function ProductCard({ product }: { product: Product }) {
   const extraColorsCount = uniqueColors.length - 4;
 
   return (
-    <div className="group flex flex-col cursor-pointer min-w-0 w-full">
+    <div className="group flex flex-col cursor-pointer min-w-0 w-full max-w-full overflow-hidden">
       <Link 
         href={`/urun/${product.slug}`} 
-        className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-5 overflow-hidden border border-gray-100 block"
+        className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-4 md:mb-5 overflow-hidden border border-gray-100 block"
       >
         {activeImg ? (
           <Image 
             src={activeImg} 
             alt={product.title} 
             fill 
-            sizes="(max-width: 768px) 100vw, 33vw"
+            sizes="(max-width: 768px) 50vw, 33vw"
             className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.02]" 
           />
         ) : (
@@ -37,7 +37,7 @@ export default function ProductCard({ product }: { product: Product }) {
         )}
       </Link>
       
-      <Link href={`/urun/${product.slug}`} className="block min-w-0">
+      <Link href={`/urun/${product.slug}`} className="block min-w-0 w-full">
         <h4 className="text-sm text-gray-900 font-serif font-light tracking-wide truncate">
           {product.title}
         </h4>
@@ -47,7 +47,7 @@ export default function ProductCard({ product }: { product: Product }) {
       </Link>
 
       {displayColors.length > 0 && (
-        <div className="flex flex-wrap items-center gap-2 mt-3 min-w-0 w-full">
+        <div className="flex flex-wrap items-center gap-1.5 mt-3 min-w-0 w-full">
           {displayColors.map((color: any, idx: number) => (
             <div
               key={idx}
@@ -66,7 +66,7 @@ export default function ProductCard({ product }: { product: Product }) {
           ))}
           
           {extraColorsCount > 0 && (
-            <span className="text-[10px] text-gray-400 ml-1 font-medium tracking-wider whitespace-nowrap">
+            <span className="text-[9px] md:text-[10px] text-gray-400 ml-0.5 font-medium tracking-wider truncate">
               +{extraColorsCount} Renk
             </span>
           )}

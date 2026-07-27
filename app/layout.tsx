@@ -8,7 +8,6 @@ import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next";
 import Script from 'next/script';
 
-// OPTİMİZASYON: Fontlara swap ve preload özellikleri eklendi
 const inter = Inter({ subsets: ["latin"], display: 'swap', preload: true });
 const playfair = Playfair_Display({ subsets: ["latin"], variable: '--font-playfair', display: 'swap', preload: true });
 
@@ -26,7 +25,6 @@ export default function RootLayout({
   return (
     <html lang="tr">
       <head>
-        {/* OPTİMİZASYON: strategy lazyOnload yapıldı */}
         <Script
           strategy="lazyOnload"
           src="https://www.googletagmanager.com/gtag/js?id=G-C2E9WXKQMP"
@@ -40,16 +38,12 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               
-              // Google Analytics
               gtag('config', 'G-C2E9WXKQMP');
-              
-              // Google Ads
               gtag('config', 'AW-16761042328');
             `,
           }}
         />
 
-        {/* Local SEO - Schema.org Yapısal Veri (LocalBusiness) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -92,11 +86,10 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.className} ${playfair.variable} bg-white text-gray-900 antialiased overflow-x-clip`}>
+      <body className={`${inter.className} ${playfair.variable} bg-white text-gray-900 antialiased overflow-x-hidden w-full max-w-[100vw]`}>
         <Header />
         
-        {/* Header üstte sabit kaldığı için içeriklerin ezilmemesi adına pt-24 (padding-top) eklendi */}
-        <main className="min-h-screen pt-24 lg:pt-32">
+        <main className="min-h-screen pt-24 lg:pt-32 w-full max-w-[100vw] overflow-x-hidden flex flex-col">
           {children}
         </main>
         
