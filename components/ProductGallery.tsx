@@ -56,9 +56,10 @@ export default function ProductGallery({ images, title }: { images: string[], ti
 
   return (
     <>
-      <div className="flex flex-col md:flex-row gap-4 lg:gap-8 items-start h-full w-full overflow-hidden">
+      <div className="flex flex-col md:flex-row gap-4 lg:gap-8 items-start h-full w-full max-w-full min-w-0 overflow-hidden">
         
-        <div className="flex md:flex-col gap-4 overflow-x-auto md:overflow-y-auto scrollbar-hide [&::-webkit-scrollbar]:hidden order-2 md:order-1 w-full md:w-28 lg:w-32 shrink-0 pb-4 md:pb-0 md:max-h-[450px] xl:max-h-[650px]">
+        {/* iOS KESİN ÇÖZÜMÜ: max-w-full ve min-w-0 ile resim sayısının ekranı esnetmesi KESİN olarak engellendi */}
+        <div className="flex md:flex-col gap-4 overflow-x-auto md:overflow-y-auto scrollbar-hide [&::-webkit-scrollbar]:hidden order-2 md:order-1 w-full max-w-full min-w-0 md:w-28 lg:w-32 shrink-0 pb-4 md:pb-0 md:max-h-[450px] xl:max-h-[650px]">
           {images.map((img, index) => (
             <button
               key={index}
@@ -75,7 +76,7 @@ export default function ProductGallery({ images, title }: { images: string[], ti
         </div>
 
         <div 
-          className="relative w-full aspect-[4/3] xl:aspect-[16/11] flex-1 bg-[#f9f9f9] cursor-zoom-in group overflow-hidden order-1 md:order-2 border border-porto-secondary/10 hover:border-porto-secondary/30 transition-colors duration-700"
+          className="relative w-full max-w-full min-w-0 aspect-[4/3] xl:aspect-[16/11] flex-1 bg-[#f9f9f9] cursor-zoom-in group overflow-hidden order-1 md:order-2 border border-porto-secondary/10 hover:border-porto-secondary/30 transition-colors duration-700"
           onClick={() => setIsLightboxOpen(true)}
         >
           <Image

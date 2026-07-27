@@ -132,11 +132,10 @@ export default function ProductTemplate({ product }: { product: Product }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} 
       />
 
-      {/* MUCİZE KOD BURADA: Sadece mobilde overflow-x-hidden eklendi. Masaüstünde lg:overflow-x-visible oluyor! */}
-      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16 w-full overflow-x-hidden lg:overflow-x-visible">
+      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16 w-full max-w-full overflow-x-hidden lg:overflow-x-visible">
         
-        {/* BREADCRUMB ZIRHI: Metin uzunsa ... ile kesilecek, ekranı ASLA esnetmeyecek */}
-        <nav className="flex flex-nowrap items-center gap-2 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-10 border-b border-gray-100 pb-4 w-full overflow-hidden">
+        {/* Breadcrumb için iPhone zırhı: flex-wrap eklendi, uzunsa alta atacak. */}
+        <nav className="flex flex-wrap md:flex-nowrap items-center gap-x-2 gap-y-1 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-10 border-b border-gray-100 pb-4 w-full max-w-full overflow-hidden">
           <Link href="/" className="hover:text-gray-900 transition-colors whitespace-nowrap shrink-0">Anasayfa</Link>
           <span className="text-gray-300 shrink-0">/</span>
           {category ? (
@@ -145,17 +144,17 @@ export default function ProductTemplate({ product }: { product: Product }) {
               <span className="text-gray-300 shrink-0">/</span>
             </>
           ) : null}
-          <span className="text-gray-900 truncate min-w-0">{product.title}</span>
+          <span className="text-gray-900 truncate min-w-0 flex-1">{product.title}</span>
         </nav>
 
         {/* ANA GRİD */}
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative w-full">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative w-full max-w-full min-w-0">
           
-          <div className="lg:col-span-7 xl:col-span-8 order-1 min-w-0 w-full">
+          <div className="lg:col-span-7 xl:col-span-8 order-1 min-w-0 max-w-full w-full">
             <ProductGallery images={displayImages} title={product.title} />
           </div>
 
-          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:row-span-2 min-w-0 w-full">
+          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:row-span-2 min-w-0 max-w-full w-full">
             
             <div className="mb-4 border-b border-gray-100 pb-3">
               <p className="text-[10px] text-gray-400 uppercase tracking-[0.25em] font-medium">
@@ -167,13 +166,14 @@ export default function ProductTemplate({ product }: { product: Product }) {
               {product.title}
             </h1>
 
+            {/* KISA AÇIKLAMA ZIRHI: Panelden tablo vb. gelirse diye taşma engellendi */}
             <div 
-              className="text-sm text-gray-500 font-light leading-relaxed mb-8 break-words [&>b]:font-semibold [&>b]:text-gray-900 [&>strong]:font-semibold [&>strong]:text-gray-900"
+              className="text-sm text-gray-500 font-light leading-relaxed mb-8 break-words [&>b]:font-semibold [&>b]:text-gray-900 [&>strong]:font-semibold [&>strong]:text-gray-900 w-full max-w-full overflow-x-auto"
               dangerouslySetInnerHTML={formatHTML(product.shortDescription)}
             />
 
             {hasAnyPrice && (
-              <div className="mb-8 bg-gray-50/50 p-4 border border-gray-100 w-full">
+              <div className="mb-8 bg-gray-50/50 p-4 border border-gray-100 w-full max-w-full">
                 <div className="flex items-center justify-between mb-3">
                   <h3 className="text-[10px] font-medium text-gray-500 uppercase tracking-[0.2em]">
                     Kaplama Türü
@@ -207,7 +207,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
             )}
 
             {product.features.dimensions && (
-              <div className="flex items-center gap-3 py-4 border-y border-gray-100 mb-8 w-full">
+              <div className="flex items-center gap-3 py-4 border-y border-gray-100 mb-8 w-full max-w-full">
                 <svg className="w-5 h-5 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M4 8h16M4 16h16M8 4v4m8-4v4m-8 8v4m8-4v4" />
                 </svg>
@@ -238,7 +238,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
               </div>
             </div>
 
-            <div className="flex flex-col gap-4 mb-16 w-full">
+            <div className="flex flex-col gap-4 mb-16 w-full max-w-full">
               <div className="flex flex-col sm:flex-row gap-4 w-full">
                 <a 
                   href={waUrl} 
@@ -268,7 +268,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
               </Link>
             </div>
 
-            <div className="border-t border-gray-100 pt-10 w-full">
+            <div className="border-t border-gray-100 pt-10 w-full max-w-full">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-8 w-full">
                 {Object.entries(product.features)
                   .filter(([key]) => key !== 'dimensions')
@@ -295,10 +295,10 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
           </div>
 
-          <div className="lg:col-span-7 xl:col-span-8 order-3 min-w-0 w-full">
+          <div className="lg:col-span-7 xl:col-span-8 order-3 min-w-0 w-full max-w-full">
             
             {product.longDescription && (
-              <div className="mb-16 w-full overflow-x-auto pb-4">
+              <div className="mb-16 w-full max-w-full overflow-x-auto pb-4">
                 <div 
                   className="text-sm md:text-base text-gray-600 font-light leading-relaxed break-words min-w-full [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6 [&_*]:max-w-full [&_*]:!h-auto"
                   dangerouslySetInnerHTML={{ __html: product.longDescription }}
@@ -307,13 +307,13 @@ export default function ProductTemplate({ product }: { product: Product }) {
             )}
 
             {product.faqs && product.faqs.length > 0 && (
-              <div className="mb-8 w-full">
+              <div className="mb-8 w-full max-w-full">
                 <h3 className="text-2xl font-serif font-light text-gray-900 mb-8">
                   Sıkça Sorulan Sorular
                 </h3>
                 <div className="space-y-4">
                   {product.faqs.map((faq, index) => (
-                    <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden w-full">
+                    <details key={index} className="group border border-gray-100 bg-[#fbfbfb] p-6 rounded-sm [&_summary::-webkit-details-marker]:hidden w-full max-w-full">
                       <summary className="flex cursor-pointer items-center justify-between gap-1.5 text-gray-900">
                         <h4 className="font-serif text-lg font-light break-words pr-4 flex-1 min-w-0">{faq.question}</h4>
                         <span className="shrink-0 transition duration-300 group-open:-rotate-180">
@@ -336,7 +336,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
         {/* DİĞER ÜRÜNLER ALANI */}
         {relatedProducts.length > 0 && (
-          <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100 w-full min-w-0">
+          <div className="mt-20 md:mt-32 pt-12 border-t border-gray-100 w-full min-w-0 max-w-full">
             <div className="flex justify-between items-center mb-8 px-2">
               <h3 className="text-xs md:text-sm font-semibold text-gray-900 uppercase tracking-[0.2em] truncate">
                 İlginizi Çekebilecek Diğer Modeller
@@ -366,7 +366,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
             
             <div 
               ref={relatedSliderRef}
-              className="flex gap-4 md:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory px-2 w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+              className="flex gap-4 md:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory px-2 w-full max-w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
             >
               {relatedProducts.map((rp) => (
                 <RelatedProductCard key={rp.slug} rp={rp} />
@@ -376,7 +376,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
         )}
 
         {/* TEKLİF FORMU */}
-        <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-16 xl:gap-24 w-full min-w-0">
+        <div id="teklif-formu" className="mt-20 md:mt-32 pt-20 border-t border-gray-100 grid grid-cols-1 md:grid-cols-3 gap-16 xl:gap-24 w-full min-w-0 max-w-full">
           
           <div className="md:col-span-1 min-w-0 w-full">
             <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-3">İletişime Geçin</span>

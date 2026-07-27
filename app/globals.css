@@ -55,3 +55,9 @@ html, body {
   -webkit-overflow-scrolling: touch;
   overscroll-behavior-x: none;
 }
+
+html, body {
+  overflow-x: hidden;
+  width: 100vw;
+  position: relative;
+}
