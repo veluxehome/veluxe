@@ -61,3 +61,15 @@ html, body {
   width: 100vw;
   position: relative;
 }
+
+html, body {
+  width: 100% !important;
+  max-width: 100vw !important;
+  overflow-x: clip !important;
+  position: relative;
+}
+
+/* Sayfa geneli lastik gibi sağa sola esnemeyi durdurur */
+#__next, main, body {
+  overscroll-behavior-x: none; 
+}

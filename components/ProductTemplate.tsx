@@ -132,9 +132,8 @@ export default function ProductTemplate({ product }: { product: Product }) {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(productSchema) }} 
       />
 
-      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16 w-full max-w-full overflow-x-hidden lg:overflow-x-visible">
+      <div className="max-w-[1920px] mx-auto px-4 sm:px-8 lg:px-12 xl:px-24 py-8 md:py-16 w-full max-w-full">
         
-        {/* Breadcrumb için iPhone zırhı: flex-wrap eklendi, uzunsa alta atacak. */}
         <nav className="flex flex-wrap md:flex-nowrap items-center gap-x-2 gap-y-1 text-[10px] uppercase tracking-[0.2em] font-medium text-gray-400 mb-10 border-b border-gray-100 pb-4 w-full max-w-full overflow-hidden">
           <Link href="/" className="hover:text-gray-900 transition-colors whitespace-nowrap shrink-0">Anasayfa</Link>
           <span className="text-gray-300 shrink-0">/</span>
@@ -147,7 +146,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
           <span className="text-gray-900 truncate min-w-0 flex-1">{product.title}</span>
         </nav>
 
-        {/* ANA GRİD */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 xl:gap-20 items-start relative w-full max-w-full min-w-0">
           
           <div className="lg:col-span-7 xl:col-span-8 order-1 min-w-0 max-w-full w-full">
@@ -166,9 +164,9 @@ export default function ProductTemplate({ product }: { product: Product }) {
               {product.title}
             </h1>
 
-            {/* KISA AÇIKLAMA ZIRHI: Panelden tablo vb. gelirse diye taşma engellendi */}
+            {/* iOS ÇÖZÜMÜ: overscroll-x-contain */}
             <div 
-              className="text-sm text-gray-500 font-light leading-relaxed mb-8 break-words [&>b]:font-semibold [&>b]:text-gray-900 [&>strong]:font-semibold [&>strong]:text-gray-900 w-full max-w-full overflow-x-auto"
+              className="text-sm text-gray-500 font-light leading-relaxed mb-8 break-words [&>b]:font-semibold [&>b]:text-gray-900 [&>strong]:font-semibold [&>strong]:text-gray-900 w-full max-w-full overflow-x-auto overscroll-x-contain"
               dangerouslySetInnerHTML={formatHTML(product.shortDescription)}
             />
 
@@ -297,8 +295,9 @@ export default function ProductTemplate({ product }: { product: Product }) {
 
           <div className="lg:col-span-7 xl:col-span-8 order-3 min-w-0 w-full max-w-full">
             
+            {/* iOS ÇÖZÜMÜ: overscroll-x-contain */}
             {product.longDescription && (
-              <div className="mb-16 w-full max-w-full overflow-x-auto pb-4">
+              <div className="mb-16 w-full max-w-full overflow-x-auto overscroll-x-contain pb-4">
                 <div 
                   className="text-sm md:text-base text-gray-600 font-light leading-relaxed break-words min-w-full [&>h2]:text-2xl [&>h2]:font-serif [&>h2]:text-gray-900 [&>h2]:mt-10 [&>h2]:mb-4 [&>p]:mb-6 [&_*]:max-w-full [&_*]:!h-auto"
                   dangerouslySetInnerHTML={{ __html: product.longDescription }}
@@ -364,9 +363,10 @@ export default function ProductTemplate({ product }: { product: Product }) {
               </div>
             </div>
             
+            {/* iOS ÇÖZÜMÜ: overscroll-x-contain eklendi */}
             <div 
               ref={relatedSliderRef}
-              className="flex gap-4 md:gap-8 overflow-x-auto pb-8 snap-x snap-mandatory px-2 w-full max-w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
+              className="flex gap-4 md:gap-8 overflow-x-auto overscroll-x-contain pb-8 snap-x snap-mandatory px-2 w-full max-w-full [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
             >
               {relatedProducts.map((rp) => (
                 <RelatedProductCard key={rp.slug} rp={rp} />

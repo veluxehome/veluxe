@@ -58,8 +58,8 @@ export default function ProductGallery({ images, title }: { images: string[], ti
     <>
       <div className="flex flex-col md:flex-row gap-4 lg:gap-8 items-start h-full w-full max-w-full min-w-0 overflow-hidden">
         
-        {/* iOS KESİN ÇÖZÜMÜ: max-w-full ve min-w-0 ile resim sayısının ekranı esnetmesi KESİN olarak engellendi */}
-        <div className="flex md:flex-col gap-4 overflow-x-auto md:overflow-y-auto scrollbar-hide [&::-webkit-scrollbar]:hidden order-2 md:order-1 w-full max-w-full min-w-0 md:w-28 lg:w-32 shrink-0 pb-4 md:pb-0 md:max-h-[450px] xl:max-h-[650px]">
+        {/* iOS ÇÖZÜMÜ: overscroll-x-contain eklendi! Resimleri kaydırırken ekran sürüklenmez. */}
+        <div className="flex md:flex-col gap-4 overflow-x-auto overscroll-x-contain md:overflow-y-auto scrollbar-hide [&::-webkit-scrollbar]:hidden order-2 md:order-1 w-full max-w-full min-w-0 md:w-28 lg:w-32 shrink-0 pb-4 md:pb-0 md:max-h-[450px] xl:max-h-[650px]">
           {images.map((img, index) => (
             <button
               key={index}
