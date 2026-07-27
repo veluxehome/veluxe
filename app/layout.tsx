@@ -38,7 +38,10 @@ export default function RootLayout({
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               
+              // Google Analytics
               gtag('config', 'G-C2E9WXKQMP');
+              
+              // Google Ads
               gtag('config', 'AW-16761042328');
             `,
           }}
@@ -89,7 +92,8 @@ export default function RootLayout({
       <body className={`${inter.className} ${playfair.variable} bg-white text-gray-900 antialiased overflow-x-hidden w-full max-w-[100vw]`}>
         <Header />
         
-        <main className="min-h-screen pt-24 lg:pt-32 w-full max-w-[100vw] overflow-x-hidden flex flex-col">
+        {/* KRİTİK DÜZELTME: flex flex-col kaldırıldı, sayfanın daralması engellendi */}
+        <main className="min-h-screen pt-24 lg:pt-32 w-full max-w-[100vw] overflow-x-hidden block">
           {children}
         </main>
         
