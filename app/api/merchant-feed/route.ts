@@ -17,6 +17,14 @@ export async function GET() {
     const priceObj = productPrices[product.sku] || { hakikiDeri: "0 TL", suniDeri: "0 TL", kumash: "0 TL" };
     const materials: MaterialType[] = ['hakikiDeri', 'suniDeri', 'kumash'];
 
+    // Ürün görsellerini ana ve ek görseller olarak ayır
+    const images = product.images || [];
+    const mainImage = images[0] ? `${baseUrl}${images[0]}` : '';
+    const additionalImageTags = images
+      .slice(1)
+      .map((img) => `      <g:additional_image_link>${baseUrl}${img}</g:additional_image_link>`)
+      .join('\n');
+
     materials.forEach((matKey) => {
       const priceStr = priceObj[matKey] || "0 TL";
       const rawPrice = priceStr.replace(/[^0-9]/g, '');
@@ -25,7 +33,6 @@ export async function GET() {
       const variantSku = `${product.sku}-${matKey}`;
       const variantTitle = `${product.title} (${MATERIAL_LABELS[matKey]})`;
       const cleanDescription = product.shortDescription.replace(/<[^>]*>?/gm, '');
-      const imageUrl = product.images[0] ? `${baseUrl}${product.images[0]}` : '';
 
       xmlItems += `
         <item>
@@ -33,7 +40,8 @@ export async function GET() {
           <g:title><![CDATA[${variantTitle}]]></g:title>
           <g:description><![CDATA[${cleanDescription}]]></g:description>
           <g:link>${baseUrl}/urun/${product.slug}</g:link>
-          <g:image_link>${imageUrl}</g:image_link>
+          <g:image_link>${mainImage}</g:image_link>
+          ${additionalImageTags}
           <g:brand>Veluxe</g:brand>
           <g:condition>new</g:condition>
           <g:availability>in_stock</g:availability>
