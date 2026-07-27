@@ -453,15 +453,6 @@ export default function ProductTemplate({ product }: { product: Product }) {
 function RelatedProductCard({ rp }: { rp: Product }) {
   const [activeImg, setActiveImg] = useState(rp.images && rp.images.length > 0 ? rp.images[0] : '');
 
-  const uniqueColors = rp.colors
-    ? rp.colors.filter((color: any, index: number, self: any[]) => 
-        index === self.findIndex((c) => c.name === color.name)
-      )
-    : [];
-    
-  const displayColors = uniqueColors.slice(0, 4);
-  const extraColorsCount = uniqueColors.length - 4;
-
   return (
     <div className="w-[260px] md:w-[320px] shrink-0 snap-start group cursor-pointer flex flex-col min-w-0 max-w-full">
       <Link 
@@ -489,32 +480,6 @@ function RelatedProductCard({ rp }: { rp: Product }) {
           {rp.sku}
         </p>
       </Link>
-      
-      {displayColors.length > 0 && (
-        <div className="flex flex-wrap items-center gap-2 mt-3 min-w-0 w-full">
-          {displayColors.map((color: any, idx: number) => (
-            <div
-              key={idx}
-              title={color.name}
-              onMouseEnter={() => {
-                if (color.image) setActiveImg(color.image);
-              }}
-              onMouseLeave={() => {
-                if (rp.images && rp.images.length > 0) setActiveImg(rp.images[0]);
-              }}
-              className="w-4 h-4 rounded-full border border-gray-200 cursor-pointer transition-transform hover:scale-110 shrink-0"
-              style={{ backgroundColor: color.hex }}
-            >
-              <span className="sr-only">{color.name}</span>
-            </div>
-          ))}
-          {extraColorsCount > 0 && (
-            <span className="text-[10px] text-gray-400 ml-1 font-medium tracking-wider whitespace-nowrap">
-              +{extraColorsCount} Renk
-            </span>
-          )}
-        </div>
-      )}
     </div>
   );
 }
