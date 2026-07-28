@@ -47,11 +47,11 @@ export async function GET() {
           <g:availability>in_stock</g:availability>
           <g:price>${numericPrice}</g:price>
           <g:item_group_id>${product.sku}</g:item_group_id>
-          
+          <g:product_type><![CDATA[Mobilya > ${product.categorySlug.replace(/-/g, ' ').toUpperCase()}]]></g:product_type>
           <!-- EKLENEN KRİTİK MERCHANT CENTER ETİKETLERİ -->
           <g:identifier_exists>no</g:identifier_exists>
           <g:material><![CDATA[${MATERIAL_LABELS[matKey]}]]></g:material>
-          <g:google_product_category>443</g:google_product_category>
+          <g:google_product_category>436</g:google_product_category>
         </item>
       `;
     });
