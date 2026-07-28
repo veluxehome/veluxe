@@ -51,7 +51,7 @@ export async function GET() {
           <!-- EKLENEN KRİTİK MERCHANT CENTER ETİKETLERİ -->
           <g:identifier_exists>no</g:identifier_exists>
           <g:material><![CDATA[${MATERIAL_LABELS[matKey]}]]></g:material>
-          <g:google_product_category>412</g:google_product_category>
+          <g:google_product_category>443</g:google_product_category>
         </item>
       `;
     });
