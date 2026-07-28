@@ -98,26 +98,36 @@ export default function ProductGallery({ images, title }: { images: string[], ti
           onTouchMove={onTouchMoveEvent}
           onTouchEnd={onTouchEndEvent}
         >
+          {/* Kapatma Butonu - Belirgin siyah arka plan eklendi ve dokunma alanı büyütüldü */}
           <button 
-            className="absolute top-6 right-6 md:top-10 md:right-10 w-12 h-12 flex items-center justify-center text-white/50 hover:text-white transition-colors z-[110]"
+            className="absolute top-4 right-4 md:top-10 md:right-10 w-12 h-12 flex items-center justify-center bg-black/60 hover:bg-black text-white rounded-full transition-colors z-[110]"
             onClick={(e) => { e.stopPropagation(); setIsLightboxOpen(false); }}
             title="Kapat (ESC)"
           >
-            <svg className="w-8 h-8 md:w-10 md:h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.75} d="M6 18L18 6M6 6l12 12" />
+            <svg className="w-6 h-6 md:w-8 md:h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M6 18L18 6M6 6l12 12" />
             </svg>
           </button>
 
           {images.length > 1 && (
             <>
-              <button className="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 w-16 h-16 md:w-24 md:h-24 hidden sm:flex items-center justify-center text-white/50 hover:text-white transition-all duration-300 z-10 cursor-pointer group" onClick={showPrev}>
-                <svg className="w-12 h-12 md:w-16 md:h-16 transition-transform duration-300 group-hover:-translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 40 40">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.75} d="M32 20H8 M8 20l8-8 M8 20l8 8" />
+              {/* Önceki Resmi Göster Butonu - Mobilde gizleyen 'hidden sm:flex' kaldırıldı */}
+              <button 
+                className="absolute left-2 md:left-8 top-1/2 -translate-y-1/2 w-12 h-12 md:w-20 md:h-20 flex items-center justify-center bg-black/40 hover:bg-black/80 text-white rounded-full transition-all duration-300 z-[110] cursor-pointer" 
+                onClick={showPrev}
+              >
+                <svg className="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 40 40">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M32 20H8 M8 20l8-8 M8 20l8 8" />
                 </svg>
               </button>
-              <button className="absolute right-2 md:right-8 top-1/2 -translate-y-1/2 w-16 h-16 md:w-24 md:h-24 hidden sm:flex items-center justify-center text-white/50 hover:text-white transition-all duration-300 z-10 cursor-pointer group" onClick={showNext}>
-                <svg className="w-12 h-12 md:w-16 md:h-16 transition-transform duration-300 group-hover:translate-x-2" fill="none" stroke="currentColor" viewBox="0 0 40 40">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={0.75} d="M8 20h24 M32 20l-8-8 M32 20l-8 8" />
+              
+              {/* Sonraki Resmi Göster Butonu - Mobilde gizleyen 'hidden sm:flex' kaldırıldı */}
+              <button 
+                className="absolute right-2 md:right-8 top-1/2 -translate-y-1/2 w-12 h-12 md:w-20 md:h-20 flex items-center justify-center bg-black/40 hover:bg-black/80 text-white rounded-full transition-all duration-300 z-[110] cursor-pointer" 
+                onClick={showNext}
+              >
+                <svg className="w-8 h-8 md:w-12 md:h-12" fill="none" stroke="currentColor" viewBox="0 0 40 40">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M8 20h24 M32 20l-8-8 M32 20l-8 8" />
                 </svg>
               </button>
             </>

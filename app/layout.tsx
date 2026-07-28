@@ -89,11 +89,12 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.className} ${playfair.variable} bg-white text-gray-900 antialiased overflow-x-hidden w-full max-w-[100vw]`}>
+      {/* KRİTİK DÜZELTME: overflow-x-hidden yerine overflow-x-clip kullanıldı */}
+      <body className={`${inter.className} ${playfair.variable} bg-white text-gray-900 antialiased overflow-x-clip w-full max-w-[100vw]`}>
         <Header />
         
-        {/* KRİTİK DÜZELTME: flex flex-col kaldırıldı, sayfanın daralması engellendi */}
-        <main className="min-h-screen pt-24 lg:pt-32 w-full max-w-[100vw] overflow-x-hidden block">
+        {/* KRİTİK DÜZELTME: flex flex-col kaldırıldı, overflow-x-hidden yerine overflow-x-clip kullanıldı */}
+        <main className="min-h-screen pt-24 lg:pt-32 w-full max-w-[100vw] overflow-x-clip block">
           {children}
         </main>
         

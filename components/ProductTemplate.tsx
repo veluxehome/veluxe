@@ -152,7 +152,7 @@ export default function ProductTemplate({ product }: { product: Product }) {
             <ProductGallery images={displayImages} title={product.title} />
           </div>
 
-          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 pt-4 order-2 lg:row-span-2 min-w-0 max-w-full w-full">
+          <div className="lg:col-span-5 xl:col-span-4 flex flex-col lg:sticky lg:top-32 h-fit pt-4 order-2 lg:row-span-2 min-w-0 max-w-full w-full">
             
             <div className="mb-4 border-b border-gray-100 pb-3">
               <p className="text-[10px] text-gray-400 uppercase tracking-[0.25em] font-medium">
