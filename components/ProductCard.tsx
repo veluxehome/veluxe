@@ -1,5 +1,5 @@
 "use client";
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Product } from '@/types'; 
@@ -8,6 +8,9 @@ export default function ProductCard({ product }: { product: Product }) {
   const [activeImg, setActiveImg] = useState(
     product.images && product.images.length > 0 ? product.images[0] : ''
   );
+
+  const [isHovered, setIsHovered] = useState(false);
+  const [hoverIndex, setHoverIndex] = useState(0);
 
   const uniqueColors = product.colors
     ? product.colors.filter((color: any, index: number, self: any[]) => 
@@ -18,15 +21,42 @@ export default function ProductCard({ product }: { product: Product }) {
   const displayColors = uniqueColors.slice(0, 4);
   const extraColorsCount = uniqueColors.length - 4;
 
+  // GÜNCELLENEN KISIM: Üzerine gelince anında değişme mantığı
+  useEffect(() => {
+    let interval: NodeJS.Timeout;
+    
+    if (isHovered && product.images && product.images.length > 1) {
+      // 1. Adım: Fare geldiği an beklemeden HEMEN ikinci görsele (index 1) geç
+      setHoverIndex(1);
+      
+      // 2. Adım: Kalan görselleri 1.2 saniyede bir döndürmeye devam et
+      interval = setInterval(() => {
+        setHoverIndex((prev) => (prev + 1) % product.images.length);
+      }, 1200);
+      
+    } else {
+      // Fare çekildiğinde ilk görsele geri dön
+      setHoverIndex(0); 
+    }
+    
+    return () => clearInterval(interval);
+  }, [isHovered, product.images]);
+
+  const currentDisplayImage = isHovered && product.images && product.images.length > 1 
+    ? product.images[hoverIndex] 
+    : activeImg;
+
   return (
     <div className="group flex flex-col cursor-pointer min-w-0 w-full max-w-full overflow-hidden">
       <Link 
         href={`/urun/${product.slug}`} 
         className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-4 md:mb-5 overflow-hidden border border-gray-100 block"
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
       >
-        {activeImg ? (
+        {currentDisplayImage ? (
           <Image 
-            src={activeImg} 
+            src={currentDisplayImage} 
             alt={product.title} 
             fill 
             sizes="(max-width: 768px) 50vw, 33vw"

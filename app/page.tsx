@@ -108,6 +108,71 @@ export default function HomePage() {
         </a>
       </section>
 
+      {/* YENİ EKLENEN BÖLÜM: GÜVEN ŞERİDİ (USP BANNER) */}
+      <section className="w-full bg-[#fbfbfb] border-b border-gray-100 py-10 md:py-16">
+        <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24">
+          <div className="flex overflow-x-auto snap-x snap-mandatory scrollbar-hide md:grid md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-10 pb-4 md:pb-0 [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]">
+            
+            <div className="flex flex-col items-center text-center min-w-[260px] md:min-w-0 snap-center px-4">
+              <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-white border border-gray-200 text-gray-900 mb-5 shadow-sm">
+                <svg className="w-6 h-6 md:w-8 md:h-8 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                </svg>
+              </div>
+              <h3 className="text-sm md:text-base font-serif font-medium text-gray-900 mb-3 tracking-wide">
+                %100 Hakiki Deri
+              </h3>
+              <p className="text-xs md:text-sm text-gray-500 font-light leading-relaxed">
+                İtalyan derisi ve fırınlanmış gürgen iskelet ile zamana meydan okuyan dayanıklılık.
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center text-center min-w-[260px] md:min-w-0 snap-center px-4">
+              <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-white border border-gray-200 text-gray-900 mb-5 shadow-sm">
+                <svg className="w-6 h-6 md:w-8 md:h-8 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.83M11.42 15.17l3.86-3.86a3 3 0 00-4.24-4.24l-3.86 3.86M11.42 15.17l-4.98 4.98c-.18.18-.43.28-.69.28H4.5c-.83 0-1.5-.67-1.5-1.5v-1.25c0-.26.1-.51.28-.69l4.98-4.98" />
+                </svg>
+              </div>
+              <h3 className="text-sm md:text-base font-serif font-medium text-gray-900 mb-3 tracking-wide">
+                Kişiye Özel Ölçü
+              </h3>
+              <p className="text-xs md:text-sm text-gray-500 font-light leading-relaxed">
+                Mekanınızın mimarisine ve kişisel zevkinize göre milimetrik yeniden boyutlandırma.
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center text-center min-w-[260px] md:min-w-0 snap-center px-4">
+              <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-white border border-gray-200 text-gray-900 mb-5 shadow-sm">
+                <svg className="w-6 h-6 md:w-8 md:h-8 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                </svg>
+              </div>
+              <h3 className="text-sm md:text-base font-serif font-medium text-gray-900 mb-3 tracking-wide">
+                Ücretsiz 3D Destek
+              </h3>
+              <p className="text-xs md:text-sm text-gray-500 font-light leading-relaxed">
+                Satın almadan önce beğendiğiniz modeli kendi salonunuzda 3D olarak görün.
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center text-center min-w-[260px] md:min-w-0 snap-center px-4">
+              <div className="w-12 h-12 md:w-16 md:h-16 flex items-center justify-center rounded-full bg-white border border-gray-200 text-gray-900 mb-5 shadow-sm">
+                <svg className="w-6 h-6 md:w-8 md:h-8 stroke-[1.5]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                </svg>
+              </div>
+              <h3 className="text-sm md:text-base font-serif font-medium text-gray-900 mb-3 tracking-wide">
+                Usta İşi Zanaatkarlık
+              </h3>
+              <p className="text-xs md:text-sm text-gray-500 font-light leading-relaxed">
+                Stoktan değil; tamamen siparişinize özel, kusursuz el işçiliğiyle üretilir.
+              </p>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
       {/* 2. BÖLÜM: Çubuksuz, 4 Saniyede Bir Otomatik Kayan Koleksiyon Carousel'i */}
       <section className="py-24 md:py-32 bg-white overflow-hidden">
         <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24">
@@ -199,26 +264,26 @@ export default function HomePage() {
             </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-x-8 gap-y-16">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-x-3 gap-y-8 md:gap-x-8 md:gap-y-16">
             {vitrinProducts.map((product, i) => (
               <Link 
                 key={`${product.slug}-${i}`} 
                 href={`/urun/${product.slug}`} 
-                className="group flex flex-col cursor-pointer bg-white p-4 md:p-6 border border-gray-100 shadow-[0_2px_15px_rgba(0,0,0,0.02)]"
+                className="group flex flex-col cursor-pointer bg-white p-2 sm:p-4 md:p-6 border border-gray-100 shadow-[0_2px_15px_rgba(0,0,0,0.02)]"
               >
-                <div className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-6 overflow-hidden">
+                <div className="relative w-full aspect-[4/3] bg-[#f9f9f9] mb-4 md:mb-6 overflow-hidden">
                   {product.images && product.images.length > 0 ? (
-                    <Image src={product.images[0]} alt={product.title} fill sizes="(max-width: 768px) 100vw, 25vw" className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.03]" />
+                    <Image src={product.images[0]} alt={product.title} fill sizes="(max-width: 768px) 50vw, 25vw" className="object-cover transition-transform duration-[2000ms] ease-out group-hover:scale-[1.03]" />
                   ) : (
                     <div className="flex items-center justify-center w-full h-full text-gray-300">Görsel Yok</div>
                   )}
                 </div>
                 <div className="flex flex-col flex-grow justify-between">
                   <div>
-                    <h3 className="text-base text-gray-900 font-serif font-light tracking-wide leading-snug group-hover:opacity-70 transition-opacity line-clamp-1">
+                    <h3 className="text-sm md:text-base text-gray-900 font-serif font-light tracking-wide leading-snug group-hover:opacity-70 transition-opacity line-clamp-1">
                       {product.title}
                     </h3>
-                    <p className="text-[10px] text-gray-400 mt-2 uppercase tracking-[0.2em] font-medium">
+                    <p className="text-[9px] md:text-[10px] text-gray-400 mt-2 uppercase tracking-[0.2em] font-medium">
                       {product.sku}
                     </p>
                   </div>
