@@ -280,7 +280,7 @@ export default async function DynamicRootPage(props: PageProps) {
             <p className="text-sm text-gray-500 font-light tracking-[0.2em] uppercase">Premium Koleksiyon</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-8 gap-y-16 max-w-[1400px] mx-auto">
+          <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-x-3 gap-y-8 md:gap-x-8 md:gap-y-16 max-w-[1400px] mx-auto px-2 sm:px-0">
             {/* YENİ ÜRÜN KARTI BİLEŞENİ BURADA ÇAĞRILIYOR */}
             {categoryProducts.map((product) => (
               <ProductCard key={product.slug} product={product} />

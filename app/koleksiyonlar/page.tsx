@@ -10,33 +10,33 @@ export const metadata: Metadata = {
 
 export default function CollectionsPage() {
   return (
-    <div className="max-w-[1920px] mx-auto px-4 sm:px-8 xl:px-24 py-16 md:py-24">
+    <div className="max-w-[1920px] mx-auto px-2 sm:px-8 xl:px-24 py-16 md:py-24">
       
       {/* BAŞLIK ALANI */}
-      <div className="text-center max-w-3xl mx-auto mb-20 md:mb-32">
+      <div className="text-center max-w-3xl mx-auto mb-12 md:mb-32">
         <span className="text-[10px] uppercase tracking-[0.3em] text-gray-400 font-medium block mb-4">Tasarımlarımız</span>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-serif font-light text-gray-900 tracking-tight mb-6">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-serif font-light text-gray-900 tracking-tight mb-6 px-4">
           Premium Koleksiyonlar
         </h1>
-        <p className="text-gray-500 font-light leading-relaxed">
+        <p className="text-sm md:text-base text-gray-500 font-light leading-relaxed px-4 md:px-0">
           Yaşam alanlarınıza değer katacak, el işçiliği ve üstün kaliteli malzemelerle üretilmiş zamansız mobilya konseptlerini inceleyin.
         </p>
       </div>
 
-      {/* DEVASA KOLEKSİYON GRİDİ */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
+      {/* DEVASA KOLEKSİYON GRİDİ (MOBİLDE 2 KOLON OLARAK GÜNCELLENDİ) */}
+      <div className="grid grid-cols-2 md:grid-cols-2 gap-3 md:gap-12">
         {categories.map((category: any, index) => (
           <Link 
             key={category.id} 
             href={`/${category.slug}`}
-            className="group relative aspect-square md:aspect-[4/3] bg-[#f9f9f9] overflow-hidden flex flex-col justify-center items-center text-center p-8 border border-gray-100"
+            className="group relative aspect-[4/5] sm:aspect-square md:aspect-[4/3] bg-[#f9f9f9] overflow-hidden flex flex-col justify-center items-center text-center p-4 md:p-8 border border-gray-100"
           >
             {category.image && (
               <Image 
                 src={category.image} 
                 alt={category.title} 
                 fill 
-                sizes="(max-width: 768px) 100vw, 50vw"
+                sizes="(max-width: 768px) 50vw, 50vw"
                 className="object-cover transition-transform duration-[3000ms] ease-out group-hover:scale-105" 
               />
             )}
@@ -45,14 +45,14 @@ export default function CollectionsPage() {
             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/60 transition-colors duration-700 z-10"></div>
             
             {/* İçerik */}
-            <div className="relative z-20 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
-              <span className="text-[10px] uppercase tracking-[0.4em] text-white/70 block mb-4">
+            <div className="relative z-20 transform translate-y-2 md:translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
+              <span className="text-[10px] uppercase tracking-[0.4em] text-white/70 block mb-2 md:mb-4">
                 0{index + 1}
               </span>
-              <h2 className="text-3xl md:text-4xl lg:text-5xl font-serif font-light text-white mb-6 tracking-wide drop-shadow-lg">
+              <h2 className="text-xl sm:text-2xl md:text-4xl lg:text-5xl font-serif font-light text-white mb-4 md:mb-6 tracking-wide drop-shadow-lg px-2">
                 {category.title}
               </h2>
-              <span className="inline-block border border-white/50 text-white py-3 px-8 text-[10px] uppercase tracking-[0.2em] group-hover:bg-white group-hover:text-black transition-all duration-500">
+              <span className="inline-block border border-white/50 text-white py-2 px-4 md:py-3 md:px-8 text-[9px] md:text-[10px] uppercase tracking-[0.1em] md:tracking-[0.2em] group-hover:bg-white group-hover:text-black transition-all duration-500 whitespace-nowrap">
                 Seriyi İncele
               </span>
             </div>
